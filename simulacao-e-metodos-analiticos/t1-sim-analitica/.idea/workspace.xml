@@ -1,0 +1,1206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="07b6194f-959b-4ced-a1a1-84292fb8eb7e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Aula 3/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Aula 3/Funcoes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Aula 3/graficos.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/.gradle/3.5-rc-2/file-changes/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/.gradle/3.5-rc-2/taskHistory/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/.gradle/3.5-rc-2/taskHistory/fileSnapshots.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/.gradle/3.5-rc-2/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/.gradle/3.5-rc-2/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/.gradle/buildOutputCleanup/built.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/.gradle/buildOutputCleanup/cache.properties.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/.idea/modules/Expressions.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/.idea/modules/Expressions_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/.idea/modules/Expressions_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/out/production/classes/com/deividsantos/evaluator/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/out/production/classes/com/deividsantos/evaluator/ExpressionChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/out/production/classes/com/deividsantos/evaluator/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/out/production/classes/com/deividsantos/evaluator/Stack$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/out/production/classes/com/deividsantos/evaluator/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/out/production/resources/expressoes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/out/test/classes/com/deividsantos/evaluator/CalculatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/out/test/classes/com/deividsantos/evaluator/ExpressionCheckerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/src/main/java/com/deividsantos/evaluator/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/src/main/java/com/deividsantos/evaluator/ExpressionChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/src/main/java/com/deividsantos/evaluator/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/src/main/java/com/deividsantos/evaluator/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/src/main/resources/expressoes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/src/test/java/com/deividsantos/evaluator/CalculatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Expressions/src/test/java/com/deividsantos/evaluator/ExpressionCheckerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Sorts/.gradle/3.5-rc-2/file-changes/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Sorts/.gradle/3.5-rc-2/taskHistory/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Sorts/.gradle/3.5-rc-2/taskHistory/fileSnapshots.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Sorts/.gradle/3.5-rc-2/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Sorts/.gradle/3.5-rc-2/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Sorts/.gradle/buildOutputCleanup/built.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Sorts/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Sorts/.gradle/buildOutputCleanup/cache.properties.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Sorts/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Sorts/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Sorts/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Sorts/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Sorts/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Sorts/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Sorts/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Sorts/.idea/modules/Sorts.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Sorts/.idea/modules/Sorts_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Sorts/.idea/modules/Sorts_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Sorts/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Sorts/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Sorts/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Sorts/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Sorts/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Sorts/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Sorts/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Sorts/out/production/classes/com/deividsantos/sort/Algortimos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Sorts/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Sorts/src/main/java/com/deividsantos/sort/Algortimos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Trab.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Trab/expressoesPortuguesEstruturado.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Trab/main/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Trab/main/ExpressionChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Trab/main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Trab/main/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Trab/test/CalculatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Trab/test/ExpressionCheckerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/Trab/trabAlg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/.gradle/3.5-rc-2/file-changes/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/.gradle/3.5-rc-2/taskHistory/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/.gradle/3.5-rc-2/taskHistory/fileSnapshots.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/.gradle/3.5-rc-2/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/.gradle/3.5-rc-2/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/.gradle/buildOutputCleanup/built.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/.gradle/buildOutputCleanup/cache.properties.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/.idea/modules/teste.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/.idea/modules/teste_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/.idea/modules/teste_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/out/production/classes/abp/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/out/production/classes/abp/BinarySearchTreeOfInteger$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/out/production/classes/abp/BinarySearchTreeOfInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/out/production/classes/abp/EmptyQueueException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/out/production/classes/abp/EmptyTreeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/out/production/classes/abp/LinkedListOfInteger$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/out/production/classes/abp/LinkedListOfInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/out/production/classes/abp/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/out/production/classes/binaria/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/out/production/classes/binaria/BinaryTreeOfInteger$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/out/production/classes/binaria/BinaryTreeOfInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/out/production/classes/binaria/EmptyQueueException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/out/production/classes/binaria/EmptyTreeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/out/production/classes/binaria/LinkedListOfInteger$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/out/production/classes/binaria/LinkedListOfInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/out/production/classes/binaria/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/out/production/classes/generica/EmptyQueueException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/out/production/classes/generica/EmptyTreeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/out/production/classes/generica/GeneralTreeOfInteger$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/out/production/classes/generica/GeneralTreeOfInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/out/production/classes/generica/LinkedListOfInteger$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/out/production/classes/generica/LinkedListOfInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/out/production/classes/generica/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/out/production/classes/tadStack/QueueStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/out/production/classes/tadStack/StackQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/src/main/java/abp/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/src/main/java/abp/BinarySearchTreeOfInteger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/src/main/java/abp/EmptyQueueException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/src/main/java/abp/EmptyTreeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/src/main/java/abp/LinkedListOfInteger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/src/main/java/abp/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/src/main/java/binaria/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/src/main/java/binaria/BinaryTreeOfInteger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/src/main/java/binaria/EmptyQueueException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/src/main/java/binaria/EmptyTreeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/src/main/java/binaria/LinkedListOfInteger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/src/main/java/binaria/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/src/main/java/deque/Deque.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/src/main/java/fila/Fila.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/src/main/java/fila/MainClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/src/main/java/generica/EmptyQueueException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/src/main/java/generica/EmptyTreeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/src/main/java/generica/GeneralTreeOfInteger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/src/main/java/generica/LinkedListOfInteger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/src/main/java/generica/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/src/main/java/tadStack/QueueStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/teste/src/main/java/tadStack/StackQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/trabalho-final/.gradle/4.8/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/trabalho-final/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/trabalho-final/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/trabalho-final/.gradle/vcsWorkingDirs/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/trabalho-final/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/trabalho-final/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/trabalho-final/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/trabalho-final/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/trabalho-final/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/trabalho-final/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/trabalho-final/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/trabalho-final/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/trabalho-final/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/trabalho-final/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/trabalho-final/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/trabalho-final/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/trabalho-final/src/main/java/com/deividsantos/alest/pucrs/CSVReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/trabalho-final/src/main/java/com/deividsantos/alest/pucrs/Dictionary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/trabalho-final/src/main/java/com/deividsantos/alest/pucrs/EmptyQueueException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/trabalho-final/src/main/java/com/deividsantos/alest/pucrs/EmptyTreeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/trabalho-final/src/main/java/com/deividsantos/alest/pucrs/GeneralTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/trabalho-final/src/main/java/com/deividsantos/alest/pucrs/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/trabalho-final/src/main/java/com/deividsantos/alest/pucrs/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/trabalho-final/src/main/java/com/deividsantos/alest/pucrs/general/Dictionary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/trabalho-final/src/main/java/com/deividsantos/alest/pucrs/general/GeneralTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-I/trabalho-final/src/test/java/com/deividsantos/alest/pucrs/GeneralTreeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/AppDegreesOfSeparation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Artigo_Trabalho_2_Algoritmos_2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/1000EWD.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/BasicGraphs-Shortest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/bin/AdjMatrixEdgeWeightedDigraph$AdjIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/bin/AdjMatrixEdgeWeightedDigraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/bin/AppShortestPathComparison.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/bin/Bag$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/bin/Bag$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/bin/Bag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/bin/Digraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/bin/DigraphGenerator$Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/bin/DigraphGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/bin/DijkstraSP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/bin/DirectedEdge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/bin/EdgeWeightedDigraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/bin/FloydWarshall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/bin/In.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/bin/IndexMinPQ$HeapIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/bin/IndexMinPQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/bin/Stack$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/bin/Stack$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/bin/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/bin/StdIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/bin/StdOut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/bin/StdRandom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/mediumEWG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/src/AdjMatrixEdgeWeightedDigraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/src/AppShortestPathComparison.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/src/Bag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/src/Digraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/src/DigraphGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/src/DijkstraSP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/src/DirectedEdge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/src/EdgeWeightedDigraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/src/FloydWarshall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/src/In.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/src/IndexMinPQ.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/src/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/src/StdIn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/src/StdOut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/src/StdRandom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-Shortest/tinyEWG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs-traversal (2).zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/BasicGraphs.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/AcyclicLP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/AcyclicLPT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/AcyclicSP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/AdjMatrixGraph$AdjIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/AdjMatrixGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/Bag$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/Bag$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/Bag$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/Bag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/BreadthFirstDirectedPaths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/BreadthFirstPaths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/Cycle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/DFSPaths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/DepthFirstDirectedPaths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/DepthFirstOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/Digraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/DigraphGenerator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/DigraphGenerator$Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/DigraphGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/DirectedCycle$Mark.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/DirectedCycle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/DirectedDFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/DirectedEdge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/EdgeWeightedDigraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/EdgeWeightedDirectedCycle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/EdgeWeightedGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/In.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/IndexMinPQ$HeapIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/IndexMinPQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/KruskalMST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/LineGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/MinPQ$HeapIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/MinPQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/Out.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/PrimMST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/Queue$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/Queue$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/Queue$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/RecursiveGraphDFPaths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/RecursiveGraphDFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/Stack$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/Stack$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/Stack$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/StdIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/StdOut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/StdRandom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/SymbolDigraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/Topological.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/UF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/WebCrawler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/jobsPC.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/tinyEWDAG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/tinyEWDAG2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/bin/tinyEWG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/mediumG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/movies.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/routes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/AcyclicLP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/AcyclicLPT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/AcyclicSP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/AdjMatrixGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/Bag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/BreadthFirstDirectedPaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/BreadthFirstPaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/Cycle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/DFSPaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/DepthFirstDirectedPaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/DepthFirstOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/Digraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/DigraphGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/DirectedCycle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/DirectedDFS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/DirectedEdge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/Edge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/EdgeWeightedDigraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/EdgeWeightedDirectedCycle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/EdgeWeightedGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/In.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/IndexMinPQ.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/KruskalMST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/LineGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/MinPQ.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/Out.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/Point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/PrimMST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/RecursiveGraphDFPaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/RecursiveGraphDFS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/StdIn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/StdOut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/StdRandom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/SymbolDigraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/Topological.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/UF.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/WebCrawler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/jobsPC.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/tinyEWDAG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/tinyEWDAG2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/src/tinyEWG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/tinyDG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/BasicGraphs/tinyG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Dijkstra/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Dijkstra/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Dijkstra/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Dijkstra/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Dijkstra/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Dijkstra/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Dijkstra/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Dijkstra/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Dijkstra/1000EWD.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Dijkstra/Dijkstra.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Dijkstra/algs4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Dijkstra/bin/AppDijkstra.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Dijkstra/bin/Dijkstra.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Dijkstra/bin/Teste.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Dijkstra/gs-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Dijkstra/gs-ui-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Dijkstra/mediumEWG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Dijkstra/src/AppDijkstra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Dijkstra/src/Dijkstra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Dijkstra/src/Teste.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Dijkstra/src/_AppDijkstra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Dijkstra/src/_Dijkstra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Dijkstra/tinyEWG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/BasicGraphs.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/bin/AdjMatrixGraph$AdjIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/bin/AdjMatrixGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/bin/Bag$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/bin/Bag$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/bin/Bag$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/bin/Bag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/bin/Digraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/bin/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/bin/In.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/bin/Out.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/bin/Stack$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/bin/Stack$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/bin/Stack$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/bin/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/bin/StdIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/bin/StdOut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/bin/StdRandom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/mediumG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/src/AdjMatrixGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/src/Bag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/src/Digraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/src/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/src/In.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/src/Out.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/src/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/src/StdIn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/src/StdOut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/src/StdRandom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/tinyDG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Basic/BasicGraphs/tinyG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/BasicGraphs.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/bin/AdjMatrixGraph$AdjIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/bin/AdjMatrixGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/bin/Bag$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/bin/Bag$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/bin/Bag$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/bin/Bag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/bin/BreadthFirstDirectedPaths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/bin/BreadthFirstPaths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/bin/DFSPaths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/bin/DepthFirstDirectedPaths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/bin/Digraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/bin/DirectedDFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/bin/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/bin/In.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/bin/Out.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/bin/Queue$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/bin/Queue$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/bin/Queue$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/bin/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/bin/RecursiveGraphDFPaths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/bin/RecursiveGraphDFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/bin/Stack$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/bin/Stack$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/bin/Stack$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/bin/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/bin/StdIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/bin/StdOut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/bin/StdRandom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/bin/WebCrawler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/mediumG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/movies.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/routes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/src/AdjMatrixGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/src/Bag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/src/BreadthFirstDirectedPaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/src/BreadthFirstPaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/src/DFSPaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/src/DepthFirstDirectedPaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/src/Digraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/src/DirectedDFS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/src/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/src/In.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/src/Out.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/src/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/src/RecursiveGraphDFPaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/src/RecursiveGraphDFS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/src/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/src/StdIn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/src/StdOut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/src/StdRandom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/src/WebCrawler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/tinyDG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Caminhamento/BasicGraphs/tinyG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/BasicGraphs.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/MiniES.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/MiniES.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/AdjMatrixGraph$AdjIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/AdjMatrixGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/Bag$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/Bag$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/Bag$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/Bag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/BreadthFirstDirectedPaths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/BreadthFirstPaths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/Cycle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/DFSPaths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/DepthFirstDirectedPaths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/DepthFirstOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/Digraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/DigraphGenerator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/DigraphGenerator$Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/DigraphGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/DirectedCycle$Mark.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/DirectedCycle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/DirectedDFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/In.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/Out.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/Queue$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/Queue$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/Queue$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/RecursiveGraphDFPaths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/RecursiveGraphDFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/Stack$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/Stack$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/Stack$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/StdIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/StdOut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/StdRandom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/SymbolDigraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/SymbolGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/Topological.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/bin/WebCrawler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/es.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/jobs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/mediumG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/meuGrafo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/movies.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/routes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/src/AdjMatrixGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/src/Bag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/src/BreadthFirstDirectedPaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/src/BreadthFirstPaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/src/Cycle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/src/DFSPaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/src/DepthFirstDirectedPaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/src/DepthFirstOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/src/Digraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/src/DigraphGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/src/DirectedCycle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/src/DirectedDFS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/src/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/src/In.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/src/Out.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/src/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/src/RecursiveGraphDFPaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/src/RecursiveGraphDFS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/src/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/src/StdIn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/src/StdOut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/src/StdRandom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/src/SymbolDigraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/src/SymbolGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/src/Topological.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/src/WebCrawler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/tinyDAG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/tinyDG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos1-Ciclos-Ordenacao-Topologica/BasicGraphs/tinyG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-Caminhamento-Mais-Curto/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-Caminhamento-Mais-Curto/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-Caminhamento-Mais-Curto/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-Caminhamento-Mais-Curto/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-Caminhamento-Mais-Curto/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-Caminhamento-Mais-Curto/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-Caminhamento-Mais-Curto/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-Caminhamento-Mais-Curto/1000EWD.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-Caminhamento-Mais-Curto/Dijkstra.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-Caminhamento-Mais-Curto/algs4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-Caminhamento-Mais-Curto/bin/AppDijkstra.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-Caminhamento-Mais-Curto/gs-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-Caminhamento-Mais-Curto/gs-ui-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-Caminhamento-Mais-Curto/mediumEWG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-Caminhamento-Mais-Curto/src/AppDijkstra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-Caminhamento-Mais-Curto/tinyEWG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/BasicGraphs.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/MiniES.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/MiniES.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/AdjMatrixGraph$AdjIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/AdjMatrixGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/Bag$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/Bag$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/Bag$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/Bag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/BreadthFirstDirectedPaths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/BreadthFirstPaths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/Cycle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/DFSPaths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/DepthFirstDirectedPaths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/DepthFirstOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/Digraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/DigraphGenerator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/DigraphGenerator$Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/DigraphGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/DirectedCycle$Mark.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/DirectedCycle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/DirectedDFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/EdgeWeightedGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/ExercicioMST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/In.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/IndexMinPQ$HeapIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/IndexMinPQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/KruskalMST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/MinPQ$HeapIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/MinPQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/Out.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/PrimMST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/Queue$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/Queue$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/Queue$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/RecursiveGraphDFPaths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/RecursiveGraphDFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/Stack$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/Stack$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/Stack$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/StdIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/StdOut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/StdRandom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/SymbolDigraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/SymbolGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/Topological.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/UF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/bin/WebCrawler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/dados.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/es.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/jobs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/mediumG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/meuGrafo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/movies.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/plotgraph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/routes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/AdjMatrixGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/Bag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/BreadthFirstDirectedPaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/BreadthFirstPaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/Cycle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/DFSPaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/DepthFirstDirectedPaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/DepthFirstOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/Digraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/DigraphGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/DirectedCycle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/DirectedDFS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/Edge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/EdgeWeightedGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/ExercicioMST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/In.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/IndexMinPQ.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/KruskalMST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/MinPQ.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/Out.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/PrimMST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/RecursiveGraphDFPaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/RecursiveGraphDFS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/StdIn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/StdOut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/StdRandom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/SymbolDigraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/SymbolGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/Topological.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/UF.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/src/WebCrawler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/tinyDAG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/tinyDG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/tinyEWG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/Grafos2-MST/BasicGraphs/tinyG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/1000EWD.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/BasicGraphs-Shortest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/AcyclicLP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/AcyclicSP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/AdjMatrixEdgeWeightedDigraph$AdjIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/AdjMatrixEdgeWeightedDigraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/AppShortestPathComparison.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/Bag$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/Bag$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/Bag$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/Bag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/CriticalPath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/DepthFirstOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/Digraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/DigraphGenerator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/DigraphGenerator$Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/DigraphGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/DijkstraSP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/DirectedCycle$Mark.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/DirectedCycle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/DirectedEdge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/EdgeWeightedDigraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/EdgeWeightedDirectedCycle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/FloydWarshall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/In.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/IndexMinPQ$HeapIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/IndexMinPQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/Queue$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/Queue$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/Queue$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/Stack$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/Stack$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/Stack$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/StdIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/StdOut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/StdRandom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/SymbolDigraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/bin/Topological.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/jobsPC.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/mediumEWG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/src/AcyclicLP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/src/AcyclicSP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/src/AdjMatrixEdgeWeightedDigraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/src/AppShortestPathComparison.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/src/Bag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/src/CriticalPath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/src/DepthFirstOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/src/Digraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/src/DigraphGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/src/DijkstraSP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/src/DirectedCycle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/src/DirectedEdge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/src/EdgeWeightedDigraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/src/EdgeWeightedDirectedCycle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/src/FloydWarshall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/src/In.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/src/IndexMinPQ.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/src/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/src/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/src/StdIn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/src/StdOut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/src/StdRandom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/src/SymbolDigraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/src/Topological.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/tinyEWDAG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/grafos2-critico/BasicGraphs-CriticalPath/tinyEWG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/lp/AcyclicSP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/lp/Bag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/lp/DepthFirstOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/lp/Digraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/lp/DigraphGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/lp/DirectedCycle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/lp/DirectedEdge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/lp/EdgeWeightedDigraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/lp/EdgeWeightedDirectedCycle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/lp/In.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/lp/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/lp/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/lp/StdIn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/lp/StdOut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/lp/StdRandom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/lp/SymbolDigraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/lp/Topological.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/lp/jobsPC.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/lp/tinyEWDAG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/mst/Edge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/mst/EdgeWeightedGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/mst/IndexMinPQ.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/mst/KruskalMST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/mst/MinPQ.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/mst/PrimMST.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/mst/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/mst/UF.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/mst/tinyEWG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/.gradle/3.5-rc-2/file-changes/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/.gradle/3.5-rc-2/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/.gradle/buildOutputCleanup/built.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/.gradle/buildOutputCleanup/cache.properties.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/caso30cenariocomerro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/main/java/com/deividsantos/trabalhoii/Castle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/main/java/com/deividsantos/trabalhoii/CastlePathBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/main/java/com/deividsantos/trabalhoii/GraphBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/main/java/com/deividsantos/trabalhoii/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/main/java/com/deividsantos/trabalhoii/Search.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/main/java/com/deividsantos/trabalhoii/graphs/Bag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/main/java/com/deividsantos/trabalhoii/graphs/DFSPaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/main/java/com/deividsantos/trabalhoii/graphs/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/main/java/com/deividsantos/trabalhoii/graphs/In.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/main/java/com/deividsantos/trabalhoii/graphs/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/main/java/com/deividsantos/trabalhoii/graphs/StdIn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/main/java/com/deividsantos/trabalhoii/graphs/StdOut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/main/java/com/deividsantos/trabalhoii/graphs/bfs/BreadthFirstPaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/main/java/com/deividsantos/trabalhoii/graphs/bfs/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/main/resources/casos-t2/caso30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/main/resources/casos-t2/caso32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/main/resources/casos-t2/caso34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/main/resources/casos-t2/caso36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/main/resources/casos-t2/caso38.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/main/resources/casos-t2/caso40.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/main/resources/casos-t2/caso42.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/main/resources/casos-t2/caso44.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/main/resources/casos-t2/caso46.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/main/resources/casos-t2/caso48.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/main/resources/casos-t2/caso50.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/main/resources/casos-t2/caso60.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/main/resources/mainexample.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/test/java/com/deividsantos/trabalhoii/GraphBuilderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/test/java/com/deividsantos/trabalhoii/SearchTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/test/java/com/deividsantos/trabalhoii/graphs/CastleGraphTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/test/resources/casos-t2/caso30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/test/resources/casos-t2/caso32.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/test/resources/casos-t2/caso34.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/test/resources/casos-t2/caso36.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/test/resources/casos-t2/caso38.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/test/resources/casos-t2/caso40.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/test/resources/casos-t2/caso42.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/test/resources/casos-t2/caso44.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/test/resources/casos-t2/caso46.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/test/resources/casos-t2/caso48.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/test/resources/casos-t2/caso50.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/test/resources/casos-t2/caso60.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/test/resources/castles.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/t2-grafos/src/test/resources/mainexample.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/testedijkstra/Dijkstra/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/testedijkstra/Dijkstra/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/testedijkstra/Dijkstra/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/testedijkstra/Dijkstra/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/testedijkstra/Dijkstra/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/testedijkstra/Dijkstra/1000EWD.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/testedijkstra/Dijkstra/Dijkstra.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/testedijkstra/Dijkstra/algs4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/testedijkstra/Dijkstra/bin/AppDijkstra.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/testedijkstra/Dijkstra/gs-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/testedijkstra/Dijkstra/gs-ui-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/testedijkstra/Dijkstra/mediumEWG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/testedijkstra/Dijkstra/src/AppDijkstra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/testedijkstra/Dijkstra/tinyEWG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/main/java/com/deividsantos/warriorstribe/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/main/java/com/deividsantos/warriorstribe/WarriorTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/main/java/com/deividsantos/warriorstribe/Warriors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/main/java/com/deividsantos/warriorstribe/model/Warrior.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/main/resources/cases/casoMC10a.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/main/resources/cases/casoMC10a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/main/resources/cases/casoMC10b.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/main/resources/cases/casoMC10b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/main/resources/cases/casoMC12a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/main/resources/cases/casoMC12b.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/main/resources/cases/casoMC12b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/main/resources/cases/casoMC14a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/main/resources/cases/casoMC14b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/main/resources/cases/casoMC4a.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/main/resources/cases/casoMC4a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/main/resources/cases/casoMC4b.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/main/resources/cases/casoMC4b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/main/resources/cases/casoMC8a.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/main/resources/cases/casoMC8a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/main/resources/cases/casoMC8b.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/main/resources/cases/casoMC8b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/main/resources/cases/casoteste.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/main/resources/cases/casoteste.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/main/resources/cases/results" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/test/java/com/deividsantos/warriorstribe/WarriorsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/test/resources/cases/casoMC10a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/test/resources/cases/casoMC10b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/test/resources/cases/casoMC12a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/test/resources/cases/casoMC12b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/test/resources/cases/casoMC14a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/test/resources/cases/casoMC14b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/test/resources/cases/casoMC4a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/test/resources/cases/casoMC4b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/test/resources/cases/casoMC8a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/test/resources/cases/casoMC8b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/test/resources/cases/casoteste.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho1/src/test/resources/cases/results" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../algoritmos-estrutura-dados-II/trabalho2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/arrays-ponteiro/testePonteiroArray/bin/Debug/testePonteiroArray" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/arrays-ponteiro/testePonteiroArray/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/arrays-ponteiro/testePonteiroArray/obj/Debug/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/arrays-ponteiro/testePonteiroArray/testePonteiroArray.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/exercicio1/exercicio7/bin/Debug/exercicio7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/exercicio1/exercicio7/exercicio7.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/exercicio1/exercicio7/exercicio7.depend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/exercicio1/exercicio7/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/exercicio1/exercicio7/obj/Debug/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/primeiroprograma/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/primeiroprograma/primeiroprograma.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/primeiroprograma/primeiroprograma.depend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/primeiroprograma/primeiroprograma.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/struct/structs/bin/Debug/structs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/struct/structs/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/struct/structs/obj/Debug/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/struct/structs/structs.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/structs/structs-exercicio/bin/Debug/structs-exercicio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/structs/structs-exercicio/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/structs/structs-exercicio/obj/Debug/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/structs/structs-exercicio/structs-exercicio.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/structs/structs-exercicio/structs-exercicio.depend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/substring" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/substring.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/substring2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/atualizacao-google.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/google-chrome.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/SOIL.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/args.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/atualizacao-google.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/baixar-pdf-96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/cupcakes1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/cupcakes2-cupcakes1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/cupcakes2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/dali1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/dali2-dali1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/dali2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/facin1s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/facin2s-facin1s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/facin2s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/google-chrome.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/include/GL/freeglut.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/include/GL/freeglut_ext.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/include/GL/freeglut_std.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/include/GL/glut.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/include/SOIL.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/include/jconfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/include/jerror.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/include/jmorecfg.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/include/jpeglib.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/include/jversion.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/include/xjinclude.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/lib/SOIL/SOIL.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/lib/SOIL/SOIL.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/lib/SOIL/SOIL.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/lib/SOIL/image_DXT.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/lib/SOIL/image_DXT.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/lib/SOIL/image_DXT.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/lib/SOIL/image_helper.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/lib/SOIL/image_helper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/lib/SOIL/image_helper.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/lib/SOIL/original/stb_image-1.09.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/lib/SOIL/original/stb_image-1.16.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/lib/SOIL/stb_image_aug.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/lib/SOIL/stb_image_aug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/lib/SOIL/stb_image_aug.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/lib/SOIL/stbi_DDS_aug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/lib/SOIL/stbi_DDS_aug_c.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/lib/SOIL/test_SOIL.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/lib/libFreeGLUT.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/teste.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/teste2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/transition" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/transition.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/transition.depend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../linguagem-de-programacao-basica/t1-jigsaw/transition/transition.layout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/Exercicios1/LetraA.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/Exercicios1/LetraB.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/Exercicios1/LetraC.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/Exercicios1/LetraD.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/Exercicios1/LetraE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/aula11Higher/exercicios.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/aula11Higher/filters.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/aula13tipos/exercicios.hi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/aula13tipos/exercicios.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/aula13tipos/exercicios.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/aula15/io.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/aula15/iotest.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/aula16-lazy-2/inf.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/aula16-lazy/primes.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/aula17-tautology/tautology.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/aula18-functors/applicative-functor.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/aula4/aula4-exercicios.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/aula6/exercicio1.hi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/aula6/exercicio1.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/aula6/exercicio1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/aula6/exercicio2.hi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/aula6/exercicio2.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/aula6/exercicio2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/aula6/exercicio3.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/aula6/exercicios.hi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/aula6/exercicios.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/aula6/exercicios.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/aula7/.exercicioa.hs.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/aula7/exercicio.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/aula9/exercicios.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/book/exercicioCap5.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/book/exercicioCap7Higher.hi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/book/exercicioCap7Higher.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/book/exercicioCap7Higher.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/curry.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/exercP2/exerc.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/funcs.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/monads/countdown.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/quicksort.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/revisao-p1/completetree.hi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/revisao-p1/completetree.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/revisao-p1/completetree.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/revisao-p1/questao10.hi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/revisao-p1/questao10.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/revisao-p1/questao10.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/t-final/p2/conversor.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/t-final/tautology.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../programacao-funcional/test.hs" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="t1-sim-analitica" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1POQa8CRGtYuvvR1fOW8zEuJQ1l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Fila" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.simulacao.trabalho.Fila" />
+      <module name="t1-sim-analitica.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.simulacao.trabalho.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Gerador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8 (2)" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.simulacao.trabalho.Gerador" />
+      <module name="t1-sim-analitica.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.simulacao.trabalho.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.simulacao.trabalho.Main" />
+      <module name="t1-sim-analitica.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.simulacao.trabalho.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimuladorFila" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.simulacao.trabalho.SimuladorFila" />
+      <module name="t1-sim-analitica.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.simulacao.trabalho.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="0" />
+      <module name="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SimuladorFila" />
+        <item itemvalue="Application.Fila" />
+        <item itemvalue="Application.Gerador" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="07b6194f-959b-4ced-a1a1-84292fb8eb7e" name="Default Changelist" comment="" />
+      <created>1565742723112</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565742723112</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
