@@ -54,7 +54,7 @@ public class SimuladorFila {
     }
 
     private void chegadaPassagem(Fila destino) {
-        if (destino.getTamFila() <= destino.getKapacidade()) {
+        if (destino.getTamFila() < destino.getKapacidade()) {
             destino.setTamFila(destino.getTamFila() + 1);
             if (destino.getTamFila() <= destino.getCervidor() && destino.getTamFila() != 0) {
                 escalonador.add(new Evento(tempoGlobal + rnd(destino.getTsmin(), destino.getTsmax()), "saida", destino, null));
@@ -112,5 +112,4 @@ public class SimuladorFila {
     public double getTempoGlobal() {
         return tempoGlobal;
     }
-
 }
