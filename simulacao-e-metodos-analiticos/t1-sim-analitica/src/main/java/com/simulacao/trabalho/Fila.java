@@ -9,15 +9,15 @@ public class Fila {
     private int kapacidade;
     private double[] times;
     private int tamFila;
-    private int tcmin;
-    private int tcmax;
-    private int tsmin;
-    private int tsmax;
+    private double tcmin;
+    private double tcmax;
+    private double tsmin;
+    private double tsmax;
     private double tempoGlobal;
     private int perda;
     private List<Tupla> filasLigadas;
 
-    public Fila(String identificador, List<Tupla> filasLigadas, int cervidor, int kapacidade, int tcmin, int tcmax, int tsmin, int tsmax) {
+    public Fila(String identificador, List<Tupla> filasLigadas, int cervidor, int kapacidade, double tcmin, double tcmax, double tsmin, double tsmax) {
         this.identificador = identificador;
         this.filasLigadas = filasLigadas;
 
@@ -63,19 +63,19 @@ public class Fila {
         return tamFila;
     }
 
-    public int getTcmin() {
+    public double getTcmin() {
         return tcmin;
     }
 
-    public int getTcmax() {
+    public double getTcmax() {
         return tcmax;
     }
 
-    public int getTsmin() {
+    public double getTsmin() {
         return tsmin;
     }
 
-    public int getTsmax() {
+    public double getTsmax() {
         return tsmax;
     }
 

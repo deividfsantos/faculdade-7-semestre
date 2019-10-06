@@ -1,7 +1,7 @@
 package com.simulacao.trabalho;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+import com.simulacao.trabalho.simulacao.Simulacao;
+
 import java.util.List;
 import java.util.PriorityQueue;
 
@@ -9,18 +9,14 @@ public class Main {
 
     public static void main(String[] args) {
         PriorityQueue<Evento> escalonador = new PriorityQueue<>();
-
-        List<Tupla> filasLigadasF1 = new ArrayList<>();
-        List<Tupla> filasLigadasF2 = new ArrayList<>();
-        Fila fila = new Fila("f1", filasLigadasF1, 2, 4, 2, 3, 4, 7);
-        Fila fila2 = new Fila("f2", filasLigadasF2, 1, 100, 0, 0, 4, 8);
-        filasLigadasF1.add(new Tupla(fila2, 0.7));
-        final List<Fila> filas = Arrays.asList(fila, fila2);
+        Simulacao simulacao = new ReadFile().readYmlResource();
+        List<Fila> filas = FilaBuilder.buildQueues(simulacao);
+        List<Evento> eventosIniciais = FilaBuilder.buscarEventosIniciais(simulacao, filas);
 
         SimuladorFila simuladorFila = new SimuladorFila(escalonador, filas);
-
-        Evento inicio = new Evento(3, "chegada", null, fila);
-        simuladorFila.simular(inicio);
+        for (int i = 0; i < eventosIniciais.size(); i++) {
+            simuladorFila.simular(eventosIniciais.get(i));
+        }
 
         simular(escalonador, simuladorFila);
         printProbabilidades(filas, simuladorFila.getTempoGlobal());
@@ -40,7 +36,7 @@ public class Main {
             System.out.println("\nProbabilidade da fila " + fila.getIdentificador());
             double[] propabilidade = fila.getPropabilidade();
             System.out.println("Probabilidade da fila");
-            for (int i = 0; i < propabilidade.length && i < 20; i++) {
+            for (int i = 0; i < propabilidade.length && i < 10; i++) {
                 System.out.println(String.format("%s: %.02f", i, propabilidade[i]));
             }
         }

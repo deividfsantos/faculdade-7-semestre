@@ -104,7 +104,7 @@ public class SimuladorFila {
         tempoGlobal = evento.getTempo();
     }
 
-    private double rnd(int a, int b) {
+    private double rnd(double a, double b) {
         final double rnd = Gerador.generateRandomValue();
         return (b - a) * rnd + a;
     }
