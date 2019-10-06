@@ -12,6 +12,12 @@ public class FilaBuilder {
 
     public static List<Fila> buildQueues(Simulacao simulacao) {
         List<Fila> filas = new ArrayList<>();
+        montarFilas(simulacao, filas);
+        definirFilasConectadas(simulacao, filas);
+        return filas;
+    }
+
+    private static void montarFilas(Simulacao simulacao, List<Fila> filas) {
         for (Map.Entry<String, Queue> hashQueue : simulacao.getQueues().entrySet()) {
             Queue queue = hashQueue.getValue();
             String idFila = hashQueue.getKey();
@@ -26,7 +32,9 @@ public class FilaBuilder {
                     queue.getMaxService());
             filas.add(fila);
         }
+    }
 
+    private static void definirFilasConectadas(Simulacao simulacao, List<Fila> filas) {
         for (Fila f : filas) {
             List<Tupla> filasLigadas = new ArrayList<>();
             List<Network> networks = simulacao.getNetwork();
@@ -38,8 +46,6 @@ public class FilaBuilder {
             }
             f.setFilasLigadas(filasLigadas);
         }
-
-        return filas;
     }
 
     public static List<Evento> buscarEventosIniciais(Simulacao simulacao, List<Fila> filas) {
