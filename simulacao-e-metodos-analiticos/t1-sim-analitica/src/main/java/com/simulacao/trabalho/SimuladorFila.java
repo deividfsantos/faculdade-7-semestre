@@ -56,7 +56,7 @@ public class SimuladorFila {
     private void chegadaPassagem(Fila destino) {
         if (destino.getTamFila() <= destino.getKapacidade()) {
             destino.setTamFila(destino.getTamFila() + 1);
-            if (destino.getTamFila() <= destino.getCervidor()) {
+            if (destino.getTamFila() <= destino.getCervidor() && destino.getTamFila() != 0) {
                 escalonador.add(new Evento(tempoGlobal + rnd(destino.getTsmin(), destino.getTsmax()), "saida", destino, null));
             }
         } else {
@@ -69,10 +69,7 @@ public class SimuladorFila {
         contabilizaTempos(evento);
         origem.setTamFila(origem.getTamFila() - 1);
         if (origem.getTamFila() >= origem.getCervidor()) {
-            if (origem.getTamFila() >= origem.getCervidor()) {
-                gerarProximoEventoDeSaida(origem);
-            }
-            escalonador.add(new Evento(tempoGlobal + rnd(origem.getTsmin(), origem.getTsmax()), "saida", evento.getOrigem(), null));
+            gerarProximoEventoDeSaida(origem);
         }
     }
 

@@ -23,23 +23,15 @@ public class Main {
         Evento inicio = new Evento(3, "chegada", null, fila);
         simuladorFila.simular(inicio);
 
-        simular(escalonador, simuladorFila, 20);
+        simular(escalonador, simuladorFila);
         printProbabilidades(filas, simuladorFila.getTempoGlobal());
     }
 
-    private static void simular(PriorityQueue<Evento> escalonador, SimuladorFila simuladorFila, int unidadeTempo) {
+    private static void simular(PriorityQueue<Evento> escalonador, SimuladorFila simuladorFila) {
         for (int i = 0; i < 7; i++) {
             Evento evento = escalonador.poll();
             simuladorFila.simular(evento);
         }
-
-//        while (true) {
-//            Evento evento = escalonador.poll();
-//            if (evento.getTempo() > unidadeTempo) {
-//                break;
-//            }
-//            simuladorFila.simular(evento);
-//        }
     }
 
     private static void printProbabilidades(List<Fila> filas, double tempoGlobal) {
@@ -49,7 +41,7 @@ public class Main {
             System.out.println("\nProbabilidade da fila " + fila.getIdentificador());
             double[] propabilidade = fila.getPropabilidade();
             System.out.println("Probabilidade da fila");
-            for (int i = 0; i < propabilidade.length && i < 6; i++) {
+            for (int i = 0; i < propabilidade.length && i < 8; i++) {
                 System.out.println(String.format("%s: %.02f", i, propabilidade[i]));
             }
         }
