@@ -23,7 +23,7 @@ public class Main {
     }
 
     private static void simular(PriorityQueue<Evento> escalonador, SimuladorFila simuladorFila) {
-        for (int i = 0; i < 1000; i++) {
+        for (int i = 0; i < 100000; i++) {
             Evento evento = escalonador.poll();
             simuladorFila.simular(evento);
         }
@@ -36,7 +36,7 @@ public class Main {
             System.out.println("\nProbabilidade da fila " + fila.getIdentificador());
             double[] propabilidade = fila.getPropabilidade();
             System.out.println("Probabilidade da fila");
-            for (int i = 0; i < propabilidade.length && i < 10; i++) {
+            for (int i = 0; i < propabilidade.length && i < 20; i++) {
                 System.out.println(String.format("%s: %.02f", i, propabilidade[i]));
             }
         }
