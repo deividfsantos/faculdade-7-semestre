@@ -37,12 +37,13 @@ public class Main {
         for (int j = 0; j < filas.size(); j++) {
             final Fila fila = filas.get(j);
             fila.setTempoGlobal(tempoGlobal);
-            System.out.println("\nProbabilidade da fila " + fila.getIdentificador());
+            System.out.println("\nProbabilidades da fila " + fila.getIdentificador());
             double[] propabilidade = fila.getPropabilidade();
-            System.out.println("Probabilidade da fila");
+            System.out.println(String.format("Estado   0Probabilidade   Tempo"));
             for (int i = 0; i < propabilidade.length && i < 20; i++) {
-                System.out.println(String.format("%s: %.02f", i, propabilidade[i]));
+                System.out.println(String.format("%s: %12.02f%% %18.04f", i, propabilidade[i], fila.getTimes()[i]));
             }
+            System.out.println("Tempo global: " + tempoGlobal);
         }
     }
 
