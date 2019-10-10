@@ -8,22 +8,26 @@ import java.util.PriorityQueue;
 public class Main {
 
     public static void main(String[] args) {
-        PriorityQueue<Evento> escalonador = new PriorityQueue<>();
         Simulacao simulacao = new ReadFile().readYmlResource();
+        new Gerador(simulacao.getSeeds().isEmpty() ? 1 : Integer.parseInt(simulacao.getSeeds().get(0)));
+        PriorityQueue<Evento> escalonador = new PriorityQueue<>();
+
         List<Fila> filas = FilaBuilder.buildQueues(simulacao);
-        List<Evento> eventosIniciais = FilaBuilder.buscarEventosIniciais(simulacao, filas);
-
         SimuladorFila simuladorFila = new SimuladorFila(escalonador, filas);
-        for (int i = 0; i < eventosIniciais.size(); i++) {
-            simuladorFila.simular(eventosIniciais.get(i));
-        }
-
-        simular(escalonador, simuladorFila);
+        executarEventosIniciais(simulacao, filas, simuladorFila);
+        simular(escalonador, simuladorFila, simulacao.getRndnumbersPerSeed());
         printProbabilidades(filas, simuladorFila.getTempoGlobal());
     }
 
-    private static void simular(PriorityQueue<Evento> escalonador, SimuladorFila simuladorFila) {
-        for (int i = 0; i < 100000; i++) {
+    private static void executarEventosIniciais(Simulacao simulacao, List<Fila> filas, SimuladorFila simuladorFila) {
+        List<Evento> eventosIniciais = FilaBuilder.buscarEventosIniciais(simulacao, filas);
+        for (int i = 0; i < eventosIniciais.size(); i++) {
+            simuladorFila.simular(eventosIniciais.get(i));
+        }
+    }
+
+    private static void simular(PriorityQueue<Evento> escalonador, SimuladorFila simuladorFila, int quantidadeEventos) {
+        for (int i = 0; i < quantidadeEventos; i++) {
             Evento evento = escalonador.poll();
             simuladorFila.simular(evento);
         }

@@ -52,7 +52,7 @@ public class FilaBuilder {
         List<Evento> eventos = new ArrayList<>();
         for (Map.Entry<String, Double> hashArrival : simulacao.getArrivals().entrySet()) {
             Fila queue = findQueueById(filas, hashArrival.getKey());
-            eventos.add(new Evento(3, "chegada", null, queue));
+            eventos.add(new Evento(hashArrival.getValue(), "chegada", null, queue));
         }
         return eventos;
     }
