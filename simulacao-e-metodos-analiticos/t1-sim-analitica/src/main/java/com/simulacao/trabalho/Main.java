@@ -39,7 +39,7 @@ public class Main {
             fila.setTempoGlobal(tempoGlobal);
             System.out.println("\nProbabilidades da fila " + fila.getIdentificador());
             double[] propabilidade = fila.getPropabilidade();
-            System.out.println(String.format("Estado   0Probabilidade   Tempo"));
+            System.out.println(String.format("Estado   Probabilidade   Tempo"));
             for (int i = 0; i < propabilidade.length && i < 20; i++) {
                 System.out.println(String.format("%s: %12.02f%% %18.04f", i, propabilidade[i], fila.getTimes()[i]));
             }
