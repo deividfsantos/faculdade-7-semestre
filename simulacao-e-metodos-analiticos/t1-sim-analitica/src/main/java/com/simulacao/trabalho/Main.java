@@ -9,14 +9,25 @@ public class Main {
 
     public static void main(String[] args) {
         Simulacao simulacao = new ReadFile().readYmlResource();
-        new Gerador(simulacao.getSeeds().isEmpty() ? 1 : Integer.parseInt(simulacao.getSeeds().get(0)));
+        List<Double> rndnumbers = simulacao.getRndnumbers();
+        new Gerador(getSemente(simulacao), rndnumbers, getQuantidadeEventos(simulacao, rndnumbers));
         PriorityQueue<Evento> escalonador = new PriorityQueue<>();
-
         List<Fila> filas = FilaBuilder.buildQueues(simulacao);
         SimuladorFila simuladorFila = new SimuladorFila(escalonador, filas);
         executarEventosIniciais(simulacao, filas, simuladorFila);
-        simular(escalonador, simuladorFila, simulacao.getRndnumbersPerSeed());
+        simular(escalonador, simuladorFila);
         printProbabilidades(filas, simuladorFila.getTempoGlobal());
+    }
+
+    private static int getQuantidadeEventos(Simulacao simulacao, List<Double> rndnumbers) {
+        return simulacao.getRndnumbersPerSeed() == null ? rndnumbers.size() : simulacao.getRndnumbersPerSeed();
+    }
+
+    private static int getSemente(Simulacao simulacao) {
+        if (simulacao.getSeeds() != null) {
+            return simulacao.getSeeds().isEmpty() ? 1 : Integer.parseInt(simulacao.getSeeds().get(0));
+        }
+        return 0;
     }
 
     private static void executarEventosIniciais(Simulacao simulacao, List<Fila> filas, SimuladorFila simuladorFila) {
@@ -26,8 +37,8 @@ public class Main {
         }
     }
 
-    private static void simular(PriorityQueue<Evento> escalonador, SimuladorFila simuladorFila, int quantidadeEventos) {
-        for (int i = 0; i < quantidadeEventos; i++) {
+    private static void simular(PriorityQueue<Evento> escalonador, SimuladorFila simuladorFila) {
+        while (Gerador.getLimite() > 0) {
             Evento evento = escalonador.poll();
             simuladorFila.simular(evento);
         }
@@ -43,8 +54,8 @@ public class Main {
             for (int i = 0; i < propabilidade.length && i < 20; i++) {
                 System.out.println(String.format("%s: %12.02f%% %18.04f", i, propabilidade[i], fila.getTimes()[i]));
             }
-            System.out.println("Tempo global: " + tempoGlobal);
         }
+        System.out.println("Tempo global: " + tempoGlobal);
     }
 
 }
