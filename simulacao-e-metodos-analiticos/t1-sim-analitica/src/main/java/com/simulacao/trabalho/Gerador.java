@@ -18,7 +18,6 @@ public class Gerador {
         Gerador.limite = limite;
         if (numerosAleatorios != null) {
             Gerador.numerosAleatorios = new LinkedList<>(numerosAleatorios);
-            Gerador.numerosAleatorios.addAll(numerosAleatorios);
         }
     }
 
