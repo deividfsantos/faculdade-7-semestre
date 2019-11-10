@@ -1,0 +1,59 @@
+!PARAMETERS
+rndnumbersPerSeed: 100000
+seeds: 
+- 1
+
+arrivals: 
+   FICHA: 2
+
+queues: 
+   FICHA: 
+      servers: 1
+      minArrival: 3.0
+      maxArrival: 7.0
+      minService: 0.2
+      maxService: 2.0
+   ACADEMICO: 
+      servers: 5
+      capacity: 15
+      minService: 10.0
+      maxService: 40.0
+   FINANCEIRO: 
+      servers: 4
+      capacity: 10
+      minService: 25.0
+      maxService: 55.0
+   CREDITO: 
+      servers: 2
+      capacity: 10
+      minService: 30.0
+      maxService: 120.0 
+
+network: 
+-  source: FICHA
+   target: ACADEMICO
+   probability: 0.5
+-  source: FICHA
+   target: FINANCEIRO
+   probability: 0.25
+-  source: FICHA
+   target: CREDITO
+   probability: 0.25
+-  source: ACADEMICO
+   target: FINANCEIRO
+   probability: 0.2
+-  source: ACADEMICO
+   target: CREDITO
+   probability: 0.2
+-  source: FINANCEIRO
+   target: ACADEMICO
+   probability: 0.35
+-  source: FINANCEIRO
+   target: CREDITO
+   probability: 0.05
+-  source: CREDITO
+   target: FINANCEIRO
+   probability: 0.05
+-  source: CREDITO
+   target: ACADEMICO
+   probability: 0.05
