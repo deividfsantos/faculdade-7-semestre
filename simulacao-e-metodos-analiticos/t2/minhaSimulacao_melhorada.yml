@@ -14,8 +14,8 @@ queues:
       minService: 0.2
       maxService: 2.0
    ACADEMICO: 
-      servers: 5
-      capacity: 15
+      servers: 3
+      capacity: 10
       minService: 10.0
       maxService: 40.0
    FINANCEIRO: 
@@ -24,8 +24,8 @@ queues:
       minService: 25.0
       maxService: 55.0
    CREDITO: 
-      servers: 2
-      capacity: 10
+      servers: 4
+      capacity: 15
       minService: 30.0
       maxService: 120.0 
 
