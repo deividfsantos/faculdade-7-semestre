@@ -14,13 +14,13 @@ queues:
       minService: 0.2
       maxService: 2.0
    ACADEMICO: 
-      servers: 4
-      capacity: 12
+      servers: 5
+      capacity: 11
       minService: 10.0
       maxService: 40.0
    FINANCEIRO: 
-      servers: 1
-      capacity: 6
+      servers: 2
+      capacity: 5
       minService: 5.0
       maxService: 15.0
    CREDITO: 
@@ -30,8 +30,8 @@ queues:
       maxService: 10.0 
    DOCUMENTOS: 
       servers: 5
-      capacity: 13
-      minService: 20.0
+      capacity: 15
+      minService: 15.0
       maxService: 40.0 
 
 network: 
@@ -46,10 +46,10 @@ network:
    probability: 0.4
 -  source: DOCUMENTOS
    target: CREDITO
-   probability: 0.45
+   probability: 0.35
 -  source: DOCUMENTOS
    target: FINANCEIRO
-   probability: 0.55
+   probability: 0.50
 -  source: FINANCEIRO
    target: ACADEMICO
    probability: 0.35
