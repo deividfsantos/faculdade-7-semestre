@@ -14,37 +14,42 @@ queues:
       minService: 0.2
       maxService: 2.0
    ACADEMICO: 
-      servers: 5
-      capacity: 15
+      servers: 4
+      capacity: 12
       minService: 10.0
       maxService: 40.0
    FINANCEIRO: 
-      servers: 4
-      capacity: 10
-      minService: 25.0
-      maxService: 55.0
+      servers: 1
+      capacity: 6
+      minService: 5.0
+      maxService: 15.0
    CREDITO: 
-      servers: 2
-      capacity: 15
-      minService: 30.0
-      maxService: 120.0 
+      servers: 1
+      capacity: 4
+      minService: 5.0
+      maxService: 10.0 
+   DOCUMENTOS: 
+      servers: 5
+      capacity: 13
+      minService: 20.0
+      maxService: 40.0 
 
 network: 
 -  source: FICHA
    target: ACADEMICO
    probability: 0.5
 -  source: FICHA
-   target: FINANCEIRO
-   probability: 0.3
--  source: FICHA
-   target: CREDITO
-   probability: 0.2
+   target: DOCUMENTOS
+   probability: 0.5
 -  source: ACADEMICO
-   target: FINANCEIRO
-   probability: 0.2
--  source: ACADEMICO
+   target: DOCUMENTOS
+   probability: 0.4
+-  source: DOCUMENTOS
    target: CREDITO
-   probability: 0.2
+   probability: 0.45
+-  source: DOCUMENTOS
+   target: FINANCEIRO
+   probability: 0.55
 -  source: FINANCEIRO
    target: ACADEMICO
    probability: 0.35
