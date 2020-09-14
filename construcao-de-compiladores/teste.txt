@@ -1,0 +1,11 @@
+A:\windos\ProgramFiles
+D:\acad\disc\compil\exercicio.txt
+\user\local\bin
+C:README.TXT
+C:\README.TXT
+Compiladores
+com pi la do res
+1+2*3
+/home/
+19/03/2015
+19\03\2020
