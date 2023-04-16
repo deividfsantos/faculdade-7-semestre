@@ -1,0 +1,766 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<scenario name="/vagrant/final.xml">
+  <networks>
+    <network id="6" name="s6" type="SWITCH">
+      <position x="767" y="623" lat="47.57350353581745" lon="-122.12198688265622" alt="2.0"/>
+    </network>
+    <network id="7" name="s7" type="SWITCH">
+      <position x="585" y="36" lat="47.578839471231596" lon="-122.12443928338186" alt="2.0"/>
+    </network>
+    <network id="8" name="s8" type="SWITCH">
+      <position x="689" y="234" lat="47.57703967644793" lon="-122.12303791153863" alt="2.0"/>
+    </network>
+    <network id="9" name="s9" type="SWITCH">
+      <position x="651" y="440" lat="47.57516709701619" lon="-122.12354995125057" alt="2.0"/>
+    </network>
+    <network id="10" name="s10" type="SWITCH">
+      <position x="559" y="456" lat="47.57502165115085" lon="-122.12478962634266" alt="2.0"/>
+    </network>
+    <network id="11" name="h11" type="HUB">
+      <position x="644" y="522" lat="47.574421682686044" lon="-122.1236442743554" alt="2.0"/>
+    </network>
+    <network id="12" name="h12" type="HUB">
+      <position x="750" y="718" lat="47.572639917635136" lon="-122.12221595305365" alt="2.0"/>
+    </network>
+    <network id="13" name="h13" type="HUB">
+      <position x="720" y="116" lat="47.57811228886851" lon="-122.1226201949315" alt="2.0"/>
+    </network>
+  </networks>
+  <devices>
+    <device id="1" name="n1" type="router" class="" image="">
+      <position x="413" y="32" lat="47.578875830084634" lon="-122.12675693681489" alt="2.0"/>
+      <services>
+        <service name="zebra"/>
+        <service name="IPForward"/>
+      </services>
+    </device>
+    <device id="2" name="n2" type="router" class="" image="">
+      <position x="484" y="215" lat="47.577212386711686" lon="-122.12580023103729" alt="2.0"/>
+      <services>
+        <service name="zebra"/>
+        <service name="IPForward"/>
+      </services>
+    </device>
+    <device id="3" name="n3" type="router" class="" image="">
+      <position x="220" y="239" lat="47.57699422628384" lon="-122.12935755956241" alt="2.0"/>
+      <services>
+        <service name="zebra"/>
+        <service name="IPForward"/>
+      </services>
+    </device>
+    <device id="4" name="n4" type="router" class="" image="">
+      <position x="268" y="466" lat="47.57493074727987" lon="-122.12871077255785" alt="2.0"/>
+      <services>
+        <service name="zebra"/>
+        <service name="IPForward"/>
+      </services>
+    </device>
+    <device id="5" name="n5" type="router" class="" image="">
+      <position x="535" y="616" lat="47.57356717027804" lon="-122.12511301984493" alt="2.0"/>
+      <services>
+        <service name="zebra"/>
+        <service name="IPForward"/>
+      </services>
+    </device>
+    <device id="14" name="n14" type="host" class="" image="">
+      <position x="752" y="405" lat="47.575485258438164" lon="-122.12218900359514" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="UserDefined"/>
+      </services>
+    </device>
+    <device id="16" name="n16" type="host" class="" image="">
+      <position x="420" y="375" lat="47.5757579666898" lon="-122.12666261371005" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="UserDefined"/>
+      </services>
+    </device>
+    <device id="17" name="n17" type="host" class="" image="">
+      <position x="937" y="446" lat="47.575112554864035" lon="-122.1196961786817" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="UserDefined"/>
+      </services>
+    </device>
+    <device id="18" name="n18" type="host" class="" image="">
+      <position x="936" y="528" lat="47.57436713975748" lon="-122.11970965341096" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="UserDefined"/>
+      </services>
+    </device>
+    <device id="19" name="n19" type="host" class="" image="">
+      <position x="916" y="215" lat="47.577212386711686" lon="-122.1199791479962" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="UserDefined"/>
+      </services>
+    </device>
+    <device id="20" name="n20" type="host" class="" image="">
+      <position x="919" y="321" lat="47.576248837963654" lon="-122.11993872380842" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="UserDefined"/>
+      </services>
+    </device>
+    <device id="22" name="n22" type="host" class="" image="">
+      <position x="942" y="104" lat="47.57822136686683" lon="-122.1196288050354" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="UserDefined"/>
+      </services>
+    </device>
+    <device id="23" name="n23" type="host" class="" image="">
+      <position x="941" y="714" lat="47.57267628079318" lon="-122.11964227976466" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="UserDefined"/>
+      </services>
+    </device>
+    <device id="24" name="n24" type="host" class="" image="">
+      <position x="929" y="638" lat="47.573367175998676" lon="-122.1198039765158" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="UserDefined"/>
+      </services>
+    </device>
+    <device id="25" name="n25" type="host" class="" image="">
+      <position x="822" y="39" lat="47.578812202075255" lon="-122.12124577254681" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="UserDefined"/>
+      </services>
+    </device>
+    <device id="15" name="n15" type="host" class="" image="">
+      <position x="34" y="292" lat="47.576512452118905" lon="-122.1318638592051" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="UserDefined"/>
+      </services>
+    </device>
+    <device id="26" name="INTERNET" type="PC" class="" image="">
+      <position x="132" y="36" lat="47.578839471231596" lon="-122.13054333573744" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+      </services>
+    </device>
+    <device id="27" name="n27" type="router" class="" image="">
+      <position x="322" y="691" lat="47.57288536846196" lon="-122.12798313717771" alt="2.0"/>
+      <services>
+        <service name="zebra"/>
+        <service name="IPForward"/>
+      </services>
+    </device>
+    <device id="28" name="n28" type="host" class="" image="">
+      <position x="22" y="708" lat="47.572730825482914" lon="-122.13202555595623" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="UserDefined"/>
+      </services>
+    </device>
+    <device id="29" name="n29" type="host" class="" image="">
+      <position x="47" y="504" lat="47.57458531113091" lon="-122.13168868772469" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="UserDefined"/>
+      </services>
+    </device>
+    <device id="30" name="n30" type="host" class="" image="">
+      <position x="606" y="318" lat="47.57627610845505" lon="-122.12415631406736" alt="2.0"/>
+      <services>
+        <service name="DefaultRoute"/>
+        <service name="UserDefined"/>
+      </services>
+    </device>
+  </devices>
+  <links>
+    <link node1="6" node2="24">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:31"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="7" node2="1">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:33"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="7" node2="25">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:34"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="7" node2="13">
+      <iface2 id="0" name="vethd.7.c1"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="8" node2="2">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:2d"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="8" node2="20">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:2e"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="8" node2="19">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:2f"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="9" node2="14">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:2c"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="10" node2="4">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:2a"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="10" node2="16">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:2b"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="10" node2="9">
+      <iface2 id="0" name="veth9.a.c1"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="11" node2="5">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:27"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="11" node2="18">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:28"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="11" node2="17">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:29"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="12" node2="5">
+      <iface2 id="1" name="eth1" mac="00:00:00:aa:00:30"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="12" node2="6">
+      <iface2 id="0" name="veth6.c.c1"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="12" node2="23">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:32"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="13" node2="22">
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:35"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="2" node2="1">
+      <iface1 id="1" name="eth1" mac="00:00:00:aa:00:36"/>
+      <iface2 id="1" name="eth1" mac="00:00:00:aa:00:37"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="2" node2="3">
+      <iface1 id="2" name="eth2" mac="00:00:00:aa:00:38"/>
+      <iface2 id="1" name="eth1" mac="00:00:00:aa:00:39"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="3" node2="4">
+      <iface1 id="2" name="eth2" mac="00:00:00:aa:00:3a"/>
+      <iface2 id="1" name="eth1" mac="00:00:00:aa:00:3b"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="4" node2="5">
+      <iface1 id="2" name="eth2" mac="00:00:00:aa:00:3c"/>
+      <iface2 id="2" name="eth2" mac="00:00:00:aa:00:3d"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="3" node2="15">
+      <iface1 id="3" name="eth3" mac="00:00:00:aa:00:3e"/>
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:3f"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="1" node2="3">
+      <iface1 id="2" name="eth2" mac="00:00:00:aa:00:40"/>
+      <iface2 id="4" name="eth4" mac="00:00:00:aa:00:41"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="26" node2="3">
+      <iface1 id="0" name="eth0" mac="00:00:00:aa:00:42" ip4="10.0.0.20" ip4_mask="24" ip6="2001::20" ip6_mask="64"/>
+      <iface2 id="5" name="eth5" mac="00:00:00:aa:00:43"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="4" node2="27">
+      <iface1 id="3" name="eth3" mac="00:00:00:aa:00:44"/>
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:45"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="5" node2="27">
+      <iface1 id="3" name="eth3" mac="00:00:00:aa:00:46"/>
+      <iface2 id="1" name="eth1" mac="00:00:00:aa:00:47"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="27" node2="29">
+      <iface1 id="2" name="eth2" mac="00:00:00:aa:00:48"/>
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:49"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="27" node2="28">
+      <iface1 id="3" name="eth3" mac="00:00:00:aa:00:4a"/>
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:4b"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+    <link node1="2" node2="30">
+      <iface1 id="3" name="eth3" mac="00:00:00:aa:00:4c"/>
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:4d"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0"/>
+    </link>
+  </links>
+  <service_configurations>
+    <service name="zebra" node="1">
+      <directories>
+        <directory>/usr/local/etc/quagga</directory>
+        <directory>/var/run/quagga</directory>
+      </directories>
+      <startups>
+        <startup>bash quaggaboot.sh zebra</startup>
+      </startups>
+      <validates>
+        <validate>pidof zebra</validate>
+      </validates>
+      <shutdowns>
+        <shutdown>killall zebra</shutdown>
+      </shutdowns>
+      <files>
+        <file name="/usr/local/etc/quagga/Quagga.conf"><![CDATA[interface eth0
+  ip address 130.10.0.1/20
+!
+interface eth1
+  ip address 130.10.16.1/20
+!
+interface eth2
+  ip address 130.10.48.1/20
+!
+
+ip route 130.10.0.0/20 eth0
+ip route 130.10.16.0/20 eth1
+ip route 130.10.32.0/20 130.10.16.2
+ip route 130.10.240.0/20 130.10.16.2
+ip route 130.10.48.0/20 eth2
+ip route 0.0.0.0/0 130.10.48.2]]></file>
+      </files>
+    </service>
+    <service name="zebra" node="2">
+      <directories>
+        <directory>/usr/local/etc/quagga</directory>
+        <directory>/var/run/quagga</directory>
+      </directories>
+      <startups>
+        <startup>bash quaggaboot.sh zebra</startup>
+      </startups>
+      <validates>
+        <validate>pidof zebra</validate>
+      </validates>
+      <shutdowns>
+        <shutdown>killall zebra</shutdown>
+      </shutdowns>
+      <files>
+        <file name="/usr/local/etc/quagga/Quagga.conf"><![CDATA[interface eth0
+  ip address 130.10.32.1/20
+!
+interface eth1
+  ip address 130.10.16.2/20
+!
+interface eth2
+  ip address 130.10.64.1/20
+!
+interface eth3
+  ip address 130.10.240.1/20
+!
+ip route 130.10.32.0/20 eth0
+ip route 130.10.16.0/20 eth1
+ip route 130.10.64.0/20 eth2
+ip route 130.10.240.0/20 eth3
+ip route 130.10.0.0/20 130.10.16.1
+ip route 0.0.0.0/0 130.10.64.2]]></file>
+      </files>
+    </service>
+    <service name="zebra" node="3">
+      <directories>
+        <directory>/usr/local/etc/quagga</directory>
+        <directory>/var/run/quagga</directory>
+      </directories>
+      <startups>
+        <startup>bash quaggaboot.sh zebra</startup>
+      </startups>
+      <validates>
+        <validate>pidof zebra</validate>
+      </validates>
+      <shutdowns>
+        <shutdown>killall zebra</shutdown>
+      </shutdowns>
+      <files>
+        <file name="/usr/local/etc/quagga/Quagga.conf"><![CDATA[interface eth1
+  ip address 130.10.64.2/20
+!
+interface eth2
+  ip address 130.10.80.1/20
+!
+interface eth3
+  ip address 130.10.112.1/20
+!
+interface eth4
+  ip address 130.10.48.2/20
+!
+interface eth5
+  ip address 10.0.0.1/24
+!
+
+ip route 130.10.64.0/20 eth1
+ip route 130.10.80.0/20 eth2
+ip route 130.10.112.0/20 eth3
+ip route 130.10.48.0/20 eth4
+ip route 130.10.0.0/20 130.10.48.1
+ip route 130.10.32.0/20 130.10.64.1
+ip route 130.10.240.0/20 130.10.64.1
+ip route 130.10.128.0/20 130.10.80.2
+ip route 130.10.96.0/20 130.10.80.2
+ip route 130.10.144.0/20 130.10.80.2
+ip route 130.10.176.0/20 130.10.80.2
+ip route 130.10.160.0/20 130.10.80.2
+ip route 130.10.224.0/20 130.10.80.2
+ip route 130.10.208.0/20 130.10.80.2
+ip route 130.10.192.0/20 130.10.80.2
+ip route 0.0.0.0/0 10.0.0.20
+
+
+]]></file>
+      </files>
+    </service>
+    <service name="zebra" node="4">
+      <directories>
+        <directory>/usr/local/etc/quagga</directory>
+        <directory>/var/run/quagga</directory>
+      </directories>
+      <startups>
+        <startup>bash quaggaboot.sh zebra</startup>
+      </startups>
+      <validates>
+        <validate>pidof zebra</validate>
+      </validates>
+      <shutdowns>
+        <shutdown>killall zebra</shutdown>
+      </shutdowns>
+      <files>
+        <file name="/usr/local/etc/quagga/Quagga.conf"><![CDATA[interface eth0
+  ip address 130.10.128.1/20
+!
+interface eth1
+  ip address 130.10.80.2/20
+!
+interface eth2
+  ip address 130.10.96.1/20
+!
+interface eth3
+  ip address 130.10.144.1/20
+!
+
+ip route 130.10.128.0/20 eth0
+ip route 130.10.80.0/20 eth1
+ip route 130.10.96.0/20 eth2
+ip route 130.10.144.0/20 eth3
+ip route 130.10.160.0/20 130.10.96.2
+ip route 130.10.176.0/20 130.10.96.2
+ip route 130.10.224.0/20 130.10.144.2
+ip route 130.10.208.0/20 130.10.144.2
+ip route 0.0.0.0/0 130.10.80.1]]></file>
+      </files>
+    </service>
+    <service name="zebra" node="5">
+      <directories>
+        <directory>/usr/local/etc/quagga</directory>
+        <directory>/var/run/quagga</directory>
+      </directories>
+      <startups>
+        <startup>bash quaggaboot.sh zebra</startup>
+      </startups>
+      <validates>
+        <validate>pidof zebra</validate>
+      </validates>
+      <shutdowns>
+        <shutdown>killall zebra</shutdown>
+      </shutdowns>
+      <files>
+        <file name="/usr/local/etc/quagga/Quagga.conf"><![CDATA[interface eth0
+  ip address 130.10.160.1/20
+!
+interface eth1
+  ip address 130.10.176.1/20
+!
+interface eth2
+  ip address 130.10.96.2/20
+!
+interface eth3
+  ip address 130.10.192.2/20
+!
+
+ip route 130.10.160.0/20 eth0
+ip route 130.10.176.0/20 eth1
+ip route 130.10.96.0/20 eth2
+ip route 130.10.192.0/20 eth3
+ip route 0.0.0.0/0 130.10.96.1
+]]></file>
+      </files>
+    </service>
+    <service name="UserDefined" node="14">
+      <startups>
+        <startup>sh setup.sh</startup>
+      </startups>
+      <files>
+        <file name="setup.sh"><![CDATA[ip addr add 130.10.128.2/20 dev eth0
+ip route add default via 130.10.128.1 dev eth0]]></file>
+      </files>
+    </service>
+    <service name="UserDefined" node="16">
+      <startups>
+        <startup>sh setup.sh</startup>
+      </startups>
+      <files>
+        <file name="setup.sh"><![CDATA[ip addr add 130.10.128.3/20 dev eth0
+ip route add default via 130.10.128.1 dev eth0]]></file>
+      </files>
+    </service>
+    <service name="UserDefined" node="17">
+      <startups>
+        <startup>sh setup.sh</startup>
+      </startups>
+      <files>
+        <file name="setup.sh"><![CDATA[ip addr add 130.10.160.2/20 dev eth0
+ip route add default via 130.10.160.1 dev eth0]]></file>
+      </files>
+    </service>
+    <service name="UserDefined" node="18">
+      <startups>
+        <startup>sh setup.sh</startup>
+      </startups>
+      <files>
+        <file name="setup.sh"><![CDATA[ip addr add 130.10.160.3/20 dev eth0
+ip route add default via 130.10.160.1 dev eth0]]></file>
+      </files>
+    </service>
+    <service name="UserDefined" node="19">
+      <startups>
+        <startup>sh setup.sh</startup>
+      </startups>
+      <files>
+        <file name="setup.sh"><![CDATA[ip addr add 130.10.32.2/20 dev eth0
+ip route add default via 130.10.32.1 dev eth0]]></file>
+      </files>
+    </service>
+    <service name="UserDefined" node="20">
+      <startups>
+        <startup>sh setup.sh</startup>
+      </startups>
+      <files>
+        <file name="setup.sh"><![CDATA[ip addr add 130.10.32.3/20 dev eth0
+ip route add default via 130.10.32.1 dev eth0]]></file>
+      </files>
+    </service>
+    <service name="UserDefined" node="22">
+      <startups>
+        <startup>sh setup.sh</startup>
+      </startups>
+      <files>
+        <file name="setupn22.sh"><![CDATA[ip addr add 130.10.0.1/16 dev 0/0]]></file>
+        <file name="setup.sh"><![CDATA[ip addr add 130.10.0.2/20 dev eth0
+ip route add default via 130.10.0.1 dev eth0]]></file>
+      </files>
+    </service>
+    <service name="UserDefined" node="23">
+      <startups>
+        <startup>sh setup.sh</startup>
+      </startups>
+      <files>
+        <file name="setup.sh"><![CDATA[ip addr add 130.10.176.3/20 dev eth0
+ip route add default via 130.10.176.1 dev eth0]]></file>
+      </files>
+    </service>
+    <service name="UserDefined" node="24">
+      <startups>
+        <startup>sh setup.sh</startup>
+      </startups>
+      <files>
+        <file name="setup.sh"><![CDATA[ip addr add 130.10.176.2/20 dev eth0
+ip route add default via 130.10.176.1 dev eth0]]></file>
+      </files>
+    </service>
+    <service name="UserDefined" node="25">
+      <startups>
+        <startup>sh setup.sh</startup>
+      </startups>
+      <files>
+        <file name="setup.sh"><![CDATA[ip addr add 130.10.0.3/20 dev eth0
+ip route add default via 130.10.0.1 dev eth0]]></file>
+      </files>
+    </service>
+    <service name="UserDefined" node="15">
+      <startups>
+        <startup>sh setup.sh</startup>
+      </startups>
+      <files>
+        <file name="setup.sh"><![CDATA[ip addr add 130.10.112.2/20 dev eth0
+ip route add default via 130.10.112.1 dev eth0]]></file>
+      </files>
+    </service>
+    <service name="zebra" node="27">
+      <directories>
+        <directory>/usr/local/etc/quagga</directory>
+        <directory>/var/run/quagga</directory>
+      </directories>
+      <startups>
+        <startup>bash quaggaboot.sh zebra</startup>
+      </startups>
+      <validates>
+        <validate>pidof zebra</validate>
+      </validates>
+      <shutdowns>
+        <shutdown>killall zebra</shutdown>
+      </shutdowns>
+      <files>
+        <file name="/usr/local/etc/quagga/Quagga.conf"><![CDATA[interface eth0
+  ip address 130.10.144.2/20
+!
+interface eth1
+  ip address 130.10.192.2/20
+!
+interface eth2
+  ip address 130.10.224.1/20
+!
+interface eth3
+  ip address 130.10.208.1/20
+!
+
+ip route 130.10.144.0/20 eth0
+ip route 130.10.192.0/20 eth1
+ip route 130.10.224.0/20 eth2
+ip route 130.10.208.0/20 eth3
+ip route 130.10.208.0/20 130.10.192.2
+ip route 130.10.224.0/20 130.10.192.2
+ip route 0.0.0.0/0 130.10.144.1]]></file>
+      </files>
+    </service>
+    <service name="UserDefined" node="28">
+      <startups>
+        <startup>sh setup.sh</startup>
+      </startups>
+      <files>
+        <file name="setup.sh"><![CDATA[ip addr add 130.10.208.2/20 dev eth0
+ip route add default via 130.10.208.1 dev eth0]]></file>
+      </files>
+    </service>
+    <service name="UserDefined" node="29">
+      <startups>
+        <startup>sh setup.sh</startup>
+      </startups>
+      <files>
+        <file name="setup.sh"><![CDATA[ip addr add 130.10.224.2/20 dev eth0
+ip route add default via 130.10.224.1 dev eth0]]></file>
+      </files>
+    </service>
+    <service name="UserDefined" node="30">
+      <startups>
+        <startup>sh setup.sh</startup>
+      </startups>
+      <files>
+        <file name="setup.sh"><![CDATA[ip addr add 130.10.240.2/20 dev eth0
+ip route add default via 130.10.240.1 dev eth0]]></file>
+      </files>
+    </service>
+  </service_configurations>
+  <session_origin lat="47.5791667" lon="-122.132322" alt="2.0" scale="150.0"/>
+  <session_options>
+    <configuration name="controlnet" value=""/>
+    <configuration name="controlnet0" value=""/>
+    <configuration name="controlnet1" value=""/>
+    <configuration name="controlnet2" value=""/>
+    <configuration name="controlnet3" value=""/>
+    <configuration name="controlnet_updown_script" value=""/>
+    <configuration name="enablerj45" value="1"/>
+    <configuration name="preservedir" value="0"/>
+    <configuration name="enablesdt" value="0"/>
+    <configuration name="sdturl" value="tcp://127.0.0.1:50000/"/>
+    <configuration name="ovs" value="0"/>
+    <configuration name="platform_id_start" value="1"/>
+    <configuration name="nem_id_start" value="1"/>
+    <configuration name="link_enabled" value="1"/>
+    <configuration name="loss_threshold" value="30"/>
+    <configuration name="link_interval" value="1"/>
+    <configuration name="link_timeout" value="4"/>
+    <configuration name="mtu" value="0"/>
+  </session_options>
+  <session_metadata>
+    <configuration name="annotation a1" value="{type text} {iconcoords {590.0 26.0}} {label {}} {canvas c1}"/>
+    <configuration name="annotation a2" value="{iconcoords {870.0 95.66666666666667}} {type text} {label {130.10.0.2}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="annotation a3" value="{type text} {iconcoords {645.0 47.0}} {label {}} {canvas c1}"/>
+    <configuration name="annotation a4" value="{type text} {iconcoords {694.0 42.0}} {label {}} {canvas c1}"/>
+    <configuration name="annotation a5" value="{iconcoords {747.0 29.33333333333333}} {type text} {label {130.10.0.3}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="annotation a6" value="{iconcoords {862.3333333333334 205.0}} {type text} {label {130.10.32.2}} {labelcolor black} {fontfamily {Arial}} {fontsize {10}} {canvas c1}"/>
+    <configuration name="annotation a7" value="{type text} {iconcoords {817.0 215.0}} {label {}} {canvas c1}"/>
+    <configuration name="annotation a8" value="{iconcoords {871.3333333333334 295.6666666666667}} {type text} {label {130.10.32.3}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="annotation a9" value="{type text} {iconcoords {806.0 160.0}} {label {}} {canvas c1}"/>
+    <configuration name="annotation a10" value="{type text} {iconcoords {757.0 333.0}} {label {}} {canvas c1}"/>
+    <configuration name="annotation a11" value="{type text} {iconcoords {279.0 279.0}} {label {}} {canvas c1}"/>
+    <configuration name="annotation a12" value="{type text} {iconcoords {76.0 77.0}} {label {}} {canvas c1}"/>
+    <configuration name="annotation a13" value="{iconcoords {445.6666666666667 23.333333333333332}} {type text} {label {130.10.0.1}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="annotation a14" value="{type text} {iconcoords {152.0 92.0}} {label {}} {canvas c1}"/>
+    <configuration name="annotation a15" value="{iconcoords {426.6666666666667 82.66666666666667}} {type text} {label {130.10.16.1}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="annotation a16" value="{iconcoords {518.3333333333334 205.66666666666666}} {type text} {label {130.10.32.1}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="annotation a17" value="{iconcoords {453.3333333333333 161.66666666666666}} {type text} {label {130.10.16.2}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="annotation a18" value="{type text} {iconcoords {212.0 182.0}} {label {}} {canvas c1}"/>
+    <configuration name="annotation a19" value="{iconcoords {351.3333333333333 76.0}} {type text} {label {130.10.48.1}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="annotation a21" value="{iconcoords {396.3333333333333 207.16666666666666}} {type text} {label {130.10.64.1}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="annotation a24" value="{iconcoords {434.6666666666667 377.6666666666667}} {type text} {label {130.10.128.2}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="annotation a30" value="{iconcoords {708.6666666666666 385.6666666666667}} {type text} {label {130.10.128.3}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="annotation a34" value="{iconcoords {871.0 437.6666666666667}} {type text} {label {130.10.160.2}} {labelcolor black} {fontfamily {Arial}} {fontsize {10}} {canvas c1}"/>
+    <configuration name="annotation a37" value="{iconcoords {875.0 510.6666666666667}} {type text} {label {130.10.160.3}} {labelcolor black} {fontfamily {Arial}} {fontsize {10}} {canvas c1}"/>
+    <configuration name="annotation a38" value="{iconcoords {871.3333333333334 613.6666666666666}} {type text} {label {130.10.176.2}} {labelcolor black} {fontfamily {Arial}} {fontsize {10}} {canvas c1}"/>
+    <configuration name="annotation a39" value="{iconcoords {888.6666666666666 699.0}} {type text} {label {130.10.176.3}} {labelcolor black} {fontfamily {Arial}} {fontsize {8}} {canvas c1}"/>
+    <configuration name="annotation a40" value="{iconcoords {175.0 190.33333333333334}} {type text} {label {10.0.0.1/24}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="annotation a22" value="{iconcoords {269.3333333333333 226.6666666666667}} {type text} {label {130.10.64.2}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="annotation a23" value="{iconcoords {210.5 295.1666666666667}} {type text} {label {130.10.80.1}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="annotation a25" value="{iconcoords {225.66666666666666 436.3333333333333}} {type text} {label {130.10.80.2}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="annotation a29" value="{iconcoords {22.66666666666663 266.3333333333333}} {type text} {label {130.10.112.2}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="annotation a33" value="{iconcoords {290.6666666666667 644.3333333333333}} {type text} {label {130.10.144.2}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="annotation a36" value="{iconcoords {407.6666666666667 581.0}} {type text} {label {130.10.96.2}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="annotation a41" value="{iconcoords {539.6666666666666 575.3333333333334}} {type text} {label {130.10.160.1}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="annotation a42" value="{iconcoords {566.0 646.0}} {type text} {label {130.10.176.1}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="annotation a43" value="{iconcoords {419.6666666666667 634.6666666666666}} {type text} {label {130.10.192.1}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="annotation a44" value="{iconcoords {367.0 692.0}} {type text} {label {130.10.192.2}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="annotation a45" value="{iconcoords {208.0 704.6666666666666}} {type text} {label {130.10.208.1}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="annotation a46" value="{iconcoords {37.333333333333336 714.6666666666666}} {type text} {label {130.10.208.2}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="annotation a47" value="{iconcoords {198.66666666666666 659.0}} {type text} {label {130.10.224.1}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="annotation a48" value="{iconcoords {62.0 500.0}} {type text} {label {130.10.224.2}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="annotation a49" value="{iconcoords {518.3333333333334 299.5}} {type text} {label {130.10.240.2}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="annotation a50" value="{iconcoords {474.1666666666667 252.6666666666667}} {type text} {label {130.10.240.1}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="annotation a20" value="{iconcoords {136.3333333333333 239.0}} {type text} {label {130.10.112.1}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="annotation a26" value="{iconcoords {219.66666666666669 515.3333333333333}} {type text} {label {130.10.144.1}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="annotation a27" value="{iconcoords {325.6666666666667 497.6666666666666}} {type text} {label {130.10.96.1}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="annotation a28" value="{iconcoords {309.6666666666667 449.33333333333326}} {type text} {label {130.10.128.1}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="annotation a31" value="{iconcoords {243.0 197.3333333333334}} {type text} {label {130.10.48.2}} {labelcolor black} {fontfamily {Arial}} {fontsize {9}} {canvas c1}"/>
+    <configuration name="canvas c1" value="{name {Canvas1}}"/>
+    <configuration name="global_options" value="interface_names=yes ip_addresses=yes ipv6_addresses=no node_labels=yes link_labels=yes show_api=no background_images=no annotations=yes grid=yes traffic_start=0"/>
+  </session_metadata>
+  <default_services>
+    <node type="mdr">
+      <service name="zebra"/>
+      <service name="OSPFv3MDR"/>
+      <service name="IPForward"/>
+    </node>
+    <node type="PC">
+      <service name="DefaultRoute"/>
+    </node>
+    <node type="prouter"/>
+    <node type="router">
+      <service name="zebra"/>
+      <service name="OSPFv2"/>
+      <service name="OSPFv3"/>
+      <service name="IPForward"/>
+    </node>
+    <node type="host">
+      <service name="DefaultRoute"/>
+      <service name="SSH"/>
+    </node>
+  </default_services>
+</scenario>
