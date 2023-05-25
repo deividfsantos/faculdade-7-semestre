@@ -4,7 +4,6 @@ import struct
 import sys
 
 ETH_P_ALL = 0x0003
-protocodes = {1: "ICMP", 17: "UDP", 6: "TCP"}
 
 local_ip = "10.0.0.12"
 
@@ -32,10 +31,12 @@ except OSError as msg:
     print('Error' + str(msg))
     sys.exit(1)
 
-print('Socket created!')
+print('Sockets created!')
 
 receiver_socket.bind(('eth0', 0))
 sender_socket.setsockopt(socket.IPPROTO_IP, socket.IP_HDRINCL, 1)
+# Mapa de lista onde primeiro item é o contador de pings e o outro o tempo como ultimo ping recebido
+# Inicia variável com IP local para poder atacar com ele também caso necessário
 ipList = {local_ip: [0, datetime.datetime.now()]}
 
 
@@ -43,9 +44,6 @@ def counter_attack(attacker_ip):
     print("Attacked by " + attacker_ip)
     for ip in ipList:
         if ip != attacker_ip:
-            ###################
-            # Include IP header
-
             ##########################
             # ICMP Echo Request Header
             type = 8
@@ -61,7 +59,6 @@ def counter_attack(attacker_ip):
 
             # Calculate checksum
             mychecksum = checksum(icmp_packet)
-            # print("Checksum: {:02x}".format(mychecksum))
 
             # Repack with checksum
             icmp_packet = struct.pack("!BBHHH%ds" % len(payload), type, code, mychecksum, identifier, seqnumber,
@@ -104,11 +101,9 @@ while True:
     eth = struct.unpack("!6s6sH", eth_header)
 
     if eth[2] == 0x0800:  # protocolo IP
-        # print("IP Packet")
         ip_header = packet[eth_length:20 + eth_length]
         iph = struct.unpack("!BBHHHBBH4s4s", ip_header)
         version_ihl = iph[0]
-        version = version_ihl >> 4
         ihl = version_ihl & 0xF
         iph_length = ihl * 4
         protocol = iph[6]
@@ -119,12 +114,23 @@ while True:
             icmph = struct.unpack("!BBHHH%ds" % (len(icmp_header) - 8), icmp_header)
             type = icmph[0]
             code = icmph[1]
+            # Verificando o tipo de pacote ICMP
+            # E se a requisição tem como destino meu proprio IP para capturar somente mensagens uteis da rede
             if type == 8 and code == 0 and d_addr == local_ip:
                 print("Recebi ping request de {0} - {1} ".format(bytes_to_mac(eth[1]), s_addr))
-                if s_addr not in ipList or datetime.datetime.now() > ipList[s_addr][1] + datetime.timedelta(seconds=5):
+
+                # Variavel para saber quanto tempo passou desde o ultimo ping
+                diff_time_last_ping = datetime.datetime.now() > ipList[s_addr][1] + datetime.timedelta(seconds=5)
+                # Caso maior que o delta está lento o ping e é desconsiderado, resetando o contador
+                # Caso menor que o delta é considerado possivel atacante
+                if s_addr not in ipList or diff_time_last_ping:
+                    # Criando novo IP conhecido ou resetando um IP pois não é atacante
                     ipList[s_addr] = [0, datetime.datetime.now()]
                 else:
+                    # Contador de ataques caso esteja recebendo ping com diferença de tempo menor que o delta
                     ipList[s_addr] = [ipList[s_addr][0] + 1, datetime.datetime.now()]
+
+                # Caso o contador seja maior 5 com o intervalo entre os pings menor que o delta, então é um atacante
                 if ipList[s_addr][0] > 5:
                     counter_attack(s_addr)
                 print("IP List: " + str(ipList) + "\n")
