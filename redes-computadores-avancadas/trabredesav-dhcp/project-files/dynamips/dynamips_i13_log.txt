@@ -1,0 +1,12 @@
+Apr 29 19:26:05.738 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Apr 29 19:26:05.738 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 54153.
+Apr 29 19:26:05.747 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 29 19:26:05.747 HYPERVISOR: exec_cmd: hypervisor working_dir /home/deivid/GNS3/projects/trabredesav/project-files/dynamips 
+Apr 29 19:26:05.747 GENERAL: working_dir=/home/deivid/GNS3/projects/trabredesav/project-files/dynamips
+Apr 29 19:26:05.747 HYPERVISOR: exec_cmd: ethsw create Escola8 
+Apr 29 19:26:07.715 HYPERVISOR: exec_cmd: nio create_udp udp-603618f7-4a90-48d0-a569-9655cbb924eb 10035 127.0.0.1 10034 
+Apr 29 19:26:07.715 HYPERVISOR: exec_cmd: ethsw add_nio Escola8 udp-603618f7-4a90-48d0-a569-9655cbb924eb 
+Apr 29 19:26:07.729 HYPERVISOR: exec_cmd: ethsw set_access_port Escola8 udp-603618f7-4a90-48d0-a569-9655cbb924eb 1 
+Apr 29 19:26:10.284 HYPERVISOR: exec_cmd: nio create_udp udp-5a8e46dd-2436-4dfa-8e66-acb4c7b700c4 10100 127.0.0.1 10101 
+Apr 29 19:26:10.284 HYPERVISOR: exec_cmd: ethsw add_nio Escola8 udp-5a8e46dd-2436-4dfa-8e66-acb4c7b700c4 
+Apr 29 19:26:10.302 HYPERVISOR: exec_cmd: ethsw set_access_port Escola8 udp-5a8e46dd-2436-4dfa-8e66-acb4c7b700c4 1 

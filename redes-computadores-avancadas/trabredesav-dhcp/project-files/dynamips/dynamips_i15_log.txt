@@ -1,0 +1,15 @@
+Apr 29 19:26:05.828 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Apr 29 19:26:05.828 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 51887.
+Apr 29 19:26:05.836 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 29 19:26:05.836 HYPERVISOR: exec_cmd: hypervisor working_dir /home/deivid/GNS3/projects/trabredesav/project-files/dynamips 
+Apr 29 19:26:05.836 GENERAL: working_dir=/home/deivid/GNS3/projects/trabredesav/project-files/dynamips
+Apr 29 19:26:05.837 HYPERVISOR: exec_cmd: ethsw create P&D 
+Apr 29 19:26:08.148 HYPERVISOR: exec_cmd: nio create_udp udp-c8331725-f3f0-4960-80fe-c3ad6de7ee72 10043 127.0.0.1 10042 
+Apr 29 19:26:08.148 HYPERVISOR: exec_cmd: ethsw add_nio P&D udp-c8331725-f3f0-4960-80fe-c3ad6de7ee72 
+Apr 29 19:26:08.158 HYPERVISOR: exec_cmd: ethsw set_access_port P&D udp-c8331725-f3f0-4960-80fe-c3ad6de7ee72 1 
+Apr 29 19:26:10.741 HYPERVISOR: exec_cmd: nio create_udp udp-f9381630-24c5-4479-8753-a6650b2fec98 10110 127.0.0.1 10111 
+Apr 29 19:26:10.741 HYPERVISOR: exec_cmd: ethsw add_nio P&D udp-f9381630-24c5-4479-8753-a6650b2fec98 
+Apr 29 19:26:10.750 HYPERVISOR: exec_cmd: ethsw set_access_port P&D udp-f9381630-24c5-4479-8753-a6650b2fec98 1 
+Apr 29 19:26:10.825 HYPERVISOR: exec_cmd: nio create_udp udp-e93345eb-8342-4603-810a-d88105f12176 10112 127.0.0.1 10113 
+Apr 29 19:26:10.825 HYPERVISOR: exec_cmd: ethsw add_nio P&D udp-e93345eb-8342-4603-810a-d88105f12176 
+Apr 29 19:26:10.830 HYPERVISOR: exec_cmd: ethsw set_access_port P&D udp-e93345eb-8342-4603-810a-d88105f12176 1 

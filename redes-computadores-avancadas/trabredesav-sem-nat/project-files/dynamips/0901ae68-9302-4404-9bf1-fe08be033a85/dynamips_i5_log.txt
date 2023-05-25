@@ -1,0 +1,571 @@
+Apr 29 19:26:05.461 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Apr 29 19:26:05.461 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 42925.
+Apr 29 19:26:05.469 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 29 19:26:05.470 HYPERVISOR: exec_cmd: hypervisor working_dir /home/deivid/GNS3/projects/trabredesav/project-files/dynamips 
+Apr 29 19:26:05.470 GENERAL: working_dir=/home/deivid/GNS3/projects/trabredesav/project-files/dynamips
+Apr 29 19:26:05.470 HYPERVISOR: exec_cmd: hypervisor working_dir /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/0901ae68-9302-4404-9bf1-fe08be033a85 
+Apr 29 19:26:05.470 GENERAL: working_dir=/home/deivid/GNS3/projects/trabredesav/project-files/dynamips/0901ae68-9302-4404-9bf1-fe08be033a85
+Apr 29 19:26:05.470 HYPERVISOR: exec_cmd: vm create Escolas 5 c3745 
+Apr 29 19:26:05.470 VM: VM Escolas created.
+Apr 29 19:26:05.470 HYPERVISOR: exec_cmd: vm set_con_tcp_port Escolas 5030 
+Apr 29 19:26:05.471 HYPERVISOR: exec_cmd: c3745 get_mac_addr Escolas 
+Apr 29 19:26:05.471 HYPERVISOR: exec_cmd: vm set_disk0 Escolas 0 
+Apr 29 19:26:05.471 HYPERVISOR: exec_cmd: vm set_ios Escolas /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 29 19:26:05.472 HYPERVISOR: exec_cmd: c3745 set_mac_addr Escolas c405.f240.0000 
+Apr 29 19:26:05.472 HYPERVISOR: exec_cmd: vm set_nvram Escolas 256 
+Apr 29 19:26:05.472 HYPERVISOR: exec_cmd: vm set_ram Escolas 256 
+Apr 29 19:26:05.473 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:26:05.473 HYPERVISOR: exec_cmd: vm slot_add_binding Escolas 1 0 NM-16ESW 
+Apr 29 19:26:05.473 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:26:05.473 HYPERVISOR: exec_cmd: vm slot_add_binding Escolas 2 0 NM-1FE-TX 
+Apr 29 19:26:06.842 HYPERVISOR: exec_cmd: nio create_udp udp-aa8793f1-eda5-41e4-b327-7769d5458979 10008 127.0.0.1 10009 
+Apr 29 19:26:07.055 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Escolas 0 1 udp-aa8793f1-eda5-41e4-b327-7769d5458979 
+Apr 29 19:26:07.056 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:26:07.164 HYPERVISOR: exec_cmd: nio create_udp udp-45862ef3-4098-4679-b468-5dcce7ed5d70 10012 127.0.0.1 10013 
+Apr 29 19:26:07.165 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Escolas 1 0 udp-45862ef3-4098-4679-b468-5dcce7ed5d70 
+Apr 29 19:26:07.166 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:26:07.264 HYPERVISOR: exec_cmd: nio create_udp udp-7c500849-e46d-4c5e-bf2c-3779a3f990dc 10016 127.0.0.1 10017 
+Apr 29 19:26:07.265 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Escolas 1 1 udp-7c500849-e46d-4c5e-bf2c-3779a3f990dc 
+Apr 29 19:26:07.265 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:26:07.358 HYPERVISOR: exec_cmd: nio create_udp udp-cc4ad8ce-1e2b-4a0b-8cab-9e9d83216288 10020 127.0.0.1 10021 
+Apr 29 19:26:07.359 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Escolas 1 2 udp-cc4ad8ce-1e2b-4a0b-8cab-9e9d83216288 
+Apr 29 19:26:07.360 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:26:07.440 HYPERVISOR: exec_cmd: nio create_udp udp-ced02df1-227c-4a49-a666-119b57d54ecd 10024 127.0.0.1 10025 
+Apr 29 19:26:07.441 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Escolas 1 3 udp-ced02df1-227c-4a49-a666-119b57d54ecd 
+Apr 29 19:26:07.441 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:26:07.527 HYPERVISOR: exec_cmd: nio create_udp udp-6edfcd9d-21f7-45e9-9ba1-e43d9e4c3bc2 10028 127.0.0.1 10029 
+Apr 29 19:26:07.528 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Escolas 1 4 udp-6edfcd9d-21f7-45e9-9ba1-e43d9e4c3bc2 
+Apr 29 19:26:07.528 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:26:07.615 HYPERVISOR: exec_cmd: nio create_udp udp-99342848-b70b-4ef1-9a3d-98134f4706a8 10032 127.0.0.1 10033 
+Apr 29 19:26:07.616 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Escolas 1 5 udp-99342848-b70b-4ef1-9a3d-98134f4706a8 
+Apr 29 19:26:07.617 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:26:07.704 HYPERVISOR: exec_cmd: nio create_udp udp-f3040b61-d527-4003-8abf-21d32fbe5fbb 10036 127.0.0.1 10037 
+Apr 29 19:26:07.706 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Escolas 1 6 udp-f3040b61-d527-4003-8abf-21d32fbe5fbb 
+Apr 29 19:26:07.706 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:26:08.846 HYPERVISOR: exec_cmd: nio create_udp udp-f7c52027-e9aa-4061-aa32-f556ea959615 10064 127.0.0.1 10065 
+Apr 29 19:26:08.846 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Escolas 0 0 udp-f7c52027-e9aa-4061-aa32-f556ea959615 
+Apr 29 19:26:08.847 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:26:16.571 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+Apr 29 19:26:16.573 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:26:16.574 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:26:16.575 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+Apr 29 19:26:16.576 HYPERVISOR: exec_cmd: vm start Escolas 
+Apr 29 19:30:19.188 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:30:19.189 HYPERVISOR: exec_cmd: vm stop Escolas 
+Apr 29 19:30:19.468 VM: VM Escolas shutdown.
+Apr 29 19:30:19.469 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 29 19:30:30.943 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+Apr 29 19:30:30.944 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:30:30.945 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:30:30.946 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+Apr 29 19:30:30.947 HYPERVISOR: exec_cmd: vm start Escolas 
+Apr 29 19:30:49.602 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:30:49.603 HYPERVISOR: exec_cmd: vm stop Escolas 
+Apr 29 19:30:50.858 VM: VM Escolas shutdown.
+Apr 29 19:30:50.860 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 29 19:31:00.952 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+Apr 29 19:31:00.958 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:31:00.959 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:31:00.961 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+Apr 29 19:31:00.962 HYPERVISOR: exec_cmd: vm start Escolas 
+Apr 29 19:37:58.556 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:37:58.556 HYPERVISOR: exec_cmd: vm stop Escolas 
+Apr 29 19:37:58.820 VM: VM Escolas shutdown.
+Apr 29 19:37:58.821 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 29 19:39:29.662 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+Apr 29 19:39:29.664 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:39:29.665 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:39:29.666 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+Apr 29 19:39:29.667 HYPERVISOR: exec_cmd: vm start Escolas 
+Apr 29 19:40:39.865 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:40:39.865 HYPERVISOR: exec_cmd: vm stop Escolas 
+Apr 29 19:40:40.131 VM: VM Escolas shutdown.
+Apr 29 19:40:40.131 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 29 19:48:49.256 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+Apr 29 19:48:49.257 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:48:49.257 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:48:49.257 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+Apr 29 19:48:49.258 HYPERVISOR: exec_cmd: vm start Escolas 
+Apr 29 19:50:33.021 HYPERVISOR: exec_cmd: vm set_ios Escolas /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 29 19:50:33.296 HYPERVISOR: exec_cmd: vm set_ios Escolas /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 29 19:53:49.723 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 29 19:53:49.727 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 29 19:55:14.165 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:55:14.166 HYPERVISOR: exec_cmd: vm stop Escolas 
+Apr 29 19:55:14.370 VM: VM Escolas shutdown.
+Apr 29 19:55:14.371 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 29 19:55:25.916 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+Apr 29 19:55:25.916 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:55:25.917 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:55:25.917 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+Apr 29 19:55:25.918 HYPERVISOR: exec_cmd: vm start Escolas 
+Apr 29 19:56:26.638 HYPERVISOR: exec_cmd: vm set_ios Escolas /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 29 19:56:26.909 HYPERVISOR: exec_cmd: vm set_ios Escolas /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 29 19:58:26.163 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 29 19:58:26.166 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 29 20:00:39.030 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 20:00:39.030 HYPERVISOR: exec_cmd: vm stop Escolas 
+Apr 29 20:00:39.247 VM: VM Escolas shutdown.
+Apr 29 20:00:39.247 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 29 20:15:32.813 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+Apr 29 20:15:32.814 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 20:15:32.814 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 20:15:32.814 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+Apr 29 20:15:32.815 HYPERVISOR: exec_cmd: vm start Escolas 
+Apr 29 20:16:27.106 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 20:16:27.108 HYPERVISOR: exec_cmd: vm stop Escolas 
+Apr 29 20:16:27.337 VM: VM Escolas shutdown.
+Apr 29 20:16:27.337 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 30 18:48:07.909 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+Apr 30 18:48:07.910 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 18:48:07.910 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 30 18:48:07.911 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+Apr 30 18:48:07.911 HYPERVISOR: exec_cmd: vm start Escolas 
+Apr 30 18:58:08.203 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 30 18:58:08.208 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 30 18:58:30.085 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 30 18:58:30.085 HYPERVISOR: exec_cmd: vm stop Escolas 
+Apr 30 18:58:30.303 VM: VM Escolas shutdown.
+Apr 30 18:58:30.305 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 30 19:05:54.141 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+Apr 30 19:05:54.142 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 19:05:54.143 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 30 19:05:54.144 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+Apr 30 19:05:54.144 HYPERVISOR: exec_cmd: vm start Escolas 
+Apr 30 19:06:08.792 HYPERVISOR: exec_cmd: vm set_ios Escolas /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 30 19:06:08.989 HYPERVISOR: exec_cmd: vm set_ios Escolas /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 30 19:24:05.892 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 30 19:24:05.892 HYPERVISOR: exec_cmd: vm stop Escolas 
+Apr 30 19:24:06.112 VM: VM Escolas shutdown.
+Apr 30 19:24:06.113 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 30 20:14:16.902 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+Apr 30 20:14:16.902 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 20:14:16.903 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 30 20:14:16.903 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+Apr 30 20:14:16.904 HYPERVISOR: exec_cmd: vm start Escolas 
+Apr 30 20:20:25.834 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 30 20:20:25.834 HYPERVISOR: exec_cmd: vm stop Escolas 
+Apr 30 20:20:26.118 VM: VM Escolas shutdown.
+Apr 30 20:20:26.119 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 30 20:25:10.181 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+Apr 30 20:25:10.183 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 20:25:10.183 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 30 20:25:10.185 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+Apr 30 20:25:10.185 HYPERVISOR: exec_cmd: vm start Escolas 
+Apr 30 20:37:47.454 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 30 20:37:47.454 HYPERVISOR: exec_cmd: vm stop Escolas 
+Apr 30 20:37:47.664 VM: VM Escolas shutdown.
+Apr 30 20:37:47.665 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 30 20:39:36.593 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+Apr 30 20:39:36.594 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 20:39:36.594 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 30 20:39:36.596 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+Apr 30 20:39:36.596 HYPERVISOR: exec_cmd: vm start Escolas 
+Apr 30 20:49:31.502 HYPERVISOR: exec_cmd: vm set_ios Escolas /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 30 20:49:31.735 HYPERVISOR: exec_cmd: vm set_ios Escolas /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 30 20:49:43.162 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 30 20:49:43.162 HYPERVISOR: exec_cmd: vm stop Escolas 
+Apr 30 20:49:43.374 VM: VM Escolas shutdown.
+Apr 30 20:49:43.375 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 30 21:12:33.869 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+Apr 30 21:12:33.872 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 21:12:33.873 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 30 21:12:33.874 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+Apr 30 21:12:33.874 HYPERVISOR: exec_cmd: vm start Escolas 
+Apr 30 21:16:27.984 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 30 21:16:27.984 HYPERVISOR: exec_cmd: vm stop Escolas 
+Apr 30 21:16:28.279 VM: VM Escolas shutdown.
+Apr 30 21:16:28.281 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 30 21:20:44.033 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+Apr 30 21:20:44.034 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 21:20:44.034 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 30 21:20:44.036 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+Apr 30 21:20:44.036 HYPERVISOR: exec_cmd: vm start Escolas 
+Apr 30 21:26:29.889 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 30 21:26:29.889 HYPERVISOR: exec_cmd: vm stop Escolas 
+Apr 30 21:26:30.160 VM: VM Escolas shutdown.
+Apr 30 21:26:30.162 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 30 21:27:39.929 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+Apr 30 21:27:39.930 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 21:27:39.931 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 30 21:27:39.932 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+Apr 30 21:27:39.933 HYPERVISOR: exec_cmd: vm start Escolas 
+Apr 30 21:29:39.509 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 30 21:29:39.509 HYPERVISOR: exec_cmd: vm stop Escolas 
+Apr 30 21:29:39.711 VM: VM Escolas shutdown.
+Apr 30 21:29:39.711 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 30 21:29:48.149 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+Apr 30 21:29:48.149 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 21:29:48.150 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 30 21:29:48.151 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+Apr 30 21:29:48.152 HYPERVISOR: exec_cmd: vm start Escolas 
+Apr 30 21:31:57.065 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 30 21:31:57.065 HYPERVISOR: exec_cmd: vm stop Escolas 
+Apr 30 21:31:57.270 VM: VM Escolas shutdown.
+Apr 30 21:31:57.272 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 30 23:47:21.904 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+Apr 30 23:47:21.904 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 23:47:21.904 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 30 23:47:21.905 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+Apr 30 23:47:21.905 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 00:04:57.443 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 00:04:57.443 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 00:04:57.754 VM: VM Escolas shutdown.
+May 01 00:04:57.756 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 00:05:15.695 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 00:05:15.696 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:05:15.696 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 00:05:15.696 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 00:05:15.697 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 00:20:57.931 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 00:20:57.931 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 00:20:58.194 VM: VM Escolas shutdown.
+May 01 00:20:58.195 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 00:21:11.060 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 00:21:11.063 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:21:11.065 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 00:21:11.066 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 00:21:11.067 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 00:22:07.425 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 00:22:07.425 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 00:22:07.701 VM: VM Escolas shutdown.
+May 01 00:22:07.701 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 00:22:38.160 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 00:22:38.161 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:22:38.162 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 00:22:38.164 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 00:22:38.166 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 00:25:11.746 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 00:25:11.746 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 00:25:12.077 VM: VM Escolas shutdown.
+May 01 00:25:12.078 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 00:25:21.064 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 00:25:21.068 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:25:21.070 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 00:25:21.071 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 00:25:21.072 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 00:26:45.122 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 00:26:45.122 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 00:26:45.332 VM: VM Escolas shutdown.
+May 01 00:26:45.333 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 00:26:49.982 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 00:26:49.983 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:26:49.984 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 00:26:49.985 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 00:26:49.986 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 00:27:38.517 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 00:27:38.517 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 00:27:38.727 VM: VM Escolas shutdown.
+May 01 00:27:38.728 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 00:27:42.534 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 00:27:42.535 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:27:42.535 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 00:27:42.538 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 00:27:42.540 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 00:28:24.247 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 00:28:24.248 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 00:28:24.478 VM: VM Escolas shutdown.
+May 01 00:28:24.479 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 00:28:36.936 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 00:28:36.937 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:28:36.938 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 00:28:36.939 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 00:28:36.939 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 00:30:30.147 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 00:30:30.147 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 00:30:30.364 VM: VM Escolas shutdown.
+May 01 00:30:30.365 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 00:34:40.981 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 00:34:40.982 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:34:40.982 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 00:34:40.985 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 00:34:40.985 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 00:37:33.044 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 00:37:33.044 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 00:37:33.294 VM: VM Escolas shutdown.
+May 01 00:37:33.294 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 00:38:04.903 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 00:38:04.903 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:38:04.904 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 00:38:04.905 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 00:38:04.906 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 00:40:21.648 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 00:40:21.648 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 00:40:21.853 VM: VM Escolas shutdown.
+May 01 00:40:21.854 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 00:41:16.677 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 00:41:16.678 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:41:16.680 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 00:41:16.680 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 00:41:16.681 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 00:45:25.201 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 00:45:25.202 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 00:45:25.467 VM: VM Escolas shutdown.
+May 01 00:45:25.468 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 00:48:41.721 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 00:48:41.722 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:48:41.723 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 00:48:41.724 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 00:48:41.725 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 00:50:00.569 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 00:50:00.569 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 00:50:00.846 VM: VM Escolas shutdown.
+May 01 00:50:00.847 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 00:50:13.574 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 00:50:13.576 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:50:13.576 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 00:50:13.577 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 00:50:13.578 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 00:50:18.482 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 00:50:18.484 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:50:18.485 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 00:51:44.601 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 00:51:44.602 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 00:51:44.923 VM: VM Escolas shutdown.
+May 01 00:51:44.925 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 00:51:47.842 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 00:51:47.843 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:51:47.844 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 00:51:47.846 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 00:51:47.846 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 00:58:19.387 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 00:58:19.387 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 00:58:19.674 VM: VM Escolas shutdown.
+May 01 00:58:19.675 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 00:58:39.684 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 00:58:39.684 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:58:39.685 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 00:58:39.685 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 00:58:39.685 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 01:00:40.114 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 01:00:40.114 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 01:00:40.323 VM: VM Escolas shutdown.
+May 01 01:00:40.324 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 01:00:45.771 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 01:00:45.772 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:00:45.772 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 01:00:45.772 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 01:00:45.773 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 01:03:31.062 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 01:03:31.062 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 01:03:31.273 VM: VM Escolas shutdown.
+May 01 01:03:31.273 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 01:06:27.848 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 01:06:27.852 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:06:27.853 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 01:06:27.855 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 01:06:27.856 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 01:08:27.514 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 01:08:27.514 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 01:08:27.721 VM: VM Escolas shutdown.
+May 01 01:08:27.721 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 01:08:50.158 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 01:08:50.158 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:08:50.160 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 01:08:50.160 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 01:08:50.161 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 01:10:29.047 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 01:10:29.048 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 01:10:29.260 VM: VM Escolas shutdown.
+May 01 01:10:29.261 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 01:10:37.039 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 01:10:37.040 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:10:37.040 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 01:10:37.041 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 01:10:37.041 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 01:12:10.085 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 01:12:10.087 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:12:10.088 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 01:12:12.667 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 01:12:12.669 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 01:12:12.894 VM: VM Escolas shutdown.
+May 01 01:12:12.895 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 01:12:17.069 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 01:12:17.070 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:12:17.072 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 01:12:17.073 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 01:12:17.073 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 01:14:43.857 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 01:14:43.858 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 01:14:44.064 VM: VM Escolas shutdown.
+May 01 01:14:44.065 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 01:14:49.879 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 01:14:49.880 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:14:49.880 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 01:14:49.882 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 01:14:49.882 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 01:25:06.430 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 01:25:06.431 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 01:25:06.634 VM: VM Escolas shutdown.
+May 01 01:25:06.635 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 01:31:06.878 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 01:31:06.880 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:31:06.880 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 01:31:06.881 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 01:31:06.882 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 01:32:51.204 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 01:32:51.205 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 01:32:51.431 VM: VM Escolas shutdown.
+May 01 01:32:51.432 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 01:33:25.401 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 01:33:25.401 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:33:25.403 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 01:33:25.404 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 01:33:25.404 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 01:35:58.173 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 01:35:58.173 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 01:35:58.381 VM: VM Escolas shutdown.
+May 01 01:35:58.382 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 01:37:30.149 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 01:37:30.151 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:37:30.151 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 01:37:30.153 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 01:37:30.153 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 01:38:47.806 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 01:38:47.806 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 01:38:48.111 VM: VM Escolas shutdown.
+May 01 01:38:48.112 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 01:44:48.756 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 01:44:48.757 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:44:48.757 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 01:44:48.758 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 01:44:48.758 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 01:47:52.687 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 01:47:52.687 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 01:47:52.954 VM: VM Escolas shutdown.
+May 01 01:47:52.955 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 01:48:56.472 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 01:48:56.473 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:48:56.474 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 01:48:56.476 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 01:48:56.476 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 01:52:46.679 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 01:52:46.679 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 01:52:46.933 VM: VM Escolas shutdown.
+May 01 01:52:46.934 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 01:57:01.931 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 01:57:01.932 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:57:01.932 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 01:57:01.933 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 01:57:01.933 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 02:04:31.266 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 02:04:31.267 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 02:04:31.470 VM: VM Escolas shutdown.
+May 01 02:04:31.471 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 02:09:19.620 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 02:09:19.620 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 02:09:19.621 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 02:09:19.621 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 02:09:19.621 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 02:10:06.109 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 02:10:06.110 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 02:10:06.313 VM: VM Escolas shutdown.
+May 01 02:10:06.313 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 02:17:40.132 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 02:17:40.133 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 02:17:40.133 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 02:17:40.134 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 02:17:40.134 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 02:20:10.408 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 02:20:10.409 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 02:20:10.713 VM: VM Escolas shutdown.
+May 01 02:20:10.716 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 02:41:02.503 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 02:41:02.503 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 02:41:02.504 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 02:41:02.507 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 02:41:02.508 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 02:44:13.289 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 02:44:13.289 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 02:44:13.577 VM: VM Escolas shutdown.
+May 01 02:44:13.578 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 03:15:06.748 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 03:15:06.749 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:15:06.750 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 03:15:06.752 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 03:15:06.753 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 03:20:18.259 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 03:20:18.259 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 03:20:18.459 VM: VM Escolas shutdown.
+May 01 03:20:18.459 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 03:20:24.708 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 03:20:24.709 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:20:24.709 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 03:20:24.710 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 03:20:24.710 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 03:21:04.433 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 03:21:04.434 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 03:21:04.666 VM: VM Escolas shutdown.
+May 01 03:21:04.668 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 03:21:19.878 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 03:21:19.880 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:21:19.881 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 03:21:19.883 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 03:21:19.884 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 03:23:39.300 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 03:23:39.301 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 03:23:39.515 VM: VM Escolas shutdown.
+May 01 03:23:39.516 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 03:23:50.040 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 03:23:50.041 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:23:50.041 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 03:23:50.042 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 03:23:50.042 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 03:31:18.618 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 03:31:18.618 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 03:31:18.831 VM: VM Escolas shutdown.
+May 01 03:31:18.832 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 03:32:16.661 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 03:32:16.662 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:32:16.662 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 03:32:16.664 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 03:32:16.664 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 03:35:05.180 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 03:35:05.180 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 03:35:05.442 VM: VM Escolas shutdown.
+May 01 03:35:05.442 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 03:36:02.781 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 03:36:02.782 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:36:02.783 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 03:36:02.784 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 03:36:02.786 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 03:40:00.147 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 03:40:00.149 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 03:40:00.361 VM: VM Escolas shutdown.
+May 01 03:40:00.361 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 03:40:02.593 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 03:40:02.594 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:40:02.594 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 03:40:02.595 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 03:40:02.595 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 03:40:13.995 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 03:40:13.996 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 03:40:14.234 VM: VM Escolas shutdown.
+May 01 03:40:14.236 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 03:40:30.421 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 03:40:30.423 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:40:30.424 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 03:40:30.425 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 03:40:30.425 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 03:43:24.902 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 03:43:24.903 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 03:43:25.168 VM: VM Escolas shutdown.
+May 01 03:43:25.168 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 03:43:31.803 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 03:43:31.804 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:43:31.804 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 03:43:31.805 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 03:43:31.805 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 03:44:55.019 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 03:44:55.019 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 03:44:55.273 VM: VM Escolas shutdown.
+May 01 03:44:55.274 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+May 01 03:45:22.828 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+May 01 03:45:22.828 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:45:22.830 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 03:45:22.831 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+May 01 03:45:22.832 HYPERVISOR: exec_cmd: vm start Escolas 
+May 01 03:47:27.821 HYPERVISOR: exec_cmd: vm get_status Escolas 
+May 01 03:47:27.821 HYPERVISOR: exec_cmd: vm stop Escolas 
+May 01 03:47:28.152 VM: VM Escolas shutdown.
+May 01 03:47:28.153 HYPERVISOR: exec_cmd: vm extract_config Escolas 

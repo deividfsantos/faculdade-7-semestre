@@ -1,0 +1,551 @@
+Apr 29 19:26:05.385 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Apr 29 19:26:05.385 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 39109.
+Apr 29 19:26:05.393 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 29 19:26:05.393 HYPERVISOR: exec_cmd: hypervisor working_dir /home/deivid/GNS3/projects/trabredesav/project-files/dynamips 
+Apr 29 19:26:05.393 GENERAL: working_dir=/home/deivid/GNS3/projects/trabredesav/project-files/dynamips
+Apr 29 19:26:05.394 HYPERVISOR: exec_cmd: hypervisor working_dir /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/cfae6693-c156-4f1b-9cea-c240514497bf 
+Apr 29 19:26:05.394 GENERAL: working_dir=/home/deivid/GNS3/projects/trabredesav/project-files/dynamips/cfae6693-c156-4f1b-9cea-c240514497bf
+Apr 29 19:26:05.394 HYPERVISOR: exec_cmd: vm create Corporativo 3 c3745 
+Apr 29 19:26:05.394 VM: VM Corporativo created.
+Apr 29 19:26:05.394 HYPERVISOR: exec_cmd: vm set_con_tcp_port Corporativo 5024 
+Apr 29 19:26:05.394 HYPERVISOR: exec_cmd: c3745 get_mac_addr Corporativo 
+Apr 29 19:26:05.395 HYPERVISOR: exec_cmd: vm set_disk0 Corporativo 0 
+Apr 29 19:26:05.395 HYPERVISOR: exec_cmd: vm set_ios Corporativo /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 29 19:26:05.396 HYPERVISOR: exec_cmd: c3745 set_mac_addr Corporativo c403.f196.0000 
+Apr 29 19:26:05.396 HYPERVISOR: exec_cmd: vm set_nvram Corporativo 256 
+Apr 29 19:26:05.396 HYPERVISOR: exec_cmd: vm set_ram Corporativo 256 
+Apr 29 19:26:05.396 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 29 19:26:05.397 HYPERVISOR: exec_cmd: vm slot_add_binding Corporativo 1 0 NM-1FE-TX 
+Apr 29 19:26:05.397 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 29 19:26:05.397 HYPERVISOR: exec_cmd: vm slot_add_binding Corporativo 2 0 NM-1FE-TX 
+Apr 29 19:26:05.397 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 29 19:26:05.397 HYPERVISOR: exec_cmd: vm slot_add_binding Corporativo 3 0 NM-1FE-TX 
+Apr 29 19:26:08.526 HYPERVISOR: exec_cmd: nio create_udp udp-0f294f6a-84e8-4505-be97-1f870605f408 10060 127.0.0.1 10061 
+Apr 29 19:26:08.737 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Corporativo 0 0 udp-0f294f6a-84e8-4505-be97-1f870605f408 
+Apr 29 19:26:08.738 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 29 19:26:08.910 HYPERVISOR: exec_cmd: nio create_udp udp-82b54dbd-7ea7-475e-8ae2-e97a60f54e0c 10068 127.0.0.1 10069 
+Apr 29 19:26:08.910 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Corporativo 0 1 udp-82b54dbd-7ea7-475e-8ae2-e97a60f54e0c 
+Apr 29 19:26:08.911 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 29 19:26:09.013 HYPERVISOR: exec_cmd: nio create_udp udp-cb4884b2-c265-4cfc-86f8-c7f89c3de2c9 10072 127.0.0.1 10073 
+Apr 29 19:26:09.015 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Corporativo 1 0 udp-cb4884b2-c265-4cfc-86f8-c7f89c3de2c9 
+Apr 29 19:26:09.015 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 29 19:26:11.120 HYPERVISOR: exec_cmd: nio create_udp udp-99704f43-f9dc-4fbf-b5ee-303299b6e8a2 10120 127.0.0.1 10121 
+Apr 29 19:26:11.121 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Corporativo 2 0 udp-99704f43-f9dc-4fbf-b5ee-303299b6e8a2 
+Apr 29 19:26:11.122 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 29 19:26:11.223 HYPERVISOR: exec_cmd: nio create_udp udp-8787b2b5-b5cf-4835-b659-ea6f1189ed2a 10124 127.0.0.1 10125 
+Apr 29 19:26:11.224 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Corporativo 3 0 udp-8787b2b5-b5cf-4835-b659-ea6f1189ed2a 
+Apr 29 19:26:11.225 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 29 19:26:16.304 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+Apr 29 19:26:16.308 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:26:16.309 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 29 19:26:16.310 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+Apr 29 19:26:16.310 HYPERVISOR: exec_cmd: vm start Corporativo 
+Apr 29 19:30:19.044 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 29 19:30:19.045 HYPERVISOR: exec_cmd: vm stop Corporativo 
+Apr 29 19:30:19.180 VM: VM Corporativo shutdown.
+Apr 29 19:30:19.181 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+Apr 29 19:30:30.687 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+Apr 29 19:30:30.689 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:30:30.689 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 29 19:30:30.690 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+Apr 29 19:30:30.691 HYPERVISOR: exec_cmd: vm start Corporativo 
+Apr 29 19:30:47.256 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 29 19:30:47.257 HYPERVISOR: exec_cmd: vm stop Corporativo 
+Apr 29 19:30:50.172 VM: VM Corporativo shutdown.
+Apr 29 19:30:50.173 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+Apr 29 19:31:00.698 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+Apr 29 19:31:00.700 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:31:00.701 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 29 19:31:00.702 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+Apr 29 19:31:00.702 HYPERVISOR: exec_cmd: vm start Corporativo 
+Apr 29 19:37:58.470 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 29 19:37:58.470 HYPERVISOR: exec_cmd: vm stop Corporativo 
+Apr 29 19:37:58.599 VM: VM Corporativo shutdown.
+Apr 29 19:37:58.600 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+Apr 29 19:39:29.393 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+Apr 29 19:39:29.394 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:39:29.395 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 29 19:39:29.397 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+Apr 29 19:39:29.397 HYPERVISOR: exec_cmd: vm start Corporativo 
+Apr 29 19:40:39.740 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 29 19:40:39.740 HYPERVISOR: exec_cmd: vm stop Corporativo 
+Apr 29 19:40:39.887 VM: VM Corporativo shutdown.
+Apr 29 19:40:39.888 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+Apr 29 19:48:49.007 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+Apr 29 19:48:49.009 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:48:49.009 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 29 19:48:49.011 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+Apr 29 19:48:49.011 HYPERVISOR: exec_cmd: vm start Corporativo 
+Apr 29 19:55:14.046 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 29 19:55:14.047 HYPERVISOR: exec_cmd: vm stop Corporativo 
+Apr 29 19:55:14.191 VM: VM Corporativo shutdown.
+Apr 29 19:55:14.191 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+Apr 29 19:55:25.673 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+Apr 29 19:55:25.675 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:55:25.675 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 29 19:55:25.676 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+Apr 29 19:55:25.676 HYPERVISOR: exec_cmd: vm start Corporativo 
+Apr 29 20:00:38.908 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 29 20:00:38.909 HYPERVISOR: exec_cmd: vm stop Corporativo 
+Apr 29 20:00:39.045 VM: VM Corporativo shutdown.
+Apr 29 20:00:39.046 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+Apr 29 20:15:32.572 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+Apr 29 20:15:32.574 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 20:15:32.575 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 29 20:15:32.576 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+Apr 29 20:15:32.576 HYPERVISOR: exec_cmd: vm start Corporativo 
+Apr 29 20:16:26.967 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 29 20:16:26.967 HYPERVISOR: exec_cmd: vm stop Corporativo 
+Apr 29 20:16:27.104 VM: VM Corporativo shutdown.
+Apr 29 20:16:27.105 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+Apr 30 18:48:07.673 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+Apr 30 18:48:07.674 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 18:48:07.675 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 30 18:48:07.676 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+Apr 30 18:48:07.677 HYPERVISOR: exec_cmd: vm start Corporativo 
+Apr 30 18:58:30.000 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 30 18:58:30.001 HYPERVISOR: exec_cmd: vm stop Corporativo 
+Apr 30 18:58:30.176 VM: VM Corporativo shutdown.
+Apr 30 18:58:30.177 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+Apr 30 19:05:53.902 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+Apr 30 19:05:53.903 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 19:05:53.904 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 30 19:05:53.905 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+Apr 30 19:05:53.905 HYPERVISOR: exec_cmd: vm start Corporativo 
+Apr 30 19:24:05.781 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 30 19:24:05.781 HYPERVISOR: exec_cmd: vm stop Corporativo 
+Apr 30 19:24:05.966 VM: VM Corporativo shutdown.
+Apr 30 19:24:05.967 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+Apr 30 20:14:16.657 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+Apr 30 20:14:16.657 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 20:14:16.657 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 30 20:14:16.658 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+Apr 30 20:14:16.658 HYPERVISOR: exec_cmd: vm start Corporativo 
+Apr 30 20:20:25.731 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 30 20:20:25.732 HYPERVISOR: exec_cmd: vm stop Corporativo 
+Apr 30 20:20:25.856 VM: VM Corporativo shutdown.
+Apr 30 20:20:25.857 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+Apr 30 20:25:09.915 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+Apr 30 20:25:09.917 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 20:25:09.918 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 30 20:25:09.919 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+Apr 30 20:25:09.919 HYPERVISOR: exec_cmd: vm start Corporativo 
+Apr 30 20:37:47.356 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 30 20:37:47.357 HYPERVISOR: exec_cmd: vm stop Corporativo 
+Apr 30 20:37:47.481 VM: VM Corporativo shutdown.
+Apr 30 20:37:47.481 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+Apr 30 20:39:36.342 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+Apr 30 20:39:36.343 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 20:39:36.344 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 30 20:39:36.344 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+Apr 30 20:39:36.345 HYPERVISOR: exec_cmd: vm start Corporativo 
+Apr 30 20:49:43.084 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 30 20:49:43.084 HYPERVISOR: exec_cmd: vm stop Corporativo 
+Apr 30 20:49:43.311 VM: VM Corporativo shutdown.
+Apr 30 20:49:43.312 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+Apr 30 21:12:33.627 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+Apr 30 21:12:33.629 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 21:12:33.629 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 30 21:12:33.630 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+Apr 30 21:12:33.631 HYPERVISOR: exec_cmd: vm start Corporativo 
+Apr 30 21:16:27.849 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 30 21:16:27.849 HYPERVISOR: exec_cmd: vm stop Corporativo 
+Apr 30 21:16:28.035 VM: VM Corporativo shutdown.
+Apr 30 21:16:28.036 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+Apr 30 21:20:43.785 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+Apr 30 21:20:43.786 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 21:20:43.786 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 30 21:20:43.787 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+Apr 30 21:20:43.787 HYPERVISOR: exec_cmd: vm start Corporativo 
+Apr 30 21:26:29.762 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 30 21:26:29.762 HYPERVISOR: exec_cmd: vm stop Corporativo 
+Apr 30 21:26:29.901 VM: VM Corporativo shutdown.
+Apr 30 21:26:29.901 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+Apr 30 21:27:39.669 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+Apr 30 21:27:39.671 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 21:27:39.671 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 30 21:27:39.672 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+Apr 30 21:27:39.672 HYPERVISOR: exec_cmd: vm start Corporativo 
+Apr 30 21:29:39.381 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 30 21:29:39.381 HYPERVISOR: exec_cmd: vm stop Corporativo 
+Apr 30 21:29:39.566 VM: VM Corporativo shutdown.
+Apr 30 21:29:39.567 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+Apr 30 21:29:47.893 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+Apr 30 21:29:47.895 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 21:29:47.897 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 30 21:29:47.898 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+Apr 30 21:29:47.899 HYPERVISOR: exec_cmd: vm start Corporativo 
+Apr 30 21:31:56.974 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 30 21:31:56.975 HYPERVISOR: exec_cmd: vm stop Corporativo 
+Apr 30 21:31:57.213 VM: VM Corporativo shutdown.
+Apr 30 21:31:57.214 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+Apr 30 23:47:21.653 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+Apr 30 23:47:21.655 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 23:47:21.656 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+Apr 30 23:47:21.657 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+Apr 30 23:47:21.657 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 00:02:30.697 HYPERVISOR: exec_cmd: vm set_ios Corporativo /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+May 01 00:02:30.955 HYPERVISOR: exec_cmd: vm set_ios Corporativo /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+May 01 00:04:57.327 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 00:04:57.328 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 00:04:57.503 VM: VM Corporativo shutdown.
+May 01 00:04:57.504 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 00:05:15.450 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 00:05:15.451 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:05:15.452 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 00:05:15.453 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 00:05:15.453 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 00:20:57.844 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 00:20:57.844 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 00:20:57.981 VM: VM Corporativo shutdown.
+May 01 00:20:57.982 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 00:21:10.814 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 00:21:10.816 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:21:10.816 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 00:21:10.817 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 00:21:10.818 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 00:22:07.350 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 00:22:07.351 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 00:22:07.479 VM: VM Corporativo shutdown.
+May 01 00:22:07.480 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 00:22:37.903 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 00:22:37.905 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:22:37.906 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 00:22:37.907 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 00:22:37.907 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 00:25:11.661 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 00:25:11.662 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 00:25:11.794 VM: VM Corporativo shutdown.
+May 01 00:25:11.794 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 00:25:20.817 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 00:25:20.818 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:25:20.819 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 00:25:20.820 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 00:25:20.820 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 00:26:44.983 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 00:26:44.984 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 00:26:45.168 VM: VM Corporativo shutdown.
+May 01 00:26:45.169 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 00:26:49.738 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 00:26:49.739 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:26:49.740 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 00:26:49.741 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 00:26:49.741 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 00:27:38.393 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 00:27:38.394 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 00:27:38.529 VM: VM Corporativo shutdown.
+May 01 00:27:38.529 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 00:27:42.297 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 00:27:42.298 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:27:42.300 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 00:27:42.301 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 00:27:42.301 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 00:28:24.109 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 00:28:24.109 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 00:28:24.289 VM: VM Corporativo shutdown.
+May 01 00:28:24.290 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 00:28:36.689 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 00:28:36.691 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:28:36.692 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 00:28:36.693 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 00:28:36.693 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 00:30:30.040 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 00:30:30.040 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 00:30:30.217 VM: VM Corporativo shutdown.
+May 01 00:30:30.218 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 00:34:40.723 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 00:34:40.724 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:34:40.725 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 00:34:40.725 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 00:34:40.726 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 00:37:32.900 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 00:37:32.901 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 00:37:33.047 VM: VM Corporativo shutdown.
+May 01 00:37:33.049 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 00:38:04.643 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 00:38:04.644 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:38:04.644 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 00:38:04.645 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 00:38:04.645 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 00:40:21.555 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 00:40:21.555 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 00:40:21.736 VM: VM Corporativo shutdown.
+May 01 00:40:21.737 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 00:41:16.420 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 00:41:16.421 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:41:16.422 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 00:41:16.423 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 00:41:16.423 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 00:45:25.110 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 00:45:25.111 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 00:45:25.291 VM: VM Corporativo shutdown.
+May 01 00:45:25.292 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 00:48:41.469 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 00:48:41.471 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:48:41.472 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 00:48:41.473 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 00:48:41.473 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 00:50:00.491 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 00:50:00.491 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 00:50:00.710 VM: VM Corporativo shutdown.
+May 01 00:50:00.711 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 00:50:13.316 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 00:50:13.317 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:50:13.317 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 00:50:13.317 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 00:50:13.318 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 00:50:18.468 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 00:50:18.471 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:50:18.472 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 00:51:44.447 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 00:51:44.448 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 00:51:44.632 VM: VM Corporativo shutdown.
+May 01 00:51:44.633 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 00:51:47.589 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 00:51:47.590 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:51:47.591 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 00:51:47.592 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 00:51:47.592 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 00:52:12.587 HYPERVISOR: exec_cmd: vm set_ios Corporativo /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+May 01 00:52:12.773 HYPERVISOR: exec_cmd: vm set_ios Corporativo /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+May 01 00:58:19.300 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 00:58:19.301 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 00:58:19.475 VM: VM Corporativo shutdown.
+May 01 00:58:19.476 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 00:58:39.465 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 00:58:39.466 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:58:39.467 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 00:58:39.468 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 00:58:39.468 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 01:00:40.014 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 01:00:40.015 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 01:00:40.163 VM: VM Corporativo shutdown.
+May 01 01:00:40.163 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 01:00:45.533 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 01:00:45.535 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:00:45.536 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 01:00:45.537 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 01:00:45.537 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 01:03:30.970 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 01:03:30.970 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 01:03:31.113 VM: VM Corporativo shutdown.
+May 01 01:03:31.114 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 01:06:27.607 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 01:06:27.608 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:06:27.609 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 01:06:27.610 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 01:06:27.610 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 01:08:27.388 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 01:08:27.389 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 01:08:27.563 VM: VM Corporativo shutdown.
+May 01 01:08:27.564 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 01:08:49.897 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 01:08:49.898 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:08:49.898 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 01:08:49.899 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 01:08:49.899 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 01:10:28.916 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 01:10:28.916 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 01:10:29.103 VM: VM Corporativo shutdown.
+May 01 01:10:29.104 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 01:10:36.801 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 01:10:36.803 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:10:36.803 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 01:10:36.804 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 01:10:36.804 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 01:12:10.073 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 01:12:10.075 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:12:10.076 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 01:12:12.518 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 01:12:12.519 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 01:12:12.654 VM: VM Corporativo shutdown.
+May 01 01:12:12.655 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 01:12:16.822 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 01:12:16.824 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:12:16.824 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 01:12:16.825 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 01:12:16.826 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 01:14:43.723 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 01:14:43.724 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 01:14:43.874 VM: VM Corporativo shutdown.
+May 01 01:14:43.875 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 01:14:49.615 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 01:14:49.617 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:14:49.618 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 01:14:49.619 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 01:14:49.619 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 01:25:06.291 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 01:25:06.291 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 01:25:06.437 VM: VM Corporativo shutdown.
+May 01 01:25:06.438 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 01:31:06.625 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 01:31:06.626 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:31:06.626 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 01:31:06.627 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 01:31:06.627 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 01:32:51.123 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 01:32:51.124 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 01:32:51.251 VM: VM Corporativo shutdown.
+May 01 01:32:51.251 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 01:33:25.147 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 01:33:25.148 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:33:25.149 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 01:33:25.150 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 01:33:25.151 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 01:35:58.084 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 01:35:58.085 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 01:35:58.225 VM: VM Corporativo shutdown.
+May 01 01:35:58.225 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 01:37:29.891 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 01:37:29.892 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:37:29.892 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 01:37:29.893 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 01:37:29.893 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 01:38:47.707 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 01:38:47.708 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 01:38:47.904 VM: VM Corporativo shutdown.
+May 01 01:38:47.906 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 01:44:48.518 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 01:44:48.519 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:44:48.520 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 01:44:48.521 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 01:44:48.522 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 01:47:52.599 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 01:47:52.600 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 01:47:52.778 VM: VM Corporativo shutdown.
+May 01 01:47:52.779 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 01:48:56.216 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 01:48:56.217 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:48:56.218 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 01:48:56.218 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 01:48:56.219 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 01:52:46.558 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 01:52:46.558 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 01:52:46.732 VM: VM Corporativo shutdown.
+May 01 01:52:46.732 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 01:57:01.688 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 01:57:01.689 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:57:01.689 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 01:57:01.689 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 01:57:01.690 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 02:04:31.136 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 02:04:31.136 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 02:04:31.305 VM: VM Corporativo shutdown.
+May 01 02:04:31.306 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 02:09:19.389 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 02:09:19.390 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 02:09:19.390 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 02:09:19.391 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 02:09:19.391 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 02:10:06.013 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 02:10:06.013 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 02:10:06.145 VM: VM Corporativo shutdown.
+May 01 02:10:06.146 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 02:17:39.892 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 02:17:39.893 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 02:17:39.894 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 02:17:39.895 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 02:17:39.895 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 02:20:10.235 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 02:20:10.236 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 02:20:10.438 VM: VM Corporativo shutdown.
+May 01 02:20:10.439 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 02:41:02.253 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 02:41:02.254 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 02:41:02.255 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 02:41:02.256 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 02:41:02.256 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 02:44:13.212 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 02:44:13.213 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 02:44:13.396 VM: VM Corporativo shutdown.
+May 01 02:44:13.397 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 03:15:06.483 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 03:15:06.484 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:15:06.484 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 03:15:06.485 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 03:15:06.485 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 03:20:18.170 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 03:20:18.171 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 03:20:18.356 VM: VM Corporativo shutdown.
+May 01 03:20:18.357 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 03:20:24.463 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 03:20:24.464 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:20:24.464 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 03:20:24.465 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 03:20:24.465 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 03:21:04.296 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 03:21:04.297 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 03:21:04.442 VM: VM Corporativo shutdown.
+May 01 03:21:04.443 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 03:21:19.617 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 03:21:19.618 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:21:19.619 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 03:21:19.619 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 03:21:19.620 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 03:23:39.204 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 03:23:39.205 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 03:23:39.385 VM: VM Corporativo shutdown.
+May 01 03:23:39.387 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 03:23:49.802 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 03:23:49.804 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:23:49.804 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 03:23:49.805 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 03:23:49.805 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 03:31:18.484 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 03:31:18.484 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 03:31:18.666 VM: VM Corporativo shutdown.
+May 01 03:31:18.666 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 03:32:16.407 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 03:32:16.408 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:32:16.409 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 03:32:16.410 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 03:32:16.410 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 03:35:05.039 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 03:35:05.040 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 03:35:05.227 VM: VM Corporativo shutdown.
+May 01 03:35:05.228 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 03:36:02.524 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 03:36:02.526 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:36:02.527 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 03:36:02.528 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 03:36:02.528 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 03:39:59.998 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 03:39:59.998 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 03:40:00.144 VM: VM Corporativo shutdown.
+May 01 03:40:00.145 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 03:40:02.357 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 03:40:02.357 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:40:02.358 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 03:40:02.358 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 03:40:02.358 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 03:40:13.903 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 03:40:13.904 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 03:40:14.059 VM: VM Corporativo shutdown.
+May 01 03:40:14.059 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 03:40:30.156 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 03:40:30.158 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:40:30.158 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 03:40:30.159 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 03:40:30.159 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 03:43:24.748 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 03:43:24.749 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 03:43:24.896 VM: VM Corporativo shutdown.
+May 01 03:43:24.897 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 03:43:31.565 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 03:43:31.566 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:43:31.567 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 03:43:31.567 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 03:43:31.568 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 03:44:54.884 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 03:44:54.885 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 03:44:55.072 VM: VM Corporativo shutdown.
+May 01 03:44:55.073 HYPERVISOR: exec_cmd: vm extract_config Corporativo 
+May 01 03:45:22.571 HYPERVISOR: exec_cmd: vm set_ghost_status Corporativo 2 
+May 01 03:45:22.572 HYPERVISOR: exec_cmd: vm set_ghost_file Corporativo /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:45:22.573 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 03:45:22.574 HYPERVISOR: exec_cmd: vm set_config Corporativo configs/i3_startup-config.cfg 
+May 01 03:45:22.574 HYPERVISOR: exec_cmd: vm start Corporativo 
+May 01 03:47:27.685 HYPERVISOR: exec_cmd: vm get_status Corporativo 
+May 01 03:47:27.689 HYPERVISOR: exec_cmd: vm stop Corporativo 
+May 01 03:47:27.875 VM: VM Corporativo shutdown.
+May 01 03:47:27.877 HYPERVISOR: exec_cmd: vm extract_config Corporativo 

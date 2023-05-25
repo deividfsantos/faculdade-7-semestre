@@ -1,0 +1,549 @@
+Apr 29 19:26:05.421 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Apr 29 19:26:05.421 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 43157.
+Apr 29 19:26:05.430 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 29 19:26:05.430 HYPERVISOR: exec_cmd: hypervisor working_dir /home/deivid/GNS3/projects/trabredesav/project-files/dynamips 
+Apr 29 19:26:05.430 GENERAL: working_dir=/home/deivid/GNS3/projects/trabredesav/project-files/dynamips
+Apr 29 19:26:05.430 HYPERVISOR: exec_cmd: hypervisor working_dir /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/2f994fb1-9ce3-45ca-a0bf-ab70c33657ca 
+Apr 29 19:26:05.430 GENERAL: working_dir=/home/deivid/GNS3/projects/trabredesav/project-files/dynamips/2f994fb1-9ce3-45ca-a0bf-ab70c33657ca
+Apr 29 19:26:05.431 HYPERVISOR: exec_cmd: vm create TI 4 c3745 
+Apr 29 19:26:05.431 VM: VM TI created.
+Apr 29 19:26:05.431 HYPERVISOR: exec_cmd: vm set_con_tcp_port TI 5026 
+Apr 29 19:26:05.431 HYPERVISOR: exec_cmd: c3745 get_mac_addr TI 
+Apr 29 19:26:05.432 HYPERVISOR: exec_cmd: vm set_disk0 TI 0 
+Apr 29 19:26:05.432 HYPERVISOR: exec_cmd: vm set_ios TI /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 29 19:26:05.432 HYPERVISOR: exec_cmd: c3745 set_mac_addr TI c404.f1b4.0000 
+Apr 29 19:26:05.433 HYPERVISOR: exec_cmd: vm set_nvram TI 256 
+Apr 29 19:26:05.433 HYPERVISOR: exec_cmd: vm set_ram TI 256 
+Apr 29 19:26:05.433 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 29 19:26:05.433 HYPERVISOR: exec_cmd: vm slot_add_binding TI 1 0 NM-1FE-TX 
+Apr 29 19:26:05.434 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 29 19:26:05.434 HYPERVISOR: exec_cmd: vm slot_add_binding TI 2 0 NM-1FE-TX 
+Apr 29 19:26:07.799 HYPERVISOR: exec_cmd: nio create_udp udp-7f28d5b1-c8ae-4aaa-bdd8-0ad6cd16aadb 10040 127.0.0.1 10041 
+Apr 29 19:26:08.010 HYPERVISOR: exec_cmd: vm slot_add_nio_binding TI 0 1 udp-7f28d5b1-c8ae-4aaa-bdd8-0ad6cd16aadb 
+Apr 29 19:26:08.011 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 29 19:26:08.135 HYPERVISOR: exec_cmd: nio create_udp udp-6497dee7-6344-4bdb-8e31-3952785d7eac 10044 127.0.0.1 10045 
+Apr 29 19:26:08.136 HYPERVISOR: exec_cmd: vm slot_add_nio_binding TI 1 0 udp-6497dee7-6344-4bdb-8e31-3952785d7eac 
+Apr 29 19:26:08.137 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 29 19:26:08.232 HYPERVISOR: exec_cmd: nio create_udp udp-68817cef-49d2-4e19-bd25-bc8b2a624be8 10048 127.0.0.1 10049 
+Apr 29 19:26:08.233 HYPERVISOR: exec_cmd: vm slot_add_nio_binding TI 2 0 udp-68817cef-49d2-4e19-bd25-bc8b2a624be8 
+Apr 29 19:26:08.234 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 29 19:26:08.427 HYPERVISOR: exec_cmd: nio create_udp udp-51c45826-9caa-4d20-9897-c4f74d492c80 10056 127.0.0.1 10057 
+Apr 29 19:26:08.429 HYPERVISOR: exec_cmd: vm slot_add_nio_binding TI 0 0 udp-51c45826-9caa-4d20-9897-c4f74d492c80 
+Apr 29 19:26:08.429 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 29 19:26:16.534 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+Apr 29 19:26:16.534 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:26:16.535 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 29 19:26:16.535 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+Apr 29 19:26:16.536 HYPERVISOR: exec_cmd: vm start TI 
+Apr 29 19:28:22.699 HYPERVISOR: exec_cmd: vm set_ios TI /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 29 19:28:22.910 HYPERVISOR: exec_cmd: vm set_ios TI /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 29 19:30:19.162 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 29 19:30:19.163 HYPERVISOR: exec_cmd: vm stop TI 
+Apr 29 19:30:19.320 VM: VM TI shutdown.
+Apr 29 19:30:19.321 HYPERVISOR: exec_cmd: vm extract_config TI 
+Apr 29 19:30:30.901 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+Apr 29 19:30:30.902 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:30:30.902 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 29 19:30:30.903 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+Apr 29 19:30:30.903 HYPERVISOR: exec_cmd: vm start TI 
+Apr 29 19:30:49.124 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 29 19:30:49.125 HYPERVISOR: exec_cmd: vm stop TI 
+Apr 29 19:30:50.788 VM: VM TI shutdown.
+Apr 29 19:30:50.791 HYPERVISOR: exec_cmd: vm extract_config TI 
+Apr 29 19:31:00.914 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+Apr 29 19:31:00.914 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:31:00.915 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 29 19:31:00.915 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+Apr 29 19:31:00.915 HYPERVISOR: exec_cmd: vm start TI 
+Apr 29 19:31:02.194 HYPERVISOR: exec_cmd: vm set_ios TI /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 29 19:34:31.167 HYPERVISOR: exec_cmd: vm extract_config TI 
+Apr 29 19:34:31.169 HYPERVISOR: exec_cmd: vm extract_config TI 
+Apr 29 19:36:31.180 HYPERVISOR: exec_cmd: vm extract_config TI 
+Apr 29 19:36:31.184 HYPERVISOR: exec_cmd: vm extract_config TI 
+Apr 29 19:37:58.521 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 29 19:37:58.521 HYPERVISOR: exec_cmd: vm stop TI 
+Apr 29 19:37:58.695 VM: VM TI shutdown.
+Apr 29 19:37:58.696 HYPERVISOR: exec_cmd: vm extract_config TI 
+Apr 29 19:39:29.626 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+Apr 29 19:39:29.627 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:39:29.629 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 29 19:39:29.640 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+Apr 29 19:39:29.652 HYPERVISOR: exec_cmd: vm start TI 
+Apr 29 19:40:39.804 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 29 19:40:39.804 HYPERVISOR: exec_cmd: vm stop TI 
+Apr 29 19:40:39.921 VM: VM TI shutdown.
+Apr 29 19:40:39.922 HYPERVISOR: exec_cmd: vm extract_config TI 
+Apr 29 19:48:49.230 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+Apr 29 19:48:49.231 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:48:49.232 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 29 19:48:49.233 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+Apr 29 19:48:49.233 HYPERVISOR: exec_cmd: vm start TI 
+Apr 29 19:55:14.123 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 29 19:55:14.124 HYPERVISOR: exec_cmd: vm stop TI 
+Apr 29 19:55:14.246 VM: VM TI shutdown.
+Apr 29 19:55:14.250 HYPERVISOR: exec_cmd: vm extract_config TI 
+Apr 29 19:55:25.898 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+Apr 29 19:55:25.900 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:55:25.901 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 29 19:55:25.909 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+Apr 29 19:55:25.911 HYPERVISOR: exec_cmd: vm start TI 
+Apr 29 20:00:38.977 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 29 20:00:38.977 HYPERVISOR: exec_cmd: vm stop TI 
+Apr 29 20:00:39.086 VM: VM TI shutdown.
+Apr 29 20:00:39.089 HYPERVISOR: exec_cmd: vm extract_config TI 
+Apr 29 20:15:32.796 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+Apr 29 20:15:32.797 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 20:15:32.797 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 29 20:15:32.798 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+Apr 29 20:15:32.798 HYPERVISOR: exec_cmd: vm start TI 
+Apr 29 20:16:27.095 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 29 20:16:27.095 HYPERVISOR: exec_cmd: vm stop TI 
+Apr 29 20:16:27.270 VM: VM TI shutdown.
+Apr 29 20:16:27.271 HYPERVISOR: exec_cmd: vm extract_config TI 
+Apr 30 18:48:07.907 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+Apr 30 18:48:07.908 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 18:48:07.908 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 30 18:48:07.909 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+Apr 30 18:48:07.910 HYPERVISOR: exec_cmd: vm start TI 
+Apr 30 18:58:30.066 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 30 18:58:30.066 HYPERVISOR: exec_cmd: vm stop TI 
+Apr 30 18:58:30.189 VM: VM TI shutdown.
+Apr 30 18:58:30.192 HYPERVISOR: exec_cmd: vm extract_config TI 
+Apr 30 19:05:54.139 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+Apr 30 19:05:54.140 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 19:05:54.141 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 30 19:05:54.142 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+Apr 30 19:05:54.142 HYPERVISOR: exec_cmd: vm start TI 
+Apr 30 19:24:05.856 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 30 19:24:05.857 HYPERVISOR: exec_cmd: vm stop TI 
+Apr 30 19:24:06.015 VM: VM TI shutdown.
+Apr 30 19:24:06.016 HYPERVISOR: exec_cmd: vm extract_config TI 
+Apr 30 20:14:16.881 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+Apr 30 20:14:16.882 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 20:14:16.882 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 30 20:14:16.883 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+Apr 30 20:14:16.883 HYPERVISOR: exec_cmd: vm start TI 
+Apr 30 20:20:25.820 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 30 20:20:25.820 HYPERVISOR: exec_cmd: vm stop TI 
+Apr 30 20:20:25.920 VM: VM TI shutdown.
+Apr 30 20:20:25.921 HYPERVISOR: exec_cmd: vm extract_config TI 
+Apr 30 20:25:10.142 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+Apr 30 20:25:10.144 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 20:25:10.145 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 30 20:25:10.147 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+Apr 30 20:25:10.147 HYPERVISOR: exec_cmd: vm start TI 
+Apr 30 20:37:47.413 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 30 20:37:47.414 HYPERVISOR: exec_cmd: vm stop TI 
+Apr 30 20:37:47.535 VM: VM TI shutdown.
+Apr 30 20:37:47.536 HYPERVISOR: exec_cmd: vm extract_config TI 
+Apr 30 20:39:36.571 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+Apr 30 20:39:36.578 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 20:39:36.581 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 30 20:39:36.583 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+Apr 30 20:39:36.588 HYPERVISOR: exec_cmd: vm start TI 
+Apr 30 20:49:43.146 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 30 20:49:43.147 HYPERVISOR: exec_cmd: vm stop TI 
+Apr 30 20:49:43.353 VM: VM TI shutdown.
+Apr 30 20:49:43.354 HYPERVISOR: exec_cmd: vm extract_config TI 
+Apr 30 21:12:33.866 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+Apr 30 21:12:33.868 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 21:12:33.869 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 30 21:12:33.872 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+Apr 30 21:12:33.872 HYPERVISOR: exec_cmd: vm start TI 
+Apr 30 21:16:27.984 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 30 21:16:27.984 HYPERVISOR: exec_cmd: vm stop TI 
+Apr 30 21:16:28.094 VM: VM TI shutdown.
+Apr 30 21:16:28.096 HYPERVISOR: exec_cmd: vm extract_config TI 
+Apr 30 21:20:44.011 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+Apr 30 21:20:44.019 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 21:20:44.021 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 30 21:20:44.028 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+Apr 30 21:20:44.030 HYPERVISOR: exec_cmd: vm start TI 
+Apr 30 21:26:29.824 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 30 21:26:29.824 HYPERVISOR: exec_cmd: vm stop TI 
+Apr 30 21:26:29.937 VM: VM TI shutdown.
+Apr 30 21:26:29.938 HYPERVISOR: exec_cmd: vm extract_config TI 
+Apr 30 21:27:39.901 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+Apr 30 21:27:39.903 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 21:27:39.904 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 30 21:27:39.905 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+Apr 30 21:27:39.906 HYPERVISOR: exec_cmd: vm start TI 
+Apr 30 21:29:39.445 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 30 21:29:39.445 HYPERVISOR: exec_cmd: vm stop TI 
+Apr 30 21:29:39.570 VM: VM TI shutdown.
+Apr 30 21:29:39.571 HYPERVISOR: exec_cmd: vm extract_config TI 
+Apr 30 21:29:48.125 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+Apr 30 21:29:48.127 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 21:29:48.135 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 30 21:29:48.138 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+Apr 30 21:29:48.140 HYPERVISOR: exec_cmd: vm start TI 
+Apr 30 21:31:57.046 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 30 21:31:57.046 HYPERVISOR: exec_cmd: vm stop TI 
+Apr 30 21:31:57.216 VM: VM TI shutdown.
+Apr 30 21:31:57.218 HYPERVISOR: exec_cmd: vm extract_config TI 
+Apr 30 23:47:21.869 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+Apr 30 23:47:21.870 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 23:47:21.870 HYPERVISOR: exec_cmd: vm get_status TI 
+Apr 30 23:47:21.871 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+Apr 30 23:47:21.871 HYPERVISOR: exec_cmd: vm start TI 
+May 01 00:04:57.417 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 00:04:57.417 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 00:04:57.587 VM: VM TI shutdown.
+May 01 00:04:57.588 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 00:05:15.679 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 00:05:15.680 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:05:15.680 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 00:05:15.681 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 00:05:15.681 HYPERVISOR: exec_cmd: vm start TI 
+May 01 00:20:57.900 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 00:20:57.901 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 00:20:58.059 VM: VM TI shutdown.
+May 01 00:20:58.060 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 00:21:11.038 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 00:21:11.040 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:21:11.041 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 00:21:11.043 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 00:21:11.043 HYPERVISOR: exec_cmd: vm start TI 
+May 01 00:22:07.415 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 00:22:07.415 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 00:22:07.535 VM: VM TI shutdown.
+May 01 00:22:07.537 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 00:22:38.134 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 00:22:38.136 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:22:38.137 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 00:22:38.138 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 00:22:38.139 HYPERVISOR: exec_cmd: vm start TI 
+May 01 00:25:11.710 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 00:25:11.711 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 00:25:11.828 VM: VM TI shutdown.
+May 01 00:25:11.829 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 00:25:21.061 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 00:25:21.062 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:25:21.063 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 00:25:21.064 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 00:25:21.068 HYPERVISOR: exec_cmd: vm start TI 
+May 01 00:26:45.052 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 00:26:45.052 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 00:26:45.164 VM: VM TI shutdown.
+May 01 00:26:45.165 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 00:26:49.976 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 00:26:49.980 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:26:49.981 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 00:26:49.983 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 00:26:49.984 HYPERVISOR: exec_cmd: vm start TI 
+May 01 00:27:38.471 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 00:27:38.472 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 00:27:38.594 VM: VM TI shutdown.
+May 01 00:27:38.595 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 00:27:42.510 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 00:27:42.510 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:27:42.511 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 00:27:42.511 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 00:27:42.511 HYPERVISOR: exec_cmd: vm start TI 
+May 01 00:28:24.162 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 00:28:24.162 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 00:28:24.319 VM: VM TI shutdown.
+May 01 00:28:24.320 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 00:28:36.917 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 00:28:36.919 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:28:36.920 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 00:28:36.926 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 00:28:36.927 HYPERVISOR: exec_cmd: vm start TI 
+May 01 00:30:30.139 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 00:30:30.140 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 00:30:30.264 VM: VM TI shutdown.
+May 01 00:30:30.265 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 00:34:40.956 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 00:34:40.958 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:34:40.965 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 00:34:40.969 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 00:34:40.971 HYPERVISOR: exec_cmd: vm start TI 
+May 01 00:37:33.024 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 00:37:33.025 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 00:37:33.144 VM: VM TI shutdown.
+May 01 00:37:33.145 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 00:38:04.883 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 00:38:04.884 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:38:04.885 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 00:38:04.891 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 00:38:04.893 HYPERVISOR: exec_cmd: vm start TI 
+May 01 00:40:21.638 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 00:40:21.638 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 00:40:21.809 VM: VM TI shutdown.
+May 01 00:40:21.810 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 00:41:16.651 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 00:41:16.653 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:41:16.654 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 00:41:16.656 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 00:41:16.663 HYPERVISOR: exec_cmd: vm start TI 
+May 01 00:45:25.166 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 00:45:25.166 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 00:45:25.343 VM: VM TI shutdown.
+May 01 00:45:25.344 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 00:48:41.700 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 00:48:41.708 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:48:41.710 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 00:48:41.713 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 00:48:41.717 HYPERVISOR: exec_cmd: vm start TI 
+May 01 00:50:00.558 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 00:50:00.559 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 00:50:00.711 VM: VM TI shutdown.
+May 01 00:50:00.712 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 00:50:13.571 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 00:50:13.572 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:50:13.573 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 00:50:13.575 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 00:50:13.576 HYPERVISOR: exec_cmd: vm start TI 
+May 01 00:50:18.477 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 00:50:18.479 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:50:18.482 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 00:51:44.522 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 00:51:44.522 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 00:51:44.692 VM: VM TI shutdown.
+May 01 00:51:44.693 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 00:51:47.825 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 00:51:47.826 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:51:47.827 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 00:51:47.832 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 00:51:47.834 HYPERVISOR: exec_cmd: vm start TI 
+May 01 00:58:19.372 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 00:58:19.372 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 00:58:19.537 VM: VM TI shutdown.
+May 01 00:58:19.538 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 00:58:39.682 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 00:58:39.683 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:58:39.684 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 00:58:39.684 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 00:58:39.685 HYPERVISOR: exec_cmd: vm start TI 
+May 01 01:00:40.099 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 01:00:40.099 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 01:00:40.220 VM: VM TI shutdown.
+May 01 01:00:40.221 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 01:00:45.756 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 01:00:45.757 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:00:45.758 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 01:00:45.759 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 01:00:45.759 HYPERVISOR: exec_cmd: vm start TI 
+May 01 01:03:31.060 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 01:03:31.061 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 01:03:31.197 VM: VM TI shutdown.
+May 01 01:03:31.198 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 01:06:27.829 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 01:06:27.830 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:06:27.831 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 01:06:27.832 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 01:06:27.832 HYPERVISOR: exec_cmd: vm start TI 
+May 01 01:08:27.512 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 01:08:27.513 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 01:08:27.676 VM: VM TI shutdown.
+May 01 01:08:27.676 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 01:08:50.137 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 01:08:50.145 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:08:50.147 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 01:08:50.153 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 01:08:50.155 HYPERVISOR: exec_cmd: vm start TI 
+May 01 01:10:28.991 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 01:10:28.991 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 01:10:29.103 VM: VM TI shutdown.
+May 01 01:10:29.103 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 01:10:37.037 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 01:10:37.038 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:10:37.039 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 01:10:37.039 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 01:10:37.040 HYPERVISOR: exec_cmd: vm start TI 
+May 01 01:12:10.082 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 01:12:10.083 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:12:10.084 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 01:12:12.599 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 01:12:12.599 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 01:12:12.711 VM: VM TI shutdown.
+May 01 01:12:12.712 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 01:12:17.051 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 01:12:17.057 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:12:17.059 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 01:12:17.061 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 01:12:17.065 HYPERVISOR: exec_cmd: vm start TI 
+May 01 01:14:43.791 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 01:14:43.792 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 01:14:43.921 VM: VM TI shutdown.
+May 01 01:14:43.923 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 01:14:49.866 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 01:14:49.869 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:14:49.874 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 01:14:49.876 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 01:14:49.877 HYPERVISOR: exec_cmd: vm start TI 
+May 01 01:25:06.412 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 01:25:06.412 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 01:25:06.576 VM: VM TI shutdown.
+May 01 01:25:06.577 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 01:31:06.853 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 01:31:06.854 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:31:06.856 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 01:31:06.865 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 01:31:06.871 HYPERVISOR: exec_cmd: vm start TI 
+May 01 01:32:51.183 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 01:32:51.184 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 01:32:51.301 VM: VM TI shutdown.
+May 01 01:32:51.303 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 01:33:25.378 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 01:33:25.386 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:33:25.388 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 01:33:25.395 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 01:33:25.396 HYPERVISOR: exec_cmd: vm start TI 
+May 01 01:35:58.139 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 01:35:58.140 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 01:35:58.307 VM: VM TI shutdown.
+May 01 01:35:58.308 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 01:37:30.123 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 01:37:30.125 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:37:30.126 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 01:37:30.128 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 01:37:30.129 HYPERVISOR: exec_cmd: vm start TI 
+May 01 01:38:47.783 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 01:38:47.783 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 01:38:47.892 VM: VM TI shutdown.
+May 01 01:38:47.893 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 01:44:48.741 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 01:44:48.742 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:44:48.743 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 01:44:48.744 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 01:44:48.744 HYPERVISOR: exec_cmd: vm start TI 
+May 01 01:47:52.651 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 01:47:52.651 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 01:47:52.751 VM: VM TI shutdown.
+May 01 01:47:52.752 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 01:48:56.466 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 01:48:56.468 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:48:56.469 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 01:48:56.472 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 01:48:56.473 HYPERVISOR: exec_cmd: vm start TI 
+May 01 01:52:46.617 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 01:52:46.618 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 01:52:46.775 VM: VM TI shutdown.
+May 01 01:52:46.779 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 01:57:01.914 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 01:57:01.918 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:57:01.926 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 01:57:01.928 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 01:57:01.929 HYPERVISOR: exec_cmd: vm start TI 
+May 01 02:04:31.212 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 02:04:31.213 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 02:04:31.391 VM: VM TI shutdown.
+May 01 02:04:31.392 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 02:09:19.604 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 02:09:19.604 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 02:09:19.604 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 02:09:19.605 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 02:09:19.605 HYPERVISOR: exec_cmd: vm start TI 
+May 01 02:10:06.086 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 02:10:06.087 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 02:10:06.192 VM: VM TI shutdown.
+May 01 02:10:06.193 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 02:17:40.120 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 02:17:40.120 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 02:17:40.125 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 02:17:40.127 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 02:17:40.128 HYPERVISOR: exec_cmd: vm start TI 
+May 01 02:20:10.377 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 02:20:10.378 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 02:20:10.560 VM: VM TI shutdown.
+May 01 02:20:10.560 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 02:41:02.492 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 02:41:02.493 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 02:41:02.494 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 02:41:02.494 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 02:41:02.495 HYPERVISOR: exec_cmd: vm start TI 
+May 01 02:44:13.273 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 02:44:13.273 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 02:44:13.432 VM: VM TI shutdown.
+May 01 02:44:13.433 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 03:15:06.723 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 03:15:06.724 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:15:06.726 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 03:15:06.733 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 03:15:06.735 HYPERVISOR: exec_cmd: vm start TI 
+May 01 03:20:18.241 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 03:20:18.241 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 03:20:18.415 VM: VM TI shutdown.
+May 01 03:20:18.417 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 03:20:24.690 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 03:20:24.691 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:20:24.691 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 03:20:24.692 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 03:20:24.692 HYPERVISOR: exec_cmd: vm start TI 
+May 01 03:21:04.420 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 03:21:04.420 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 03:21:04.532 VM: VM TI shutdown.
+May 01 03:21:04.533 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 03:21:19.874 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 03:21:19.876 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:21:19.878 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 03:21:19.880 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 03:21:19.881 HYPERVISOR: exec_cmd: vm start TI 
+May 01 03:23:39.264 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 03:23:39.264 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 03:23:39.381 VM: VM TI shutdown.
+May 01 03:23:39.382 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 03:23:50.024 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 03:23:50.025 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:23:50.025 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 03:23:50.026 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 03:23:50.026 HYPERVISOR: exec_cmd: vm start TI 
+May 01 03:31:18.607 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 03:31:18.607 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 03:31:18.726 VM: VM TI shutdown.
+May 01 03:31:18.727 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 03:32:16.648 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 03:32:16.650 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:32:16.652 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 03:32:16.656 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 03:32:16.658 HYPERVISOR: exec_cmd: vm start TI 
+May 01 03:35:05.118 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 03:35:05.118 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 03:35:05.230 VM: VM TI shutdown.
+May 01 03:35:05.231 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 03:36:02.764 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 03:36:02.765 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:36:02.766 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 03:36:02.772 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 03:36:02.773 HYPERVISOR: exec_cmd: vm start TI 
+May 01 03:40:00.062 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 03:40:00.062 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 03:40:00.239 VM: VM TI shutdown.
+May 01 03:40:00.244 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 03:40:02.591 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 03:40:02.592 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:40:02.593 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 03:40:02.594 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 03:40:02.594 HYPERVISOR: exec_cmd: vm start TI 
+May 01 03:40:13.994 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 03:40:13.994 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 03:40:14.121 VM: VM TI shutdown.
+May 01 03:40:14.122 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 03:40:30.395 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 03:40:30.396 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:40:30.397 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 03:40:30.399 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 03:40:30.406 HYPERVISOR: exec_cmd: vm start TI 
+May 01 03:43:24.816 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 03:43:24.816 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 03:43:24.937 VM: VM TI shutdown.
+May 01 03:43:24.941 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 03:43:31.791 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 03:43:31.792 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:43:31.793 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 03:43:31.797 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 03:43:31.799 HYPERVISOR: exec_cmd: vm start TI 
+May 01 03:44:54.962 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 03:44:54.963 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 03:44:55.124 VM: VM TI shutdown.
+May 01 03:44:55.125 HYPERVISOR: exec_cmd: vm extract_config TI 
+May 01 03:45:22.810 HYPERVISOR: exec_cmd: vm set_ghost_status TI 2 
+May 01 03:45:22.815 HYPERVISOR: exec_cmd: vm set_ghost_file TI /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:45:22.820 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 03:45:22.823 HYPERVISOR: exec_cmd: vm set_config TI configs/i4_startup-config.cfg 
+May 01 03:45:22.825 HYPERVISOR: exec_cmd: vm start TI 
+May 01 03:47:27.749 HYPERVISOR: exec_cmd: vm get_status TI 
+May 01 03:47:27.749 HYPERVISOR: exec_cmd: vm stop TI 
+May 01 03:47:27.908 VM: VM TI shutdown.
+May 01 03:47:27.909 HYPERVISOR: exec_cmd: vm extract_config TI 

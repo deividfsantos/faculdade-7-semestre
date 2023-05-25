@@ -1,0 +1,18 @@
+Apr 29 19:26:05.935 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Apr 29 19:26:05.935 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 60987.
+Apr 29 19:26:05.943 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 29 19:26:05.944 HYPERVISOR: exec_cmd: hypervisor working_dir /home/deivid/GNS3/projects/trabredesav/project-files/dynamips 
+Apr 29 19:26:05.944 GENERAL: working_dir=/home/deivid/GNS3/projects/trabredesav/project-files/dynamips
+Apr 29 19:26:05.944 HYPERVISOR: exec_cmd: ethsw create RH 
+Apr 29 19:26:09.024 HYPERVISOR: exec_cmd: nio create_udp udp-b0f2e1fa-72d8-4ea7-8b63-426f2a1cc464 10071 127.0.0.1 10070 
+Apr 29 19:26:09.024 HYPERVISOR: exec_cmd: ethsw add_nio RH udp-b0f2e1fa-72d8-4ea7-8b63-426f2a1cc464 
+Apr 29 19:26:09.030 HYPERVISOR: exec_cmd: ethsw set_access_port RH udp-b0f2e1fa-72d8-4ea7-8b63-426f2a1cc464 1 
+Apr 29 19:26:09.260 HYPERVISOR: exec_cmd: nio create_udp udp-c0d1cf1d-eddf-41a2-a33d-a2ab61d319d7 10078 127.0.0.1 10079 
+Apr 29 19:26:09.260 HYPERVISOR: exec_cmd: ethsw add_nio RH udp-c0d1cf1d-eddf-41a2-a33d-a2ab61d319d7 
+Apr 29 19:26:09.271 HYPERVISOR: exec_cmd: ethsw set_access_port RH udp-c0d1cf1d-eddf-41a2-a33d-a2ab61d319d7 1 
+Apr 29 19:26:09.346 HYPERVISOR: exec_cmd: nio create_udp udp-aaa49dac-cc2d-4e6e-b0ed-173a4d7a759d 10080 127.0.0.1 10081 
+Apr 29 19:26:09.346 HYPERVISOR: exec_cmd: ethsw add_nio RH udp-aaa49dac-cc2d-4e6e-b0ed-173a4d7a759d 
+Apr 29 19:26:09.351 HYPERVISOR: exec_cmd: ethsw set_access_port RH udp-aaa49dac-cc2d-4e6e-b0ed-173a4d7a759d 1 
+Apr 29 19:48:32.947 HYPERVISOR: exec_cmd: ethsw set_access_port RH udp-b0f2e1fa-72d8-4ea7-8b63-426f2a1cc464 1 
+Apr 29 19:48:32.948 HYPERVISOR: exec_cmd: ethsw set_access_port RH udp-c0d1cf1d-eddf-41a2-a33d-a2ab61d319d7 1 
+Apr 29 19:48:32.948 HYPERVISOR: exec_cmd: ethsw set_access_port RH udp-aaa49dac-cc2d-4e6e-b0ed-173a4d7a759d 1 

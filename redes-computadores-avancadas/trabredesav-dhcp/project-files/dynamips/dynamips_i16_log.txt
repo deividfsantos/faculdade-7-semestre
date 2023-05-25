@@ -1,0 +1,15 @@
+Apr 29 19:26:05.856 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Apr 29 19:26:05.856 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49533.
+Apr 29 19:26:05.864 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 29 19:26:05.865 HYPERVISOR: exec_cmd: hypervisor working_dir /home/deivid/GNS3/projects/trabredesav/project-files/dynamips 
+Apr 29 19:26:05.865 GENERAL: working_dir=/home/deivid/GNS3/projects/trabredesav/project-files/dynamips
+Apr 29 19:26:05.865 HYPERVISOR: exec_cmd: ethsw create Suporte 
+Apr 29 19:26:08.246 HYPERVISOR: exec_cmd: nio create_udp udp-fc289af3-c316-497c-af7b-d440b18fb891 10047 127.0.0.1 10046 
+Apr 29 19:26:08.246 HYPERVISOR: exec_cmd: ethsw add_nio Suporte udp-fc289af3-c316-497c-af7b-d440b18fb891 
+Apr 29 19:26:08.247 HYPERVISOR: exec_cmd: ethsw set_access_port Suporte udp-fc289af3-c316-497c-af7b-d440b18fb891 1 
+Apr 29 19:26:10.905 HYPERVISOR: exec_cmd: nio create_udp udp-fb062ec0-88cf-46ee-8c59-99666899276b 10114 127.0.0.1 10115 
+Apr 29 19:26:10.905 HYPERVISOR: exec_cmd: ethsw add_nio Suporte udp-fb062ec0-88cf-46ee-8c59-99666899276b 
+Apr 29 19:26:10.920 HYPERVISOR: exec_cmd: ethsw set_access_port Suporte udp-fb062ec0-88cf-46ee-8c59-99666899276b 1 
+Apr 29 19:26:11.008 HYPERVISOR: exec_cmd: nio create_udp udp-a2e35ba9-f95e-4d58-9fdb-a0dcf728f49b 10116 127.0.0.1 10117 
+Apr 29 19:26:11.008 HYPERVISOR: exec_cmd: ethsw add_nio Suporte udp-a2e35ba9-f95e-4d58-9fdb-a0dcf728f49b 
+Apr 29 19:26:11.020 HYPERVISOR: exec_cmd: ethsw set_access_port Suporte udp-a2e35ba9-f95e-4d58-9fdb-a0dcf728f49b 1 

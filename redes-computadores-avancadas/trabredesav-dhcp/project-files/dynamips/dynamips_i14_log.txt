@@ -1,0 +1,18 @@
+Apr 29 19:26:05.767 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Apr 29 19:26:05.767 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 52737.
+Apr 29 19:26:05.775 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 29 19:26:05.776 HYPERVISOR: exec_cmd: hypervisor working_dir /home/deivid/GNS3/projects/trabredesav/project-files/dynamips 
+Apr 29 19:26:05.776 GENERAL: working_dir=/home/deivid/GNS3/projects/trabredesav/project-files/dynamips
+Apr 29 19:26:05.776 HYPERVISOR: exec_cmd: ethsw create Infra 
+Apr 29 19:26:08.042 HYPERVISOR: exec_cmd: nio create_udp udp-92a0f070-b4ab-4695-8ec7-0dc4e763e870 10039 127.0.0.1 10038 
+Apr 29 19:26:08.043 HYPERVISOR: exec_cmd: ethsw add_nio Infra udp-92a0f070-b4ab-4695-8ec7-0dc4e763e870 
+Apr 29 19:26:08.058 HYPERVISOR: exec_cmd: ethsw set_access_port Infra udp-92a0f070-b4ab-4695-8ec7-0dc4e763e870 1 
+Apr 29 19:26:10.562 HYPERVISOR: exec_cmd: nio create_udp udp-12cedf13-a974-4afd-bc0b-158bdddedb1b 10106 127.0.0.1 10107 
+Apr 29 19:26:10.562 HYPERVISOR: exec_cmd: ethsw add_nio Infra udp-12cedf13-a974-4afd-bc0b-158bdddedb1b 
+Apr 29 19:26:10.570 HYPERVISOR: exec_cmd: ethsw set_access_port Infra udp-12cedf13-a974-4afd-bc0b-158bdddedb1b 1 
+Apr 29 19:26:10.648 HYPERVISOR: exec_cmd: nio create_udp udp-26d264c6-a6e4-49c9-bb87-0194113c2b93 10108 127.0.0.1 10109 
+Apr 29 19:26:10.648 HYPERVISOR: exec_cmd: ethsw add_nio Infra udp-26d264c6-a6e4-49c9-bb87-0194113c2b93 
+Apr 29 19:26:10.651 HYPERVISOR: exec_cmd: ethsw set_access_port Infra udp-26d264c6-a6e4-49c9-bb87-0194113c2b93 1 
+Apr 29 19:26:55.194 HYPERVISOR: exec_cmd: ethsw set_access_port Infra udp-92a0f070-b4ab-4695-8ec7-0dc4e763e870 1 
+Apr 29 19:26:55.195 HYPERVISOR: exec_cmd: ethsw set_access_port Infra udp-12cedf13-a974-4afd-bc0b-158bdddedb1b 1 
+Apr 29 19:26:55.196 HYPERVISOR: exec_cmd: ethsw set_access_port Infra udp-26d264c6-a6e4-49c9-bb87-0194113c2b93 1 

@@ -1,0 +1,107 @@
+Apr 29 19:26:05.350 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Apr 29 19:26:05.350 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 40293.
+Apr 29 19:26:05.358 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 29 19:26:05.359 HYPERVISOR: exec_cmd: hypervisor working_dir /home/deivid/GNS3/projects/trabredesav/project-files/dynamips 
+Apr 29 19:26:05.359 GENERAL: working_dir=/home/deivid/GNS3/projects/trabredesav/project-files/dynamips
+Apr 29 19:26:05.359 HYPERVISOR: exec_cmd: hypervisor working_dir /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/794083a0-3519-4e62-959e-71162cf61039 
+Apr 29 19:26:05.359 GENERAL: working_dir=/home/deivid/GNS3/projects/trabredesav/project-files/dynamips/794083a0-3519-4e62-959e-71162cf61039
+Apr 29 19:26:05.359 HYPERVISOR: exec_cmd: vm create Central 2 c3745 
+Apr 29 19:26:05.359 VM: VM Central created.
+Apr 29 19:26:05.359 HYPERVISOR: exec_cmd: vm set_con_tcp_port Central 5022 
+Apr 29 19:26:05.359 HYPERVISOR: exec_cmd: c3745 get_mac_addr Central 
+Apr 29 19:26:05.360 HYPERVISOR: exec_cmd: vm set_disk0 Central 0 
+Apr 29 19:26:05.360 HYPERVISOR: exec_cmd: vm set_ios Central /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 29 19:26:05.360 HYPERVISOR: exec_cmd: c3745 set_mac_addr Central c402.f177.0000 
+Apr 29 19:26:05.361 HYPERVISOR: exec_cmd: vm set_nvram Central 256 
+Apr 29 19:26:05.361 HYPERVISOR: exec_cmd: vm set_ram Central 256 
+Apr 29 19:26:05.361 HYPERVISOR: exec_cmd: vm get_status Central 
+Apr 29 19:26:05.361 HYPERVISOR: exec_cmd: vm slot_add_binding Central 1 0 NM-1FE-TX 
+Apr 29 19:26:05.362 HYPERVISOR: exec_cmd: vm get_status Central 
+Apr 29 19:26:05.362 HYPERVISOR: exec_cmd: vm slot_add_binding Central 2 0 NM-1FE-TX 
+Apr 29 19:26:06.540 HYPERVISOR: exec_cmd: nio create_udp udp-fdc7e28f-dd7f-4317-9c7c-b6635a28c9fb 10004 127.0.0.1 10005 
+Apr 29 19:26:06.756 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Central 0 0 udp-fdc7e28f-dd7f-4317-9c7c-b6635a28c9fb 
+Apr 29 19:26:06.757 HYPERVISOR: exec_cmd: vm get_status Central 
+Apr 29 19:26:08.309 HYPERVISOR: exec_cmd: nio create_udp udp-f4650302-788f-4fbe-9230-7d32dc6c826d 10052 127.0.0.1 10053 
+Apr 29 19:26:08.310 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Central 0 1 udp-f4650302-788f-4fbe-9230-7d32dc6c826d 
+Apr 29 19:26:08.310 HYPERVISOR: exec_cmd: vm get_status Central 
+Apr 29 19:26:16.299 HYPERVISOR: exec_cmd: vm set_ghost_status Central 2 
+Apr 29 19:26:16.302 HYPERVISOR: exec_cmd: vm set_ghost_file Central /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:26:16.304 HYPERVISOR: exec_cmd: vm get_status Central 
+Apr 29 19:26:16.306 HYPERVISOR: exec_cmd: vm set_config Central configs/i2_startup-config.cfg 
+Apr 29 19:26:16.308 HYPERVISOR: exec_cmd: vm start Central 
+Apr 29 19:30:19.042 HYPERVISOR: exec_cmd: vm get_status Central 
+Apr 29 19:30:19.044 HYPERVISOR: exec_cmd: vm stop Central 
+Apr 29 19:30:19.178 VM: VM Central shutdown.
+Apr 29 19:30:19.178 HYPERVISOR: exec_cmd: vm extract_config Central 
+Apr 29 19:30:30.684 HYPERVISOR: exec_cmd: vm set_ghost_status Central 2 
+Apr 29 19:30:30.686 HYPERVISOR: exec_cmd: vm set_ghost_file Central /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:30:30.687 HYPERVISOR: exec_cmd: vm get_status Central 
+Apr 29 19:30:30.688 HYPERVISOR: exec_cmd: vm set_config Central configs/i2_startup-config.cfg 
+Apr 29 19:30:30.689 HYPERVISOR: exec_cmd: vm start Central 
+Apr 29 19:30:47.255 HYPERVISOR: exec_cmd: vm get_status Central 
+Apr 29 19:30:47.257 HYPERVISOR: exec_cmd: vm stop Central 
+Apr 29 19:30:49.114 VM: VM Central shutdown.
+Apr 29 19:30:49.115 HYPERVISOR: exec_cmd: vm extract_config Central 
+Apr 29 19:31:00.696 HYPERVISOR: exec_cmd: vm set_ghost_status Central 2 
+Apr 29 19:31:00.697 HYPERVISOR: exec_cmd: vm set_ghost_file Central /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:31:00.698 HYPERVISOR: exec_cmd: vm get_status Central 
+Apr 29 19:31:00.699 HYPERVISOR: exec_cmd: vm set_config Central configs/i2_startup-config.cfg 
+Apr 29 19:31:00.700 HYPERVISOR: exec_cmd: vm start Central 
+Apr 29 19:37:58.469 HYPERVISOR: exec_cmd: vm get_status Central 
+Apr 29 19:37:58.470 HYPERVISOR: exec_cmd: vm stop Central 
+Apr 29 19:37:58.549 VM: VM Central shutdown.
+Apr 29 19:37:58.549 HYPERVISOR: exec_cmd: vm extract_config Central 
+Apr 29 19:39:29.389 HYPERVISOR: exec_cmd: vm set_ghost_status Central 2 
+Apr 29 19:39:29.391 HYPERVISOR: exec_cmd: vm set_ghost_file Central /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:39:29.392 HYPERVISOR: exec_cmd: vm get_status Central 
+Apr 29 19:39:29.394 HYPERVISOR: exec_cmd: vm set_config Central configs/i2_startup-config.cfg 
+Apr 29 19:39:29.395 HYPERVISOR: exec_cmd: vm start Central 
+Apr 29 19:40:39.739 HYPERVISOR: exec_cmd: vm get_status Central 
+Apr 29 19:40:39.740 HYPERVISOR: exec_cmd: vm stop Central 
+Apr 29 19:40:39.858 VM: VM Central shutdown.
+Apr 29 19:40:39.859 HYPERVISOR: exec_cmd: vm extract_config Central 
+Apr 29 19:48:49.005 HYPERVISOR: exec_cmd: vm set_ghost_status Central 2 
+Apr 29 19:48:49.007 HYPERVISOR: exec_cmd: vm set_ghost_file Central /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:48:49.007 HYPERVISOR: exec_cmd: vm get_status Central 
+Apr 29 19:48:49.008 HYPERVISOR: exec_cmd: vm set_config Central configs/i2_startup-config.cfg 
+Apr 29 19:48:49.009 HYPERVISOR: exec_cmd: vm start Central 
+Apr 29 19:55:14.046 HYPERVISOR: exec_cmd: vm get_status Central 
+Apr 29 19:55:14.047 HYPERVISOR: exec_cmd: vm stop Central 
+Apr 29 19:55:14.117 VM: VM Central shutdown.
+Apr 29 19:55:14.118 HYPERVISOR: exec_cmd: vm extract_config Central 
+Apr 29 19:55:25.670 HYPERVISOR: exec_cmd: vm set_ghost_status Central 2 
+Apr 29 19:55:25.672 HYPERVISOR: exec_cmd: vm set_ghost_file Central /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:55:25.673 HYPERVISOR: exec_cmd: vm get_status Central 
+Apr 29 19:55:25.674 HYPERVISOR: exec_cmd: vm set_config Central configs/i2_startup-config.cfg 
+Apr 29 19:55:25.675 HYPERVISOR: exec_cmd: vm start Central 
+Apr 29 20:00:38.908 HYPERVISOR: exec_cmd: vm get_status Central 
+Apr 29 20:00:38.909 HYPERVISOR: exec_cmd: vm stop Central 
+Apr 29 20:00:39.025 VM: VM Central shutdown.
+Apr 29 20:00:39.025 HYPERVISOR: exec_cmd: vm extract_config Central 
+Apr 29 20:15:32.570 HYPERVISOR: exec_cmd: vm set_ghost_status Central 2 
+Apr 29 20:15:32.571 HYPERVISOR: exec_cmd: vm set_ghost_file Central /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 20:15:32.572 HYPERVISOR: exec_cmd: vm get_status Central 
+Apr 29 20:15:32.573 HYPERVISOR: exec_cmd: vm set_config Central configs/i2_startup-config.cfg 
+Apr 29 20:15:32.574 HYPERVISOR: exec_cmd: vm start Central 
+Apr 29 20:16:26.966 HYPERVISOR: exec_cmd: vm get_status Central 
+Apr 29 20:16:26.967 HYPERVISOR: exec_cmd: vm stop Central 
+Apr 29 20:16:27.088 VM: VM Central shutdown.
+Apr 29 20:16:27.089 HYPERVISOR: exec_cmd: vm extract_config Central 
+Apr 30 18:48:07.671 HYPERVISOR: exec_cmd: vm set_ghost_status Central 2 
+Apr 30 18:48:07.672 HYPERVISOR: exec_cmd: vm set_ghost_file Central /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 18:48:07.673 HYPERVISOR: exec_cmd: vm get_status Central 
+Apr 30 18:48:07.674 HYPERVISOR: exec_cmd: vm set_config Central configs/i2_startup-config.cfg 
+Apr 30 18:48:07.674 HYPERVISOR: exec_cmd: vm start Central 
+Apr 30 18:58:30.000 HYPERVISOR: exec_cmd: vm get_status Central 
+Apr 30 18:58:30.001 HYPERVISOR: exec_cmd: vm stop Central 
+Apr 30 18:58:30.080 VM: VM Central shutdown.
+Apr 30 18:58:30.080 HYPERVISOR: exec_cmd: vm extract_config Central 
+Apr 30 19:05:53.899 HYPERVISOR: exec_cmd: vm set_ghost_status Central 2 
+Apr 30 19:05:53.900 HYPERVISOR: exec_cmd: vm set_ghost_file Central /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 19:05:53.901 HYPERVISOR: exec_cmd: vm get_status Central 
+Apr 30 19:05:53.903 HYPERVISOR: exec_cmd: vm set_config Central configs/i2_startup-config.cfg 
+Apr 30 19:05:53.903 HYPERVISOR: exec_cmd: vm start Central 
+Apr 30 19:24:05.780 HYPERVISOR: exec_cmd: vm get_status Central 
+Apr 30 19:24:05.781 HYPERVISOR: exec_cmd: vm stop Central 
+Apr 30 19:24:05.849 VM: VM Central shutdown.
+Apr 30 19:24:05.849 HYPERVISOR: exec_cmd: vm extract_config Central 

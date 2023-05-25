@@ -1,0 +1,777 @@
+Cisco Router Simulation Platform (version 0.2.23-amd64/Linux stable)
+Copyright (c) 2005-2011 Christophe Fillot.
+Build date: Jan  2 2023 12:00:00
+
+Log file: writing to dynamips_i2_log.txt
+Console binding address set to localhost
+ILT: loaded table "mips64j" from cache.
+ILT: loaded table "mips64e" from cache.
+ILT: loaded table "ppc32j" from cache.
+ILT: loaded table "ppc32e" from cache.
+Hypervisor TCP control server started (IP 127.0.0.1 port 40293).
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+NVRAM is empty, setting config register to 0x2142
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+Please wait while gathering statistics...
+Done. Suggested idling PC:
+   0x60bea79c (count=62)
+   0x603b53c8 (count=77)
+   0x603b5440 (count=50)
+Restart the emulator with "--idle-pc=0x60bea79c" (for example)
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+Please wait while gathering statistics...
+Done. Suggested idling PC:
+   0xffffffff800097a8 (count=36)
+   0xffffffff8000a220 (count=28)
+   0xffffffff8000a7c8 (count=22)
+   0xffffffff8000b768 (count=27)
+   0xffffffff8000b774 (count=56)
+   0xffffffff8000bf4c (count=30)
+   0xffffffff8000c258 (count=46)
+   0x603bd5a4 (count=29)
+   0x603bd5c4 (count=37)
+   0x62e2f624 (count=22)
+Restart the emulator with "--idle-pc=0xffffffff800097a8" (for example)
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+Please wait while gathering statistics...
+Done. Suggested idling PC:
+   0x60be924c (count=69)
+   0x60be9420 (count=49)
+   0x60be9e98 (count=26)
+   0x60be9ed4 (count=42)
+   0x60bea000 (count=61)
+   0x60bea944 (count=46)
+   0x60bea978 (count=68)
+   0x61e8c9e8 (count=20)
+   0x61e8c9f4 (count=68)
+   0x61e8caf4 (count=59)
+Restart the emulator with "--idle-pc=0x60be924c" (for example)
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+Please wait while gathering statistics...
+Done. Suggested idling PC:
+   0x60be924c (count=57)
+   0x60be9420 (count=30)
+   0x60be9e98 (count=44)
+   0x60be9ed4 (count=42)
+   0x60bea000 (count=46)
+   0x60bea944 (count=29)
+   0x60bea978 (count=45)
+   0x61e8c9e8 (count=25)
+   0x61e8c9f4 (count=55)
+   0x61e8caf4 (count=51)
+Restart the emulator with "--idle-pc=0x60be924c" (for example)
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 'Central' (id 2):
+  VM Status  : 0
+  RAM size   : 256 Mb
+  NVRAM size : 256 Kb
+  IOS image  : /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image
+
+Loading ELF file '/home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image'...
+ELF loading skipped, using a ghost RAM file.
+ELF entry point: 0x80008000
+
+C3745 'Central': starting simulation (CPU0 PC=0xffffffffbfc00000), JIT enabled.
+
+C3745 'Central': stopping simulation.
+CPU0: carved JIT exec zone of 64 Mb into 2048 pages of 32 Kb.
+C3745 instance 

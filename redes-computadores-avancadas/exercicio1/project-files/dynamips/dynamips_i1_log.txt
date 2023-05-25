@@ -1,0 +1,62 @@
+Apr 10 12:54:39.967 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Apr 10 12:54:39.967 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 57627.
+Apr 10 12:54:39.974 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 10 12:54:39.974 HYPERVISOR: exec_cmd: hypervisor working_dir /home/deivid/GNS3/projects/exercicio1/project-files/dynamips 
+Apr 10 12:54:39.974 GENERAL: working_dir=/home/deivid/GNS3/projects/exercicio1/project-files/dynamips
+Apr 10 12:54:39.974 HYPERVISOR: exec_cmd: hypervisor working_dir /home/deivid/GNS3/projects/exercicio1/project-files/dynamips/3f8d26b2-6c24-478a-897d-6374dbe59380 
+Apr 10 12:54:39.974 GENERAL: working_dir=/home/deivid/GNS3/projects/exercicio1/project-files/dynamips/3f8d26b2-6c24-478a-897d-6374dbe59380
+Apr 10 12:54:39.974 HYPERVISOR: exec_cmd: vm create R1 1 c3745 
+Apr 10 12:54:39.975 VM: VM R1 created.
+Apr 10 12:54:39.975 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Apr 10 12:54:39.975 HYPERVISOR: exec_cmd: c3745 get_mac_addr R1 
+Apr 10 12:54:39.976 HYPERVISOR: exec_cmd: vm set_ios R1 /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 10 12:54:39.977 HYPERVISOR: exec_cmd: vm set_ram R1 256 
+Apr 10 12:54:39.977 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Apr 10 12:54:39.977 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Apr 10 12:54:39.978 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 10 12:54:39.978 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 NM-1FE-TX 
+Apr 10 12:54:40.031 HYPERVISOR: exec_cmd: vm set_ios R1 /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 10 12:54:43.434 HYPERVISOR: exec_cmd: vm set_ios R1 /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 10 12:54:58.543 HYPERVISOR: exec_cmd: nio create_udp udp-3556e4b7-a539-43bf-94a0-c715b8fd9ef2 10002 127.0.0.1 10003 
+Apr 10 12:54:58.756 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-3556e4b7-a539-43bf-94a0-c715b8fd9ef2 
+Apr 10 12:54:58.757 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 10 12:55:38.455 HYPERVISOR: exec_cmd: nio create_udp udp-ed1617f5-df77-442a-9e91-f45c0933bb5b 10020 127.0.0.1 10021 
+Apr 10 12:55:38.456 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 1 udp-ed1617f5-df77-442a-9e91-f45c0933bb5b 
+Apr 10 12:55:38.456 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 10 12:56:11.452 HYPERVISOR: exec_cmd: vm set_ios R1 /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 10 12:56:26.799 HYPERVISOR: exec_cmd: vm set_ios R1 /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 10 13:01:12.165 HYPERVISOR: exec_cmd: vm set_ios R1 /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 10 13:02:22.272 HYPERVISOR: exec_cmd: vm create Ghost 0 c3745 
+Apr 10 13:02:22.272 VM: VM Ghost created.
+Apr 10 13:02:22.273 HYPERVISOR: exec_cmd: vm set_ios Ghost /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 10 13:02:22.274 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Apr 10 13:02:22.275 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost /home/deivid/GNS3/projects/exercicio1/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 10 13:02:22.276 HYPERVISOR: exec_cmd: vm set_ram Ghost 256 
+Apr 10 13:02:22.277 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Apr 10 13:02:22.279 HYPERVISOR: exec_cmd: vm set_config Ghost configs/i0_startup-config.cfg 
+Apr 10 13:02:22.280 HYPERVISOR: exec_cmd: vm start Ghost 
+Apr 10 13:02:22.595 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Apr 10 13:02:22.596 HYPERVISOR: exec_cmd: vm stop Ghost 
+Apr 10 13:02:22.706 VM: VM Ghost shutdown.
+Apr 10 13:02:22.708 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Apr 10 13:02:22.710 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Apr 10 13:02:22.710 VM: VM Ghost destroyed.
+Apr 10 13:02:22.713 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Apr 10 13:02:22.714 HYPERVISOR: exec_cmd: vm set_ghost_file R1 /home/deivid/GNS3/projects/exercicio1/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 10 13:02:22.715 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 10 13:02:22.717 HYPERVISOR: exec_cmd: vm set_config R1 configs/i1_startup-config.cfg 
+Apr 10 13:02:22.717 HYPERVISOR: exec_cmd: vm start R1 
+Apr 10 13:03:19.387 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 10 13:03:19.388 HYPERVISOR: exec_cmd: vm stop R1 
+Apr 10 13:03:19.444 VM: VM R1 shutdown.
+Apr 10 13:03:19.445 HYPERVISOR: exec_cmd: vm extract_config R1 
+Apr 10 13:05:58.382 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Apr 10 13:05:58.384 HYPERVISOR: exec_cmd: vm set_ghost_file R1 /home/deivid/GNS3/projects/exercicio1/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 10 13:05:58.385 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 10 13:05:58.386 HYPERVISOR: exec_cmd: vm set_config R1 configs/i1_startup-config.cfg 
+Apr 10 13:05:58.386 HYPERVISOR: exec_cmd: vm start R1 
+Apr 10 13:07:00.711 HYPERVISOR: exec_cmd: vm set_ios R1 /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 10 13:14:59.195 HYPERVISOR: exec_cmd: vm extract_config R1 
+Apr 10 13:14:59.198 HYPERVISOR: exec_cmd: vm extract_config R1 
+Apr 10 14:08:59.551 HYPERVISOR: exec_cmd: vm extract_config R1 
+Apr 10 14:08:59.555 HYPERVISOR: exec_cmd: vm extract_config R1 

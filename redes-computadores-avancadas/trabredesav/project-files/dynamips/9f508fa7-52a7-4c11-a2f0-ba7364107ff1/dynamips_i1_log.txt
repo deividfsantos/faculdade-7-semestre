@@ -1,0 +1,552 @@
+Apr 29 19:26:05.316 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Apr 29 19:26:05.316 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 52725.
+Apr 29 19:26:05.318 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 29 19:26:05.318 HYPERVISOR: exec_cmd: hypervisor working_dir /home/deivid/GNS3/projects/trabredesav/project-files/dynamips 
+Apr 29 19:26:05.318 GENERAL: working_dir=/home/deivid/GNS3/projects/trabredesav/project-files/dynamips
+Apr 29 19:26:05.318 HYPERVISOR: exec_cmd: hypervisor working_dir /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/9f508fa7-52a7-4c11-a2f0-ba7364107ff1 
+Apr 29 19:26:05.318 GENERAL: working_dir=/home/deivid/GNS3/projects/trabredesav/project-files/dynamips/9f508fa7-52a7-4c11-a2f0-ba7364107ff1
+Apr 29 19:26:05.319 HYPERVISOR: exec_cmd: vm create Internet 1 c3745 
+Apr 29 19:26:05.319 VM: VM Internet created.
+Apr 29 19:26:05.319 HYPERVISOR: exec_cmd: vm set_con_tcp_port Internet 5017 
+Apr 29 19:26:05.319 HYPERVISOR: exec_cmd: c3745 get_mac_addr Internet 
+Apr 29 19:26:05.319 HYPERVISOR: exec_cmd: vm set_disk0 Internet 0 
+Apr 29 19:26:05.321 HYPERVISOR: exec_cmd: vm set_ios Internet /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 29 19:26:05.321 HYPERVISOR: exec_cmd: c3745 set_mac_addr Internet c401.f150.0000 
+Apr 29 19:26:05.321 HYPERVISOR: exec_cmd: vm set_nvram Internet 256 
+Apr 29 19:26:05.321 HYPERVISOR: exec_cmd: vm set_ram Internet 256 
+Apr 29 19:26:05.322 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 29 19:26:05.322 HYPERVISOR: exec_cmd: vm slot_add_binding Internet 1 0 NM-1FE-TX 
+Apr 29 19:26:06.291 HYPERVISOR: exec_cmd: nio create_udp udp-79b29e10-565c-4e8e-a38d-5360556211fe 10002 127.0.0.1 10003 
+Apr 29 19:26:06.503 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Internet 0 0 udp-79b29e10-565c-4e8e-a38d-5360556211fe 
+Apr 29 19:26:06.505 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 29 19:26:15.827 HYPERVISOR: exec_cmd: vm create Ghost 0 c3745 
+Apr 29 19:26:15.828 VM: VM Ghost created.
+Apr 29 19:26:15.831 HYPERVISOR: exec_cmd: vm set_ios Ghost /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 29 19:26:15.832 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Apr 29 19:26:15.834 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:26:15.834 HYPERVISOR: exec_cmd: vm set_ram Ghost 256 
+Apr 29 19:26:15.835 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Apr 29 19:26:15.836 HYPERVISOR: exec_cmd: vm set_config Ghost configs/i0_startup-config.cfg 
+Apr 29 19:26:15.836 HYPERVISOR: exec_cmd: vm start Ghost 
+Apr 29 19:26:16.124 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Apr 29 19:26:16.125 HYPERVISOR: exec_cmd: vm stop Ghost 
+Apr 29 19:26:16.286 VM: VM Ghost shutdown.
+Apr 29 19:26:16.288 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Apr 29 19:26:16.292 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Apr 29 19:26:16.292 VM: VM Ghost destroyed.
+Apr 29 19:26:16.296 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+Apr 29 19:26:16.297 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:26:16.299 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 29 19:26:16.301 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+Apr 29 19:26:16.303 HYPERVISOR: exec_cmd: vm start Internet 
+Apr 29 19:30:19.041 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 29 19:30:19.044 HYPERVISOR: exec_cmd: vm stop Internet 
+Apr 29 19:30:19.156 VM: VM Internet shutdown.
+Apr 29 19:30:19.157 HYPERVISOR: exec_cmd: vm extract_config Internet 
+Apr 29 19:30:30.678 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+Apr 29 19:30:30.683 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:30:30.684 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 29 19:30:30.685 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+Apr 29 19:30:30.686 HYPERVISOR: exec_cmd: vm start Internet 
+Apr 29 19:30:47.254 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 29 19:30:47.256 HYPERVISOR: exec_cmd: vm stop Internet 
+Apr 29 19:30:49.595 VM: VM Internet shutdown.
+Apr 29 19:30:49.595 HYPERVISOR: exec_cmd: vm extract_config Internet 
+Apr 29 19:31:00.690 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+Apr 29 19:31:00.694 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:31:00.695 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 29 19:31:00.697 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+Apr 29 19:31:00.697 HYPERVISOR: exec_cmd: vm start Internet 
+Apr 29 19:37:58.468 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 29 19:37:58.470 HYPERVISOR: exec_cmd: vm stop Internet 
+Apr 29 19:37:58.514 VM: VM Internet shutdown.
+Apr 29 19:37:58.514 HYPERVISOR: exec_cmd: vm extract_config Internet 
+Apr 29 19:39:29.383 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+Apr 29 19:39:29.387 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:39:29.389 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 29 19:39:29.390 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+Apr 29 19:39:29.391 HYPERVISOR: exec_cmd: vm start Internet 
+Apr 29 19:40:39.738 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 29 19:40:39.740 HYPERVISOR: exec_cmd: vm stop Internet 
+Apr 29 19:40:39.797 VM: VM Internet shutdown.
+Apr 29 19:40:39.797 HYPERVISOR: exec_cmd: vm extract_config Internet 
+Apr 29 19:48:49.001 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+Apr 29 19:48:49.005 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:48:49.005 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 29 19:48:49.006 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+Apr 29 19:48:49.007 HYPERVISOR: exec_cmd: vm start Internet 
+Apr 29 19:55:14.045 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 29 19:55:14.047 HYPERVISOR: exec_cmd: vm stop Internet 
+Apr 29 19:55:14.158 VM: VM Internet shutdown.
+Apr 29 19:55:14.159 HYPERVISOR: exec_cmd: vm extract_config Internet 
+Apr 29 19:55:25.666 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+Apr 29 19:55:25.669 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:55:25.670 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 29 19:55:25.671 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+Apr 29 19:55:25.672 HYPERVISOR: exec_cmd: vm start Internet 
+Apr 29 20:00:38.906 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 29 20:00:38.908 HYPERVISOR: exec_cmd: vm stop Internet 
+Apr 29 20:00:38.970 VM: VM Internet shutdown.
+Apr 29 20:00:38.971 HYPERVISOR: exec_cmd: vm extract_config Internet 
+Apr 29 20:15:32.562 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+Apr 29 20:15:32.568 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 20:15:32.569 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 29 20:15:32.571 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+Apr 29 20:15:32.571 HYPERVISOR: exec_cmd: vm start Internet 
+Apr 29 20:16:26.964 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 29 20:16:26.967 HYPERVISOR: exec_cmd: vm stop Internet 
+Apr 29 20:16:27.098 VM: VM Internet shutdown.
+Apr 29 20:16:27.099 HYPERVISOR: exec_cmd: vm extract_config Internet 
+Apr 30 18:48:07.665 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+Apr 30 18:48:07.669 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 18:48:07.670 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 30 18:48:07.671 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+Apr 30 18:48:07.672 HYPERVISOR: exec_cmd: vm start Internet 
+Apr 30 18:58:29.998 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 30 18:58:30.001 HYPERVISOR: exec_cmd: vm stop Internet 
+Apr 30 18:58:30.058 VM: VM Internet shutdown.
+Apr 30 18:58:30.059 HYPERVISOR: exec_cmd: vm extract_config Internet 
+Apr 30 19:05:53.893 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+Apr 30 19:05:53.897 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 19:05:53.898 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 30 19:05:53.899 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+Apr 30 19:05:53.900 HYPERVISOR: exec_cmd: vm start Internet 
+Apr 30 19:24:05.779 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 30 19:24:05.781 HYPERVISOR: exec_cmd: vm stop Internet 
+Apr 30 19:24:05.886 VM: VM Internet shutdown.
+Apr 30 19:24:05.887 HYPERVISOR: exec_cmd: vm extract_config Internet 
+Apr 30 20:14:16.653 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+Apr 30 20:14:16.655 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 20:14:16.655 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 30 20:14:16.656 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+Apr 30 20:14:16.656 HYPERVISOR: exec_cmd: vm start Internet 
+Apr 30 20:20:25.729 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 30 20:20:25.732 HYPERVISOR: exec_cmd: vm stop Internet 
+Apr 30 20:20:25.827 VM: VM Internet shutdown.
+Apr 30 20:20:25.828 HYPERVISOR: exec_cmd: vm extract_config Internet 
+Apr 30 20:25:09.906 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+Apr 30 20:25:09.909 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 20:25:09.910 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 30 20:25:09.912 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+Apr 30 20:25:09.914 HYPERVISOR: exec_cmd: vm start Internet 
+Apr 30 20:37:47.354 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 30 20:37:47.356 HYPERVISOR: exec_cmd: vm stop Internet 
+Apr 30 20:37:47.405 VM: VM Internet shutdown.
+Apr 30 20:37:47.405 HYPERVISOR: exec_cmd: vm extract_config Internet 
+Apr 30 20:39:36.335 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+Apr 30 20:39:36.338 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 20:39:36.338 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 30 20:39:36.339 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+Apr 30 20:39:36.340 HYPERVISOR: exec_cmd: vm start Internet 
+Apr 30 20:49:43.080 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 30 20:49:43.084 HYPERVISOR: exec_cmd: vm stop Internet 
+Apr 30 20:49:43.141 VM: VM Internet shutdown.
+Apr 30 20:49:43.142 HYPERVISOR: exec_cmd: vm extract_config Internet 
+Apr 30 21:12:33.620 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+Apr 30 21:12:33.624 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 21:12:33.624 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 30 21:12:33.625 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+Apr 30 21:12:33.626 HYPERVISOR: exec_cmd: vm start Internet 
+Apr 30 21:16:27.847 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 30 21:16:27.849 HYPERVISOR: exec_cmd: vm stop Internet 
+Apr 30 21:16:27.973 VM: VM Internet shutdown.
+Apr 30 21:16:27.974 HYPERVISOR: exec_cmd: vm extract_config Internet 
+Apr 30 21:20:43.783 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+Apr 30 21:20:43.784 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 21:20:43.784 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 30 21:20:43.785 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+Apr 30 21:20:43.785 HYPERVISOR: exec_cmd: vm start Internet 
+Apr 30 21:26:29.760 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 30 21:26:29.762 HYPERVISOR: exec_cmd: vm stop Internet 
+Apr 30 21:26:29.818 VM: VM Internet shutdown.
+Apr 30 21:26:29.818 HYPERVISOR: exec_cmd: vm extract_config Internet 
+Apr 30 21:27:39.661 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+Apr 30 21:27:39.665 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 21:27:39.666 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 30 21:27:39.667 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+Apr 30 21:27:39.668 HYPERVISOR: exec_cmd: vm start Internet 
+Apr 30 21:29:39.378 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 30 21:29:39.381 HYPERVISOR: exec_cmd: vm stop Internet 
+Apr 30 21:29:39.437 VM: VM Internet shutdown.
+Apr 30 21:29:39.438 HYPERVISOR: exec_cmd: vm extract_config Internet 
+Apr 30 21:29:47.883 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+Apr 30 21:29:47.886 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 21:29:47.888 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 30 21:29:47.890 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+Apr 30 21:29:47.892 HYPERVISOR: exec_cmd: vm start Internet 
+Apr 30 21:31:56.972 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 30 21:31:56.974 HYPERVISOR: exec_cmd: vm stop Internet 
+Apr 30 21:31:57.037 VM: VM Internet shutdown.
+Apr 30 21:31:57.038 HYPERVISOR: exec_cmd: vm extract_config Internet 
+Apr 30 23:47:21.645 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+Apr 30 23:47:21.650 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 23:47:21.651 HYPERVISOR: exec_cmd: vm get_status Internet 
+Apr 30 23:47:21.652 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+Apr 30 23:47:21.653 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 00:04:57.326 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 00:04:57.327 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 00:04:57.436 VM: VM Internet shutdown.
+May 01 00:04:57.437 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 00:05:15.442 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 00:05:15.446 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:05:15.447 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 00:05:15.448 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 00:05:15.449 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 00:20:57.842 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 00:20:57.844 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 00:20:57.894 VM: VM Internet shutdown.
+May 01 00:20:57.894 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 00:21:10.806 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 00:21:10.810 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:21:10.811 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 00:21:10.812 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 00:21:10.813 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 00:22:07.349 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 00:22:07.350 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 00:22:07.409 VM: VM Internet shutdown.
+May 01 00:22:07.409 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 00:22:37.893 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 00:22:37.897 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:22:37.899 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 00:22:37.900 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 00:22:37.902 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 00:25:11.659 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 00:25:11.661 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 00:25:11.704 VM: VM Internet shutdown.
+May 01 00:25:11.705 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 00:25:20.810 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 00:25:20.813 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:25:20.814 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 00:25:20.815 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 00:25:20.816 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 00:26:44.981 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 00:26:44.983 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 00:26:45.045 VM: VM Internet shutdown.
+May 01 00:26:45.046 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 00:26:49.732 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 00:26:49.734 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:26:49.735 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 00:26:49.736 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 00:26:49.737 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 00:27:38.392 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 00:27:38.394 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 00:27:38.464 VM: VM Internet shutdown.
+May 01 00:27:38.465 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 00:27:42.290 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 00:27:42.294 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:27:42.294 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 00:27:42.295 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 00:27:42.296 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 00:28:24.106 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 00:28:24.109 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 00:28:24.154 VM: VM Internet shutdown.
+May 01 00:28:24.156 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 00:28:36.673 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 00:28:36.680 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:28:36.681 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 00:28:36.685 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 00:28:36.687 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 00:30:30.038 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 00:30:30.040 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 00:30:30.141 VM: VM Internet shutdown.
+May 01 00:30:30.141 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 00:32:59.191 HYPERVISOR: exec_cmd: vm set_ios Internet /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+May 01 00:34:40.717 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 00:34:40.720 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:34:40.720 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 00:34:40.721 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 00:34:40.722 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 00:37:32.898 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 00:37:32.901 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 00:37:33.016 VM: VM Internet shutdown.
+May 01 00:37:33.017 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 00:38:04.637 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 00:38:04.639 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:38:04.641 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 00:38:04.642 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 00:38:04.642 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 00:40:21.553 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 00:40:21.555 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 00:40:21.631 VM: VM Internet shutdown.
+May 01 00:40:21.632 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 00:41:16.411 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 00:41:16.416 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:41:16.417 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 00:41:16.418 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 00:41:16.419 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 00:45:25.106 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 00:45:25.110 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 00:45:25.159 VM: VM Internet shutdown.
+May 01 00:45:25.160 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 00:48:41.457 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 00:48:41.462 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:48:41.464 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 00:48:41.466 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 00:48:41.468 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 00:50:00.489 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 00:50:00.491 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 00:50:00.551 VM: VM Internet shutdown.
+May 01 00:50:00.552 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 00:50:13.313 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 00:50:13.314 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:50:13.315 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 00:50:13.315 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 00:50:13.316 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 00:50:18.461 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 00:50:18.462 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:50:18.463 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 00:51:44.446 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 00:51:44.447 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 00:51:44.514 VM: VM Internet shutdown.
+May 01 00:51:44.515 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 00:51:47.585 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 00:51:47.586 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:51:47.587 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 00:51:47.588 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 00:51:47.589 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 00:58:19.299 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 00:58:19.301 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 00:58:19.362 VM: VM Internet shutdown.
+May 01 00:58:19.364 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 00:58:39.457 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 00:58:39.461 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 00:58:39.462 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 00:58:39.463 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 00:58:39.464 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 01:00:40.013 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 01:00:40.014 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 01:00:40.091 VM: VM Internet shutdown.
+May 01 01:00:40.092 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 01:00:45.523 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 01:00:45.527 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:00:45.528 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 01:00:45.531 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 01:00:45.532 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 01:03:30.968 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 01:03:30.970 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 01:03:31.046 VM: VM Internet shutdown.
+May 01 01:03:31.050 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 01:06:27.601 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 01:06:27.604 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:06:27.605 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 01:06:27.606 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 01:06:27.607 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 01:08:27.386 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 01:08:27.388 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 01:08:27.500 VM: VM Internet shutdown.
+May 01 01:08:27.503 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 01:08:49.893 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 01:08:49.895 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:08:49.895 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 01:08:49.896 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 01:08:49.896 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 01:10:28.914 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 01:10:28.916 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 01:10:29.041 VM: VM Internet shutdown.
+May 01 01:10:29.042 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 01:10:36.791 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 01:10:36.795 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:10:36.796 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 01:10:36.798 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 01:10:36.799 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 01:12:10.067 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 01:12:10.069 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:12:10.070 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 01:12:12.516 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 01:12:12.519 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 01:12:12.592 VM: VM Internet shutdown.
+May 01 01:12:12.593 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 01:12:16.812 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 01:12:16.817 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:12:16.818 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 01:12:16.820 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 01:12:16.821 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 01:14:43.721 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 01:14:43.723 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 01:14:43.784 VM: VM Internet shutdown.
+May 01 01:14:43.785 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 01:14:49.606 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 01:14:49.610 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:14:49.611 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 01:14:49.613 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 01:14:49.614 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 01:16:39.184 HYPERVISOR: exec_cmd: vm set_ios Internet /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+May 01 01:25:06.289 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 01:25:06.291 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 01:25:06.403 VM: VM Internet shutdown.
+May 01 01:25:06.404 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 01:31:06.618 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 01:31:06.622 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:31:06.623 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 01:31:06.624 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 01:31:06.624 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 01:32:51.121 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 01:32:51.123 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 01:32:51.173 VM: VM Internet shutdown.
+May 01 01:32:51.174 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 01:33:25.138 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 01:33:25.141 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:33:25.142 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 01:33:25.145 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 01:33:25.146 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 01:35:58.082 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 01:35:58.084 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 01:35:58.131 VM: VM Internet shutdown.
+May 01 01:35:58.132 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 01:37:29.884 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 01:37:29.887 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:37:29.888 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 01:37:29.889 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 01:37:29.890 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 01:38:47.706 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 01:38:47.708 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 01:38:47.775 VM: VM Internet shutdown.
+May 01 01:38:47.776 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 01:44:48.507 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 01:44:48.513 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:44:48.514 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 01:44:48.516 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 01:44:48.517 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 01:47:52.597 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 01:47:52.599 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 01:47:52.644 VM: VM Internet shutdown.
+May 01 01:47:52.645 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 01:48:56.206 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 01:48:56.211 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:48:56.212 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 01:48:56.214 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 01:48:56.215 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 01:49:45.124 HYPERVISOR: exec_cmd: vm set_ios Internet /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+May 01 01:49:45.381 HYPERVISOR: exec_cmd: vm set_ios Internet /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+May 01 01:52:46.556 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 01:52:46.558 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 01:52:46.611 VM: VM Internet shutdown.
+May 01 01:52:46.612 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 01:57:01.683 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 01:57:01.686 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 01:57:01.686 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 01:57:01.687 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 01:57:01.687 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 02:04:31.134 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 02:04:31.136 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 02:04:31.204 VM: VM Internet shutdown.
+May 01 02:04:31.206 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 02:09:19.386 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 02:09:19.388 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 02:09:19.388 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 02:09:19.389 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 02:09:19.389 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 02:10:06.011 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 02:10:06.013 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 02:10:06.079 VM: VM Internet shutdown.
+May 01 02:10:06.080 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 02:17:39.887 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 02:17:39.889 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 02:17:39.889 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 02:17:39.890 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 02:17:39.891 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 02:20:10.232 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 02:20:10.235 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 02:20:10.368 VM: VM Internet shutdown.
+May 01 02:20:10.370 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 02:41:02.246 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 02:41:02.249 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 02:41:02.250 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 02:41:02.251 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 02:41:02.252 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 02:44:13.211 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 02:44:13.212 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 02:44:13.265 VM: VM Internet shutdown.
+May 01 02:44:13.266 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 03:15:06.481 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 03:15:06.482 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:15:06.482 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 03:15:06.483 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 03:15:06.483 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 03:20:18.169 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 03:20:18.171 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 03:20:18.233 VM: VM Internet shutdown.
+May 01 03:20:18.234 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 03:20:24.459 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 03:20:24.461 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:20:24.461 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 03:20:24.462 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 03:20:24.463 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 03:21:04.294 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 03:21:04.296 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 03:21:04.412 VM: VM Internet shutdown.
+May 01 03:21:04.413 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 03:21:19.609 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 03:21:19.613 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:21:19.614 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 03:21:19.615 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 03:21:19.616 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 03:23:39.202 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 03:23:39.204 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 03:23:39.257 VM: VM Internet shutdown.
+May 01 03:23:39.258 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 03:23:49.794 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 03:23:49.798 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:23:49.800 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 03:23:49.801 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 03:23:49.802 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 03:31:18.481 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 03:31:18.484 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 03:31:18.599 VM: VM Internet shutdown.
+May 01 03:31:18.600 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 03:32:16.400 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 03:32:16.403 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:32:16.404 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 03:32:16.405 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 03:32:16.406 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 03:35:05.037 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 03:35:05.039 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 03:35:05.111 VM: VM Internet shutdown.
+May 01 03:35:05.112 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 03:36:02.510 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 03:36:02.518 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:36:02.520 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 03:36:02.522 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 03:36:02.523 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 03:39:59.996 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 03:39:59.998 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 03:40:00.053 VM: VM Internet shutdown.
+May 01 03:40:00.053 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 03:40:02.354 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 03:40:02.355 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:40:02.356 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 03:40:02.356 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 03:40:02.356 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 03:40:13.901 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 03:40:13.904 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 03:40:13.982 VM: VM Internet shutdown.
+May 01 03:40:13.983 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 03:40:30.146 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 03:40:30.151 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:40:30.152 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 03:40:30.154 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 03:40:30.155 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 03:40:44.737 HYPERVISOR: exec_cmd: vm set_ios Internet /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+May 01 03:40:44.960 HYPERVISOR: exec_cmd: vm set_ios Internet /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+May 01 03:43:24.746 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 03:43:24.749 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 03:43:24.810 VM: VM Internet shutdown.
+May 01 03:43:24.811 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 03:43:31.562 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 03:43:31.563 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:43:31.564 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 03:43:31.564 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 03:43:31.565 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 03:44:54.882 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 03:44:54.885 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 03:44:54.955 VM: VM Internet shutdown.
+May 01 03:44:54.956 HYPERVISOR: exec_cmd: vm extract_config Internet 
+May 01 03:45:22.563 HYPERVISOR: exec_cmd: vm set_ghost_status Internet 2 
+May 01 03:45:22.567 HYPERVISOR: exec_cmd: vm set_ghost_file Internet /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+May 01 03:45:22.568 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 03:45:22.569 HYPERVISOR: exec_cmd: vm set_config Internet configs/i1_startup-config.cfg 
+May 01 03:45:22.570 HYPERVISOR: exec_cmd: vm start Internet 
+May 01 03:47:27.682 HYPERVISOR: exec_cmd: vm get_status Internet 
+May 01 03:47:27.685 HYPERVISOR: exec_cmd: vm stop Internet 
+May 01 03:47:27.741 VM: VM Internet shutdown.
+May 01 03:47:27.742 HYPERVISOR: exec_cmd: vm extract_config Internet 

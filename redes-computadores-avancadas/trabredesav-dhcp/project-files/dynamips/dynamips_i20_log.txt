@@ -1,0 +1,15 @@
+Apr 29 19:26:05.963 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Apr 29 19:26:05.963 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 33505.
+Apr 29 19:26:05.971 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 29 19:26:05.971 HYPERVISOR: exec_cmd: hypervisor working_dir /home/deivid/GNS3/projects/trabredesav/project-files/dynamips 
+Apr 29 19:26:05.971 GENERAL: working_dir=/home/deivid/GNS3/projects/trabredesav/project-files/dynamips
+Apr 29 19:26:05.971 HYPERVISOR: exec_cmd: ethsw create Financeiro 
+Apr 29 19:26:09.427 HYPERVISOR: exec_cmd: nio create_udp udp-48aad8ed-ca2e-411b-b2a9-b2019f565b90 10082 127.0.0.1 10083 
+Apr 29 19:26:09.427 HYPERVISOR: exec_cmd: ethsw add_nio Financeiro udp-48aad8ed-ca2e-411b-b2a9-b2019f565b90 
+Apr 29 19:26:09.440 HYPERVISOR: exec_cmd: ethsw set_access_port Financeiro udp-48aad8ed-ca2e-411b-b2a9-b2019f565b90 1 
+Apr 29 19:26:09.521 HYPERVISOR: exec_cmd: nio create_udp udp-4ea48845-ba7f-4494-9c65-76abadb0ccdd 10084 127.0.0.1 10085 
+Apr 29 19:26:09.521 HYPERVISOR: exec_cmd: ethsw add_nio Financeiro udp-4ea48845-ba7f-4494-9c65-76abadb0ccdd 
+Apr 29 19:26:09.540 HYPERVISOR: exec_cmd: ethsw set_access_port Financeiro udp-4ea48845-ba7f-4494-9c65-76abadb0ccdd 1 
+Apr 29 19:26:11.135 HYPERVISOR: exec_cmd: nio create_udp udp-552faf85-bb5d-44b1-9a3a-79978f00eda7 10119 127.0.0.1 10118 
+Apr 29 19:26:11.135 HYPERVISOR: exec_cmd: ethsw add_nio Financeiro udp-552faf85-bb5d-44b1-9a3a-79978f00eda7 
+Apr 29 19:26:11.147 HYPERVISOR: exec_cmd: ethsw set_access_port Financeiro udp-552faf85-bb5d-44b1-9a3a-79978f00eda7 1 

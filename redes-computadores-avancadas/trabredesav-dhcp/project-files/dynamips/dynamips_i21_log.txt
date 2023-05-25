@@ -1,0 +1,15 @@
+Apr 29 19:26:05.991 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Apr 29 19:26:05.991 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50685.
+Apr 29 19:26:05.999 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 29 19:26:05.999 HYPERVISOR: exec_cmd: hypervisor working_dir /home/deivid/GNS3/projects/trabredesav/project-files/dynamips 
+Apr 29 19:26:05.999 GENERAL: working_dir=/home/deivid/GNS3/projects/trabredesav/project-files/dynamips
+Apr 29 19:26:05.999 HYPERVISOR: exec_cmd: ethsw create Marketing 
+Apr 29 19:26:09.626 HYPERVISOR: exec_cmd: nio create_udp udp-741777fc-47d8-48e9-aee6-56fcc30353e7 10086 127.0.0.1 10087 
+Apr 29 19:26:09.627 HYPERVISOR: exec_cmd: ethsw add_nio Marketing udp-741777fc-47d8-48e9-aee6-56fcc30353e7 
+Apr 29 19:26:09.627 HYPERVISOR: exec_cmd: ethsw set_access_port Marketing udp-741777fc-47d8-48e9-aee6-56fcc30353e7 1 
+Apr 29 19:26:09.714 HYPERVISOR: exec_cmd: nio create_udp udp-cdec2133-4cc6-40ef-8792-6a338a312388 10088 127.0.0.1 10089 
+Apr 29 19:26:09.714 HYPERVISOR: exec_cmd: ethsw add_nio Marketing udp-cdec2133-4cc6-40ef-8792-6a338a312388 
+Apr 29 19:26:09.728 HYPERVISOR: exec_cmd: ethsw set_access_port Marketing udp-cdec2133-4cc6-40ef-8792-6a338a312388 1 
+Apr 29 19:26:11.234 HYPERVISOR: exec_cmd: nio create_udp udp-41232a33-cbd7-43c4-b942-968f5795bead 10123 127.0.0.1 10122 
+Apr 29 19:26:11.235 HYPERVISOR: exec_cmd: ethsw add_nio Marketing udp-41232a33-cbd7-43c4-b942-968f5795bead 
+Apr 29 19:26:11.256 HYPERVISOR: exec_cmd: ethsw set_access_port Marketing udp-41232a33-cbd7-43c4-b942-968f5795bead 1 

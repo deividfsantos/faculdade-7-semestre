@@ -1,0 +1,140 @@
+Apr 29 19:26:05.461 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Apr 29 19:26:05.461 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 42925.
+Apr 29 19:26:05.469 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 29 19:26:05.470 HYPERVISOR: exec_cmd: hypervisor working_dir /home/deivid/GNS3/projects/trabredesav/project-files/dynamips 
+Apr 29 19:26:05.470 GENERAL: working_dir=/home/deivid/GNS3/projects/trabredesav/project-files/dynamips
+Apr 29 19:26:05.470 HYPERVISOR: exec_cmd: hypervisor working_dir /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/0901ae68-9302-4404-9bf1-fe08be033a85 
+Apr 29 19:26:05.470 GENERAL: working_dir=/home/deivid/GNS3/projects/trabredesav/project-files/dynamips/0901ae68-9302-4404-9bf1-fe08be033a85
+Apr 29 19:26:05.470 HYPERVISOR: exec_cmd: vm create Escolas 5 c3745 
+Apr 29 19:26:05.470 VM: VM Escolas created.
+Apr 29 19:26:05.470 HYPERVISOR: exec_cmd: vm set_con_tcp_port Escolas 5030 
+Apr 29 19:26:05.471 HYPERVISOR: exec_cmd: c3745 get_mac_addr Escolas 
+Apr 29 19:26:05.471 HYPERVISOR: exec_cmd: vm set_disk0 Escolas 0 
+Apr 29 19:26:05.471 HYPERVISOR: exec_cmd: vm set_ios Escolas /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 29 19:26:05.472 HYPERVISOR: exec_cmd: c3745 set_mac_addr Escolas c405.f240.0000 
+Apr 29 19:26:05.472 HYPERVISOR: exec_cmd: vm set_nvram Escolas 256 
+Apr 29 19:26:05.472 HYPERVISOR: exec_cmd: vm set_ram Escolas 256 
+Apr 29 19:26:05.473 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:26:05.473 HYPERVISOR: exec_cmd: vm slot_add_binding Escolas 1 0 NM-16ESW 
+Apr 29 19:26:05.473 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:26:05.473 HYPERVISOR: exec_cmd: vm slot_add_binding Escolas 2 0 NM-1FE-TX 
+Apr 29 19:26:06.842 HYPERVISOR: exec_cmd: nio create_udp udp-aa8793f1-eda5-41e4-b327-7769d5458979 10008 127.0.0.1 10009 
+Apr 29 19:26:07.055 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Escolas 0 1 udp-aa8793f1-eda5-41e4-b327-7769d5458979 
+Apr 29 19:26:07.056 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:26:07.164 HYPERVISOR: exec_cmd: nio create_udp udp-45862ef3-4098-4679-b468-5dcce7ed5d70 10012 127.0.0.1 10013 
+Apr 29 19:26:07.165 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Escolas 1 0 udp-45862ef3-4098-4679-b468-5dcce7ed5d70 
+Apr 29 19:26:07.166 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:26:07.264 HYPERVISOR: exec_cmd: nio create_udp udp-7c500849-e46d-4c5e-bf2c-3779a3f990dc 10016 127.0.0.1 10017 
+Apr 29 19:26:07.265 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Escolas 1 1 udp-7c500849-e46d-4c5e-bf2c-3779a3f990dc 
+Apr 29 19:26:07.265 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:26:07.358 HYPERVISOR: exec_cmd: nio create_udp udp-cc4ad8ce-1e2b-4a0b-8cab-9e9d83216288 10020 127.0.0.1 10021 
+Apr 29 19:26:07.359 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Escolas 1 2 udp-cc4ad8ce-1e2b-4a0b-8cab-9e9d83216288 
+Apr 29 19:26:07.360 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:26:07.440 HYPERVISOR: exec_cmd: nio create_udp udp-ced02df1-227c-4a49-a666-119b57d54ecd 10024 127.0.0.1 10025 
+Apr 29 19:26:07.441 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Escolas 1 3 udp-ced02df1-227c-4a49-a666-119b57d54ecd 
+Apr 29 19:26:07.441 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:26:07.527 HYPERVISOR: exec_cmd: nio create_udp udp-6edfcd9d-21f7-45e9-9ba1-e43d9e4c3bc2 10028 127.0.0.1 10029 
+Apr 29 19:26:07.528 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Escolas 1 4 udp-6edfcd9d-21f7-45e9-9ba1-e43d9e4c3bc2 
+Apr 29 19:26:07.528 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:26:07.615 HYPERVISOR: exec_cmd: nio create_udp udp-99342848-b70b-4ef1-9a3d-98134f4706a8 10032 127.0.0.1 10033 
+Apr 29 19:26:07.616 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Escolas 1 5 udp-99342848-b70b-4ef1-9a3d-98134f4706a8 
+Apr 29 19:26:07.617 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:26:07.704 HYPERVISOR: exec_cmd: nio create_udp udp-f3040b61-d527-4003-8abf-21d32fbe5fbb 10036 127.0.0.1 10037 
+Apr 29 19:26:07.706 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Escolas 1 6 udp-f3040b61-d527-4003-8abf-21d32fbe5fbb 
+Apr 29 19:26:07.706 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:26:08.846 HYPERVISOR: exec_cmd: nio create_udp udp-f7c52027-e9aa-4061-aa32-f556ea959615 10064 127.0.0.1 10065 
+Apr 29 19:26:08.846 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Escolas 0 0 udp-f7c52027-e9aa-4061-aa32-f556ea959615 
+Apr 29 19:26:08.847 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:26:16.571 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+Apr 29 19:26:16.573 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:26:16.574 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:26:16.575 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+Apr 29 19:26:16.576 HYPERVISOR: exec_cmd: vm start Escolas 
+Apr 29 19:30:19.188 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:30:19.189 HYPERVISOR: exec_cmd: vm stop Escolas 
+Apr 29 19:30:19.468 VM: VM Escolas shutdown.
+Apr 29 19:30:19.469 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 29 19:30:30.943 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+Apr 29 19:30:30.944 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:30:30.945 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:30:30.946 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+Apr 29 19:30:30.947 HYPERVISOR: exec_cmd: vm start Escolas 
+Apr 29 19:30:49.602 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:30:49.603 HYPERVISOR: exec_cmd: vm stop Escolas 
+Apr 29 19:30:50.858 VM: VM Escolas shutdown.
+Apr 29 19:30:50.860 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 29 19:31:00.952 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+Apr 29 19:31:00.958 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:31:00.959 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:31:00.961 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+Apr 29 19:31:00.962 HYPERVISOR: exec_cmd: vm start Escolas 
+Apr 29 19:37:58.556 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:37:58.556 HYPERVISOR: exec_cmd: vm stop Escolas 
+Apr 29 19:37:58.820 VM: VM Escolas shutdown.
+Apr 29 19:37:58.821 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 29 19:39:29.662 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+Apr 29 19:39:29.664 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:39:29.665 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:39:29.666 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+Apr 29 19:39:29.667 HYPERVISOR: exec_cmd: vm start Escolas 
+Apr 29 19:40:39.865 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:40:39.865 HYPERVISOR: exec_cmd: vm stop Escolas 
+Apr 29 19:40:40.131 VM: VM Escolas shutdown.
+Apr 29 19:40:40.131 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 29 19:48:49.256 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+Apr 29 19:48:49.257 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:48:49.257 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:48:49.257 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+Apr 29 19:48:49.258 HYPERVISOR: exec_cmd: vm start Escolas 
+Apr 29 19:50:33.021 HYPERVISOR: exec_cmd: vm set_ios Escolas /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 29 19:50:33.296 HYPERVISOR: exec_cmd: vm set_ios Escolas /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 29 19:53:49.723 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 29 19:53:49.727 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 29 19:55:14.165 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:55:14.166 HYPERVISOR: exec_cmd: vm stop Escolas 
+Apr 29 19:55:14.370 VM: VM Escolas shutdown.
+Apr 29 19:55:14.371 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 29 19:55:25.916 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+Apr 29 19:55:25.916 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 19:55:25.917 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 19:55:25.917 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+Apr 29 19:55:25.918 HYPERVISOR: exec_cmd: vm start Escolas 
+Apr 29 19:56:26.638 HYPERVISOR: exec_cmd: vm set_ios Escolas /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 29 19:56:26.909 HYPERVISOR: exec_cmd: vm set_ios Escolas /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 29 19:58:26.163 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 29 19:58:26.166 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 29 20:00:39.030 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 20:00:39.030 HYPERVISOR: exec_cmd: vm stop Escolas 
+Apr 29 20:00:39.247 VM: VM Escolas shutdown.
+Apr 29 20:00:39.247 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 29 20:15:32.813 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+Apr 29 20:15:32.814 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 29 20:15:32.814 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 20:15:32.814 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+Apr 29 20:15:32.815 HYPERVISOR: exec_cmd: vm start Escolas 
+Apr 29 20:16:27.106 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 29 20:16:27.108 HYPERVISOR: exec_cmd: vm stop Escolas 
+Apr 29 20:16:27.337 VM: VM Escolas shutdown.
+Apr 29 20:16:27.337 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 30 18:48:07.909 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+Apr 30 18:48:07.910 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 18:48:07.910 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 30 18:48:07.911 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+Apr 30 18:48:07.911 HYPERVISOR: exec_cmd: vm start Escolas 
+Apr 30 18:58:08.203 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 30 18:58:08.208 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 30 18:58:30.085 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 30 18:58:30.085 HYPERVISOR: exec_cmd: vm stop Escolas 
+Apr 30 18:58:30.303 VM: VM Escolas shutdown.
+Apr 30 18:58:30.305 HYPERVISOR: exec_cmd: vm extract_config Escolas 
+Apr 30 19:05:54.141 HYPERVISOR: exec_cmd: vm set_ghost_status Escolas 2 
+Apr 30 19:05:54.142 HYPERVISOR: exec_cmd: vm set_ghost_file Escolas /home/deivid/GNS3/projects/trabredesav/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 30 19:05:54.143 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 30 19:05:54.144 HYPERVISOR: exec_cmd: vm set_config Escolas configs/i5_startup-config.cfg 
+Apr 30 19:05:54.144 HYPERVISOR: exec_cmd: vm start Escolas 
+Apr 30 19:06:08.792 HYPERVISOR: exec_cmd: vm set_ios Escolas /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 30 19:06:08.989 HYPERVISOR: exec_cmd: vm set_ios Escolas /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 30 19:24:05.892 HYPERVISOR: exec_cmd: vm get_status Escolas 
+Apr 30 19:24:05.892 HYPERVISOR: exec_cmd: vm stop Escolas 
+Apr 30 19:24:06.112 VM: VM Escolas shutdown.
+Apr 30 19:24:06.113 HYPERVISOR: exec_cmd: vm extract_config Escolas 

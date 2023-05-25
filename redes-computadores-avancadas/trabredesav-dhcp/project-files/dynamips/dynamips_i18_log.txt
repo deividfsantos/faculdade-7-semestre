@@ -1,0 +1,15 @@
+Apr 29 19:26:05.908 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Apr 29 19:26:05.908 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 34993.
+Apr 29 19:26:05.916 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 29 19:26:05.916 HYPERVISOR: exec_cmd: hypervisor working_dir /home/deivid/GNS3/projects/trabredesav/project-files/dynamips 
+Apr 29 19:26:05.916 GENERAL: working_dir=/home/deivid/GNS3/projects/trabredesav/project-files/dynamips
+Apr 29 19:26:05.917 HYPERVISOR: exec_cmd: ethsw create ADM 
+Apr 29 19:26:08.922 HYPERVISOR: exec_cmd: nio create_udp udp-212cb192-019d-4515-aa47-4d0dd4330d1c 10067 127.0.0.1 10066 
+Apr 29 19:26:08.923 HYPERVISOR: exec_cmd: ethsw add_nio ADM udp-212cb192-019d-4515-aa47-4d0dd4330d1c 
+Apr 29 19:26:08.943 HYPERVISOR: exec_cmd: ethsw set_access_port ADM udp-212cb192-019d-4515-aa47-4d0dd4330d1c 1 
+Apr 29 19:26:09.102 HYPERVISOR: exec_cmd: nio create_udp udp-3fd10287-4847-438f-8a82-cfd91d5dfeb8 10074 127.0.0.1 10075 
+Apr 29 19:26:09.102 HYPERVISOR: exec_cmd: ethsw add_nio ADM udp-3fd10287-4847-438f-8a82-cfd91d5dfeb8 
+Apr 29 19:26:09.104 HYPERVISOR: exec_cmd: ethsw set_access_port ADM udp-3fd10287-4847-438f-8a82-cfd91d5dfeb8 1 
+Apr 29 19:26:09.178 HYPERVISOR: exec_cmd: nio create_udp udp-41b22c4f-6588-432e-a2d1-1a1d4151cb5f 10076 127.0.0.1 10077 
+Apr 29 19:26:09.179 HYPERVISOR: exec_cmd: ethsw add_nio ADM udp-41b22c4f-6588-432e-a2d1-1a1d4151cb5f 
+Apr 29 19:26:09.184 HYPERVISOR: exec_cmd: ethsw set_access_port ADM udp-41b22c4f-6588-432e-a2d1-1a1d4151cb5f 1 

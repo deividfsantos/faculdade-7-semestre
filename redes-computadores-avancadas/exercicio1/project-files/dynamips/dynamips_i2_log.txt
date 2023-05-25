@@ -1,0 +1,50 @@
+Apr 10 12:54:42.382 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Apr 10 12:54:42.382 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 55431.
+Apr 10 12:54:42.392 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 10 12:54:42.393 HYPERVISOR: exec_cmd: hypervisor working_dir /home/deivid/GNS3/projects/exercicio1/project-files/dynamips 
+Apr 10 12:54:42.394 GENERAL: working_dir=/home/deivid/GNS3/projects/exercicio1/project-files/dynamips
+Apr 10 12:54:42.394 HYPERVISOR: exec_cmd: hypervisor working_dir /home/deivid/GNS3/projects/exercicio1/project-files/dynamips/6579d679-3971-4738-ad32-63d5b25aac30 
+Apr 10 12:54:42.394 GENERAL: working_dir=/home/deivid/GNS3/projects/exercicio1/project-files/dynamips/6579d679-3971-4738-ad32-63d5b25aac30
+Apr 10 12:54:42.395 HYPERVISOR: exec_cmd: vm create R2 2 c3745 
+Apr 10 12:54:42.395 VM: VM R2 created.
+Apr 10 12:54:42.396 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5001 
+Apr 10 12:54:42.397 HYPERVISOR: exec_cmd: c3745 get_mac_addr R2 
+Apr 10 12:54:42.398 HYPERVISOR: exec_cmd: vm set_ios R2 /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 10 12:54:42.400 HYPERVISOR: exec_cmd: vm set_ram R2 256 
+Apr 10 12:54:42.401 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Apr 10 12:54:42.401 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Apr 10 12:54:42.403 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 10 12:54:42.403 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 NM-1FE-TX 
+Apr 10 12:54:42.500 HYPERVISOR: exec_cmd: vm set_ios R2 /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 10 12:54:44.528 HYPERVISOR: exec_cmd: vm set_ios R2 /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 10 12:54:48.565 HYPERVISOR: exec_cmd: vm set_ios R2 /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 10 12:54:58.793 HYPERVISOR: exec_cmd: nio create_udp udp-96907483-d462-4fbf-b34f-f1a530f6f698 10004 127.0.0.1 10005 
+Apr 10 12:54:59.008 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-96907483-d462-4fbf-b34f-f1a530f6f698 
+Apr 10 12:54:59.009 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 10 12:55:04.720 HYPERVISOR: exec_cmd: nio create_udp udp-98422545-b066-4a43-9f2c-9e7af563c181 10008 127.0.0.1 10009 
+Apr 10 12:55:04.721 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-98422545-b066-4a43-9f2c-9e7af563c181 
+Apr 10 12:55:04.721 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 10 12:55:12.694 HYPERVISOR: exec_cmd: nio create_udp udp-141715e7-be36-4bd0-9533-43f4a10b69ba 10014 127.0.0.1 10015 
+Apr 10 12:55:12.695 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 1 0 udp-141715e7-be36-4bd0-9533-43f4a10b69ba 
+Apr 10 12:55:12.696 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 10 12:56:27.092 HYPERVISOR: exec_cmd: vm set_ios R2 /home/deivid/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Apr 10 12:57:25.055 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 10 12:57:25.056 HYPERVISOR: exec_cmd: vm slot_add_binding R2 2 0 NM-1FE-TX 
+Apr 10 12:57:35.552 HYPERVISOR: exec_cmd: nio create_udp udp-edabff59-cc35-42da-8fd0-90d8dd40fc64 10032 127.0.0.1 10033 
+Apr 10 12:57:35.554 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 2 0 udp-edabff59-cc35-42da-8fd0-90d8dd40fc64 
+Apr 10 12:57:35.554 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 10 13:03:19.388 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 10 13:03:19.388 HYPERVISOR: exec_cmd: vm extract_config R2 
+Apr 10 13:05:58.385 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Apr 10 13:05:58.386 HYPERVISOR: exec_cmd: vm set_ghost_file R2 /home/deivid/GNS3/projects/exercicio1/project-files/dynamips/c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Apr 10 13:05:58.387 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 10 13:05:58.388 HYPERVISOR: exec_cmd: vm set_config R2 configs/i2_startup-config.cfg 
+Apr 10 13:05:58.389 HYPERVISOR: exec_cmd: vm start R2 
+Apr 10 13:19:59.229 HYPERVISOR: exec_cmd: vm extract_config R2 
+Apr 10 13:19:59.234 HYPERVISOR: exec_cmd: vm extract_config R2 
+Apr 10 13:35:59.330 HYPERVISOR: exec_cmd: vm extract_config R2 
+Apr 10 13:35:59.335 HYPERVISOR: exec_cmd: vm extract_config R2 
+Apr 10 13:52:01.992 HYPERVISOR: exec_cmd: nio bind_filter udp-141715e7-be36-4bd0-9533-43f4a10b69ba 2 capture 
+Apr 10 13:52:01.993 HYPERVISOR: exec_cmd: nio setup_filter udp-141715e7-be36-4bd0-9533-43f4a10b69ba 2 en10mb /home/deivid/GNS3/projects/exercicio1/project-files/captures/R2_FastEthernet10_to_R4_FastEthernet00.pcap 
+Apr 10 14:08:59.549 HYPERVISOR: exec_cmd: vm extract_config R2 
+Apr 10 14:08:59.554 HYPERVISOR: exec_cmd: vm extract_config R2 
