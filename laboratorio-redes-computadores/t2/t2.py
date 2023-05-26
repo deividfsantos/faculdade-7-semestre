@@ -5,8 +5,6 @@ import sys
 
 ETH_P_ALL = 0x0003
 
-local_ip = "10.0.0.12"
-
 
 def checksum(msg):
     s = 0
@@ -34,7 +32,10 @@ except OSError as msg:
 print('Sockets created!')
 
 receiver_socket.bind(('eth0', 0))
+
+# Indicando que o cabeçalho IP será modificado e fornecido por esse programa
 sender_socket.setsockopt(socket.IPPROTO_IP, socket.IP_HDRINCL, 1)
+local_ip = "10.0.0.12"
 # Mapa de lista onde primeiro item é o contador de pings e o outro o tempo como ultimo ping recebido
 # Inicia variável com IP local para poder atacar com ele também caso necessário
 ipList = {local_ip: [0, datetime.datetime.now()]}
@@ -44,7 +45,6 @@ def counter_attack(attacker_ip):
     print("Attacked by " + attacker_ip)
     for ip in ipList:
         if ip != attacker_ip:
-            ##########################
             # ICMP Echo Request Header
             type = 8
             code = 0
@@ -74,6 +74,7 @@ def counter_attack(attacker_ip):
             ip_ttl = 255
             ip_proto = socket.IPPROTO_ICMP
             ip_check = 0  # automaticamente preenchido - AF_INET
+            # Definindo o IP de origem como IP do atacante
             ip_saddr = socket.inet_aton(attacker_ip)
             ip_daddr = socket.inet_aton(ip)
 
@@ -90,6 +91,7 @@ def counter_attack(attacker_ip):
             dest_addr = socket.gethostbyname(dest_ip)
 
             # Send icmp_packet to address = (host, port)
+            print("counterattacking " + attacker_ip + " with ip: " + ip)
             sender_socket.sendto(ip_header + icmp_packet, (dest_addr, 0))
 
 
@@ -119,11 +121,10 @@ while True:
             if type == 8 and code == 0 and d_addr == local_ip:
                 print("Recebi ping request de {0} - {1} ".format(bytes_to_mac(eth[1]), s_addr))
 
-                # Variavel para saber quanto tempo passou desde o ultimo ping
-                diff_time_last_ping = datetime.datetime.now() > ipList[s_addr][1] + datetime.timedelta(seconds=5)
-                # Caso maior que o delta está lento o ping e é desconsiderado, resetando o contador
-                # Caso menor que o delta é considerado possivel atacante
-                if s_addr not in ipList or diff_time_last_ping:
+                # Necessário saber quanto tempo passou desde o ultimo ping
+                # Caso maior que o delta (5 segundos) está lento o ping e é desconsiderado, resetando o contador
+                # Caso menor que o delta (5 segundos) é considerado possivel atacante
+                if s_addr not in ipList or datetime.datetime.now() > ipList[s_addr][1] + datetime.timedelta(seconds=5):
                     # Criando novo IP conhecido ou resetando um IP pois não é atacante
                     ipList[s_addr] = [0, datetime.datetime.now()]
                 else:
@@ -133,4 +134,6 @@ while True:
                 # Caso o contador seja maior 5 com o intervalo entre os pings menor que o delta, então é um atacante
                 if ipList[s_addr][0] > 5:
                     counter_attack(s_addr)
-                print("IP List: " + str(ipList) + "\n")
+                for ip in ipList:
+                    print("IP: " + str(ip) + " " + str(ipList[ip]))
+                print()

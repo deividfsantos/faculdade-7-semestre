@@ -9,8 +9,8 @@ node n1 {
 	!
     }
     canvas c1
-    iconcoords {88.0 287.0}
-    labelcoords {88.0 319.0}
+    iconcoords {88.0 285.0}
+    labelcoords {88.0 317.0}
     interface-peer {eth0 n5}
 }
 
@@ -18,15 +18,15 @@ node n2 {
     type router
     model host
     network-config {
-	hostname n2
+	hostname Vitima
 	!
 	interface eth0
 	 ip address 10.0.0.12/24
 	!
     }
     canvas c1
-    iconcoords {638.0 286.0}
-    labelcoords {638.0 318.0}
+    iconcoords {634.0 286.0}
+    labelcoords {634.0 318.0}
     interface-peer {eth0 n5}
 }
 
@@ -57,8 +57,8 @@ node n4 {
 	!
     }
     canvas c1
-    iconcoords {342.0 438.0}
-    labelcoords {342.0 470.0}
+    iconcoords {342.0 437.0}
+    labelcoords {342.0 469.0}
     interface-peer {eth0 n5}
 }
 
@@ -75,6 +75,40 @@ node n5 {
     interface-peer {e1 n3}
     interface-peer {e2 n2}
     interface-peer {e3 n4}
+    interface-peer {e4 n7}
+    interface-peer {e5 n6}
+}
+
+node n6 {
+    type router
+    model host
+    network-config {
+	hostname n6
+	!
+	interface eth0
+	 ip address 10.0.0.15/24
+	!
+    }
+    canvas c1
+    iconcoords {513.0 404.0}
+    labelcoords {513.0 436.0}
+    interface-peer {eth0 n5}
+}
+
+node n7 {
+    type router
+    model host
+    network-config {
+	hostname n7
+	!
+	interface eth0
+	 ip address 10.0.0.14/24
+	!
+    }
+    canvas c1
+    iconcoords {472.0 164.0}
+    labelcoords {472.0 196.0}
+    interface-peer {eth0 n5}
 }
 
 link l1 {
@@ -94,6 +128,16 @@ link l3 {
 
 link l4 {
     nodes {n5 n4}
+    bandwidth 0
+}
+
+link l5 {
+    nodes {n5 n7}
+    bandwidth 0
+}
+
+link l6 {
+    nodes {n5 n6}
     bandwidth 0
 }
 
